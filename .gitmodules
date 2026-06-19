@@ -1,6 +1,0 @@
-[submodule "COM1005"]
-	path = COM1005
-	url = git@github.com:LinzeColin/COM1005.git
-[submodule "Linear-Regression-Live-Series"]
-	path = Linear-Regression-Live-Series
-	url = git@github.com:LinzeColin/Linear-Regression-Live-Series.git
