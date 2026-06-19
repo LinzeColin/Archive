@@ -96,6 +96,7 @@ CodexBar support data is optional. Restore it only if you want to reproduce the 
 ```bash
 rsync -a "vendor/codexbar-support/Application Support/CodexBar" "$HOME/Library/Application Support/"
 rsync -a "vendor/codexbar-support/Application Support/com.steipete.codexbar" "$HOME/Library/Application Support/"
+rsync -a "vendor/codexbar-support/Group Containers/Y5PE65HELJ.com.steipete.codexbar" "$HOME/Library/Group Containers/"
 cp "vendor/codexbar-support/Preferences/com.steipete.codexbar.plist" "$HOME/Library/Preferences/"
 ```
 

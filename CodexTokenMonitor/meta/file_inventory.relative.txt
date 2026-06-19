@@ -86,4 +86,6 @@
 ./vendor/codexbar-support/Application Support/com.steipete.codexbar/codexbar-lifecycle-state.json
 ./vendor/codexbar-support/Application Support/com.steipete.codexbar/history/codex.json
 ./vendor/codexbar-support/Application Support/com.steipete.codexbar/openai-dashboard.json
+./vendor/codexbar-support/Group Containers/Y5PE65HELJ.com.steipete.codexbar/.com.apple.containermanagerd.metadata.plist
+./vendor/codexbar-support/Group Containers/Y5PE65HELJ.com.steipete.codexbar/widget-snapshot.json
 ./vendor/codexbar-support/Preferences/com.steipete.codexbar.plist
