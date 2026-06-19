@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Token Monitor</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/styles.css?v=20260605i">
+</head>
+<body data-interface-style="business">
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">Local Read-Only Monitor</p>
+        <h1 data-i18n="appTitle">Codex Token Monitor</h1>
+      </div>
+      <div class="status">
+        <span id="plan">Plan --</span>
+        <span id="updated">Rendered --</span>
+        <span id="data-read-at">Data read --</span>
+        <span id="latest-event-at">Latest event --</span>
+        <div class="interface-toggle" role="group" aria-label="Interface style">
+          <button id="style-business" class="interface-button active" type="button" data-style="business" data-i18n="styleBusiness">Business</button>
+          <button id="style-light" class="interface-button" type="button" data-style="light" data-i18n="styleLight">Light</button>
+          <button id="style-pro" class="interface-button" type="button" data-style="pro" data-i18n="stylePro">Pro</button>
+        </div>
+        <div class="language-toggle" role="group" aria-label="Language">
+          <button id="lang-en" class="language-button active" type="button">EN</button>
+          <button id="lang-zh" class="language-button" type="button">中文</button>
+        </div>
+        <button id="refresh-button" class="refresh-button" type="button" data-i18n="refresh">Refresh</button>
+      </div>
+    </header>
+
+    <section class="metrics top-metrics">
+      <article class="metric primary quota-card">
+        <div class="metric-title" data-i18n="primaryTitle">5h Window Left</div>
+        <div class="metric-value" id="primary-value">--</div>
+        <div class="bar"><span id="primary-bar"></span></div>
+        <div class="metric-foot" id="primary-reset">Reset --</div>
+        <div class="countdown">
+          <div class="countdown-head">
+            <span data-i18n="resetCountdown">Reset countdown</span>
+            <strong id="primary-countdown-value">--</strong>
+          </div>
+          <div class="countdown-line"><span id="primary-countdown-bar"></span></div>
+        </div>
+      </article>
+      <article class="metric quota-card">
+        <div class="metric-title" data-i18n="secondaryTitle">Weekly Window Left</div>
+        <div class="metric-value" id="secondary-value">--</div>
+        <div class="bar"><span id="secondary-bar"></span></div>
+        <div class="metric-foot" id="secondary-reset">Reset --</div>
+        <div class="countdown">
+          <div class="countdown-head">
+            <span data-i18n="resetCountdown">Reset countdown</span>
+            <strong id="secondary-countdown-value">--</strong>
+          </div>
+          <div class="countdown-line"><span id="secondary-countdown-bar"></span></div>
+        </div>
+      </article>
+      <article class="metric mid-card">
+        <div class="metric-title" data-i18n="contextTitle">Last Turn Context Pressure</div>
+        <div class="metric-value" id="context-value">--</div>
+        <div class="bar"><span id="context-bar"></span></div>
+        <div class="metric-foot" id="context-detail">Window --</div>
+      </article>
+      <article class="metric mid-card">
+        <div class="metric-title" data-i18n="oneHourCreditEtaTitle">1h Avg Credit ETA</div>
+        <div class="metric-value" id="one-hour-credit-eta">--</div>
+        <div class="metric-foot" id="one-hour-credit-eta-detail">Based on 1h average burn</div>
+      </article>
+      <article class="metric mid-card">
+        <div class="metric-title" data-i18n="averageBurnTitle">Custom Avg Burn</div>
+        <div class="metric-value" id="average-burn-rate">--</div>
+        <div class="metric-foot interval-control">
+          <span data-i18n="lastLabel">Last</span>
+          <input id="average-burn-minutes" type="number" min="1" max="1440" step="1" value="60">
+          <span data-i18n="minutesShort">min</span>
+        </div>
+      </article>
+      <article class="metric token-total-card">
+        <div class="metric-title" data-i18n="totalTokenUsed">Total Token Used</div>
+        <div class="metric-value" id="token-total-used">--</div>
+        <div class="metric-foot" data-i18n="latestPerSession">Latest per session</div>
+      </article>
+      <article class="metric token-total-card">
+        <div class="metric-title" data-i18n="pastDayTokenUsed">Past 24h Token Used</div>
+        <div class="metric-value" id="token-day-used">--</div>
+        <div class="metric-foot" id="token-day-used-detail">--</div>
+      </article>
+      <article class="metric token-total-card">
+        <div class="metric-title" data-i18n="pastWeekTokenUsed">Past 7d Token Used</div>
+        <div class="metric-value" id="token-week-used">--</div>
+        <div class="metric-foot" id="token-week-used-detail">--</div>
+      </article>
+    </section>
+
+    <section class="grid burn-grid-section">
+      <article class="panel wide burn-window-panel">
+        <div class="panel-head">
+          <h2 data-i18n="burnWindowsTitle">Avg Burn by Time Window</h2>
+          <span data-i18n="burnWindowsSubtitle">1h / 5h / 10h / 1d / 1w</span>
+        </div>
+        <div id="burn-rate-windows" class="burn-window-grid"></div>
+      </article>
+    </section>
+
+    <section id="pro-analysis-section" class="grid pro-analysis-grid">
+      <article class="panel wide">
+        <div class="panel-head">
+          <h2 data-i18n="proAnalysis">Pro Analysis</h2>
+          <span data-i18n="proAnalysisSubtitle">Quota, flow, concentration, history</span>
+        </div>
+        <div id="pro-analysis" class="pro-analysis"></div>
+      </article>
+    </section>
+
+    <section class="grid three triage-grid">
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="behaviorAnalysis">Behavior Pattern Analysis</h2>
+          <span data-i18n="localHistory">Local history</span>
+        </div>
+        <div id="patterns" class="insight-list"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="trendComparison">Trend Comparison</h2>
+          <span data-i18n="dodWow">DoD / WoW</span>
+        </div>
+        <div id="comparisons" class="comparison-grid"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="recommendations">Recommendations</h2>
+          <span data-i18n="operationalAdvice">Operational advice</span>
+        </div>
+        <div id="recommendations" class="insight-list"></div>
+      </article>
+    </section>
+
+    <section class="metrics compact compact-metrics">
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="threadsWorking">Threads Working</div>
+        <div class="metric-value" id="threads-working">--</div>
+        <div class="metric-foot" id="threads-working-foot">--</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="agentsActivated">Agents Activated</div>
+        <div class="metric-value" id="agents-activated">--</div>
+        <div class="metric-foot" id="agents-activated-foot">--</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="projectsWorking">Projects Working</div>
+        <div class="metric-value" id="projects-working">--</div>
+        <div class="metric-foot" id="projects-working-foot">--</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="sessions">Sessions</div>
+        <div class="metric-value" id="total-sessions">--</div>
+        <div class="metric-foot" id="active-sessions">Active --</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="tokenEvents">Token Events</div>
+        <div class="metric-value" id="event-count">--</div>
+        <div class="metric-foot" data-i18n="parsedFromLogs">Parsed from local Codex logs</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="uploadSum">Upload Token Sum</div>
+        <div class="metric-value" id="upload-sum">--</div>
+        <div class="metric-foot" data-i18n="latestPerSession">Latest per session</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="downloadSum">Download Token Sum</div>
+        <div class="metric-value" id="download-sum">--</div>
+        <div class="metric-foot" data-i18n="latestPerSession">Latest per session</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="contextualSum">Contextual Token Sum</div>
+        <div class="metric-value" id="contextual-sum">--</div>
+        <div class="metric-foot" data-i18n="latestPerSession">Latest per session</div>
+      </article>
+      <article class="metric mini">
+        <div class="metric-title" data-i18n="reasoningSum">Reasoning Token Sum</div>
+        <div class="metric-value" id="reasoning-sum">--</div>
+        <div class="metric-foot" data-i18n="latestPerSession">Latest per session</div>
+      </article>
+    </section>
+
+    <section class="grid charts-grid">
+      <article class="panel chart-panel">
+        <div class="panel-head">
+          <h2 data-i18n="windowTrend">Usage Window Left Trend</h2>
+          <span id="window-trend-subtitle" data-i18n="windowTrendSubtitle">5h / weekly left %</span>
+        </div>
+        <div id="window-trend-controls" class="chart-controls"></div>
+        <canvas id="trend-chart" class="chart-canvas"></canvas>
+        <div id="trend-chart-detail" class="chart-detail-strip" aria-live="polite"></div>
+        <div id="trend-timeline" class="trend-timeline" aria-label="Window trend timeline"></div>
+      </article>
+
+      <article class="panel chart-panel wide">
+        <div class="panel-head">
+          <h2 data-i18n="tokenUsedTrend">Token Used Trendline</h2>
+          <span id="token-trend-subtitle" data-i18n="tokenUsedTrendSubtitle">All-session token total</span>
+        </div>
+        <label class="trend-visible-toggle" title="Show or hide the token-used chart without changing data collection.">
+          <input id="token-trend-visible-toggle" type="checkbox" checked>
+          <span data-i18n="showTokenTrend">Show token trendline</span>
+        </label>
+        <div id="token-trend-controls" class="chart-controls"></div>
+        <div id="token-trend-body">
+          <div id="token-line-selector" class="token-line-selector"></div>
+          <canvas id="token-trend-chart" class="chart-canvas"></canvas>
+          <div id="token-trend-detail" class="chart-detail-strip" aria-live="polite"></div>
+          <div id="token-trend-timeline" class="trend-timeline" aria-label="Token used trend timeline"></div>
+          <div id="token-session-breakdown" class="token-session-breakdown"></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid workload-grid">
+      <article class="panel wide">
+        <div class="panel-head">
+          <h2 data-i18n="projectRanking">Project Ranking</h2>
+          <span data-i18n="latestPerSession">Latest per session</span>
+        </div>
+        <div class="table-scroll">
+          <table class="workload-table mobile-stack">
+            <thead>
+              <tr>
+                <th data-i18n="project">Project</th>
+                <th data-i18n="threads">Threads</th>
+                <th data-i18n="working">Working</th>
+                <th data-i18n="agents">Agents</th>
+                <th data-i18n="active">Active</th>
+                <th data-i18n="tokenUsed">Token Used</th>
+                <th data-i18n="upload">Upload</th>
+                <th data-i18n="download">Download</th>
+                <th data-i18n="contextual">Contextual</th>
+                <th data-i18n="reason">Reasoning</th>
+                <th data-i18n="burnRate">Token Burn / h</th>
+                <th data-i18n="lastUpdate">Last update</th>
+              </tr>
+            </thead>
+            <tbody id="projects"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="dailySummary">Daily Operating Summary</h2>
+          <span data-i18n="localHistory">Local history</span>
+        </div>
+        <table class="mobile-stack">
+          <thead><tr><th data-i18n="date">Date</th><th data-i18n="sessions">Sessions</th><th data-i18n="agents">Agents</th><th data-i18n="events">Events</th><th data-i18n="tokenSum">Token Sum</th></tr></thead>
+          <tbody id="daily"></tbody>
+          <tfoot id="daily-total"></tfoot>
+        </table>
+      </article>
+    </section>
+
+    <section class="grid lower-grid">
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="recentSessions">Recent Sessions</h2>
+          <span id="session-count">--</span>
+        </div>
+        <table class="mobile-stack">
+          <thead><tr><th data-i18n="status">Status</th><th data-i18n="project">Project</th><th data-i18n="lastUpdate">Last update</th><th data-i18n="tokens">Tokens</th></tr></thead>
+          <tbody id="sessions"></tbody>
+        </table>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2 data-i18n="alerts">Alerts</h2>
+          <span id="alert-count">--</span>
+        </div>
+        <div id="alerts" class="alerts"></div>
+      </article>
+    </section>
+  </main>
+  <script src="/app.js?v=20260607a"></script>
+</body>
+</html>

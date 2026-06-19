@@ -1,0 +1,12 @@
+/Users/linzezhang/Library/Application Support/SwiftBar/Plugins:
+total 0
+drwxr-xr-x@ 4 linzezhang  staff  128 Jun  4 18:59 .
+drwxr-xr-x@ 3 linzezhang  staff   96 Jun  4 16:58 ..
+drwxr-xr-x@ 2 linzezhang  staff   64 Jun  4 18:59 codex-usage.30s.sh
+drwxr-xr-x@ 2 linzezhang  staff   64 Jun  4 16:58 codex-usage.5s.sh
+
+/Users/linzezhang/Library/Application Support/xbar/plugins:
+total 0
+drwxr-xr-x@ 3 linzezhang  staff   96 Jun  7 10:47 .
+drwxr-xr-x@ 3 linzezhang  staff   96 Jun  4 16:37 ..
+lrwxr-xr-x@ 1 linzezhang  staff  108 Jun  7 10:47 codex-usage.30s.sh -> /Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/menubar/codex-usage.30s.sh

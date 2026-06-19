@@ -1,0 +1,4 @@
+lrwxr-xr-x@ 1 linzezhang  admin  111 Jun  7 10:21 /Applications/Codex Token Monitor.app -> /Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/Codex Token Monitor.app
+lrwxr-xr-x@ 1 linzezhang  staff  111 Jun  7 10:21 /Users/linzezhang/Applications/Codex Token Monitor.app -> /Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/Codex Token Monitor.app
+lrwxr-xr-x@ 1 linzezhang  staff  111 Jun  7 10:21 /Users/linzezhang/Desktop/Codex Token Monitor.app -> /Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/Codex Token Monitor.app
+lrwxr-xr-x@ 1 linzezhang  staff  111 Jun  7 10:21 /Users/linzezhang/Downloads/Codex Token Monitor.app -> /Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/Codex Token Monitor.app

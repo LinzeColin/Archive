@@ -1,0 +1,7 @@
+{
+  "last_check_at": "2026-06-16T18:01:01.121981+00:00",
+  "last_alert_at": "2026-06-14T06:07:56.308072+00:00",
+  "last_alert_days_left": 4,
+  "last_alert_ratio_per_day": 0.0,
+  "last_alert_source": "CodexBar/usage-history.jsonl"
+}

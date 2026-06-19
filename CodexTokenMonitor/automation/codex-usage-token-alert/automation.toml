@@ -1,0 +1,13 @@
+version = 1
+id = "codex-usage-token-alert"
+kind = "cron"
+name = "Codex Usage Monitoring Notification by Email"
+prompt = "按命令本地执行，定时读取 CodexBar 周窗口额度；样本不新鲜时唤醒 CodexBar 刷新，读取后关闭由脚本启动的 CodexBar；按周窗口剩余额度与剩余天数比值触发告警条件时通过 macOS Mail 发送到 Gmail 收件箱。仅执行脚本，不调用模型，不产生额外LLM token。\n\n---\nSidebar hygiene (mandatory): this cron automation must not remain visible in the Codex sidebar after an automatic run. Before the final response, use the Codex thread tools (`tool_search` for `list_threads` and `set_thread_archived` if they are not already available). Identify the newest thread for this current automation run whose preview begins with `Automation:` and contains this automation's name/ID, then call `codex_app.set_thread_archived` with `archived=true` on that thread. Archive only this automation-run thread; never archive normal user/project threads. If the archive tool is unavailable or fails, keep the task result concise and include `sidebar_archive_failed` in the final status."
+status = "PAUSED"
+rrule = "RRULE:FREQ=HOURLY;INTERVAL=4;BYMINUTE=0"
+model = "gpt-5.3-codex-spark"
+reasoning_effort = "medium"
+execution_environment = "local"
+cwds = ["/Users/linzezhang/.codex/automations/codex-usage-token-alert"]
+created_at = 1780460844752
+updated_at = 1781646237356

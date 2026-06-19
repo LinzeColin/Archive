@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+source/codex-usage-monitor/runtime/dashboard-access-token
+source/codex-usage-monitor/runtime/logs/
+automation/codex-usage-token-alert/logs/
+
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

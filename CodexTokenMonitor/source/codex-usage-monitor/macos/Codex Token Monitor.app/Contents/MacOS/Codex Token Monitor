@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+PROJECT_DIR="/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
+LOG_DIR="${PROJECT_DIR}/runtime/logs"
+LOG_FILE="${LOG_DIR}/app-launcher.log"
+PORT="${CODEX_USAGE_PORT:-8766}"
+
+mkdir -p "$LOG_DIR"
+cd "$PROJECT_DIR"
+
+{
+  echo "==== $(date) ===="
+  echo "Launching Codex Token Monitor"
+  ./resume-background-monitor.sh
+} >> "$LOG_FILE" 2>&1 || {
+  {
+    echo "Resume failed; attempting direct service start"
+    rm -f "${PROJECT_DIR}/runtime/background-monitor.disabled"
+    ./start-dashboard.sh
+    ./start-dashboard-lan.sh
+  } >> "$LOG_FILE" 2>&1
+}
+
+if [[ -d "/Applications/SwiftBar.app" ]]; then
+  open -g "/Applications/SwiftBar.app" >/dev/null 2>&1 || true
+elif [[ -d "${HOME}/Applications/SwiftBar.app" ]]; then
+  open -g "${HOME}/Applications/SwiftBar.app" >/dev/null 2>&1 || true
+elif [[ -d "/Applications/xbar.app" ]]; then
+  open -g "/Applications/xbar.app" >/dev/null 2>&1 || true
+elif [[ -d "${HOME}/Applications/xbar.app" ]]; then
+  open -g "${HOME}/Applications/xbar.app" >/dev/null 2>&1 || true
+fi
+
+open "http://127.0.0.1:${PORT}/" >/dev/null 2>&1 || true

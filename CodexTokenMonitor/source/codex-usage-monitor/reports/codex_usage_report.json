@@ -1,0 +1,4918 @@
+{
+  "generated_at": "2026-06-04T06:41:59.671625+00:00",
+  "latest_event": {
+    "event_id": "7b223cf1d58419fab6a5",
+    "timestamp": "2026-06-04T06:41:53.610000+00:00",
+    "source_file": "/Users/linzezhang/.codex/sessions/2026/06/04/rollout-2026-06-04T16-41-25-019e915d-83fc-7c81-a44c-3216f205291f.jsonl",
+    "session_id": "019e915d-83fc-7c81-a44c-3216f205291f",
+    "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+    "originator": "Codex Desktop",
+    "total_usage": {
+      "input_tokens": 23430,
+      "cached_input_tokens": 22400,
+      "output_tokens": 961,
+      "reasoning_output_tokens": 516,
+      "total_tokens": 24391
+    },
+    "last_usage": {
+      "input_tokens": 23430,
+      "cached_input_tokens": 22400,
+      "output_tokens": 961,
+      "reasoning_output_tokens": 516,
+      "total_tokens": 24391
+    },
+    "model_context_window": 258400,
+    "context_used_percent": 9.439241486068111,
+    "primary": {
+      "used_percent": 23.0,
+      "window_minutes": 300,
+      "resets_at": 1780569473,
+      "remaining_percent": 77.0,
+      "resets_at_iso": "2026-06-04T10:37:53+00:00"
+    },
+    "secondary": {
+      "used_percent": 19.0,
+      "window_minutes": 10080,
+      "resets_at": 1781138233,
+      "remaining_percent": 81.0,
+      "resets_at_iso": "2026-06-11T00:37:13+00:00"
+    },
+    "plan_type": "pro",
+    "limit_id": "codex",
+    "rate_limit_reached_type": null
+  },
+  "sessions": [
+    {
+      "session_id": "019e915d-83fc-7c81-a44c-3216f205291f",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:41:53.610000+00:00",
+      "last_update": "2026-06-04T06:41:53.610000+00:00",
+      "latest_total_tokens": 24391,
+      "latest_output_tokens": 961,
+      "latest_reasoning_tokens": 516,
+      "event_count": 1,
+      "active": true
+    },
+    {
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T05:06:59.474000+00:00",
+      "last_update": "2026-06-04T06:41:52.568000+00:00",
+      "latest_total_tokens": 274882883,
+      "latest_output_tokens": 916431,
+      "latest_reasoning_tokens": 230399,
+      "event_count": 1823,
+      "active": true
+    },
+    {
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:32:18.686000+00:00",
+      "last_update": "2026-06-04T06:41:47.370000+00:00",
+      "latest_total_tokens": 49339130,
+      "latest_output_tokens": 153329,
+      "latest_reasoning_tokens": 18198,
+      "event_count": 388,
+      "active": true
+    },
+    {
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:59:39.169000+00:00",
+      "last_update": "2026-06-04T06:41:44.557000+00:00",
+      "latest_total_tokens": 146037102,
+      "latest_output_tokens": 465975,
+      "latest_reasoning_tokens": 84466,
+      "event_count": 1041,
+      "active": true
+    },
+    {
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat-2",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:48:31.387000+00:00",
+      "last_update": "2026-06-04T06:41:43.205000+00:00",
+      "latest_total_tokens": 80729947,
+      "latest_output_tokens": 232302,
+      "latest_reasoning_tokens": 35088,
+      "event_count": 607,
+      "active": true
+    },
+    {
+      "session_id": "019e915d-5a3b-7d83-9671-9254b2ec7d65",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:41:41.565000+00:00",
+      "last_update": "2026-06-04T06:41:41.565000+00:00",
+      "latest_total_tokens": 24215,
+      "latest_output_tokens": 769,
+      "latest_reasoning_tokens": 320,
+      "event_count": 1,
+      "active": true
+    },
+    {
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T09:48:01.157000+00:00",
+      "last_update": "2026-06-04T06:41:37.695000+00:00",
+      "latest_total_tokens": 330710857,
+      "latest_output_tokens": 1008057,
+      "latest_reasoning_tokens": 160541,
+      "event_count": 2305,
+      "active": true
+    },
+    {
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T08:34:40.818000+00:00",
+      "last_update": "2026-06-04T06:41:35.443000+00:00",
+      "latest_total_tokens": 185176746,
+      "latest_output_tokens": 729649,
+      "latest_reasoning_tokens": 140161,
+      "event_count": 1289,
+      "active": true
+    },
+    {
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T01:47:07.490000+00:00",
+      "last_update": "2026-06-04T06:41:25.267000+00:00",
+      "latest_total_tokens": 151433297,
+      "latest_output_tokens": 592227,
+      "latest_reasoning_tokens": 116061,
+      "event_count": 1073,
+      "active": true
+    },
+    {
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:07:42.448000+00:00",
+      "last_update": "2026-06-04T06:23:44.366000+00:00",
+      "latest_total_tokens": 1517836,
+      "latest_output_tokens": 16618,
+      "latest_reasoning_tokens": 5868,
+      "event_count": 21,
+      "active": true
+    },
+    {
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:08:39.659000+00:00",
+      "last_update": "2026-06-04T06:17:34.937000+00:00",
+      "latest_total_tokens": 820235,
+      "latest_output_tokens": 12179,
+      "latest_reasoning_tokens": 4735,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:08:09.130000+00:00",
+      "last_update": "2026-06-04T06:13:07.722000+00:00",
+      "latest_total_tokens": 427872,
+      "latest_output_tokens": 10217,
+      "latest_reasoning_tokens": 6408,
+      "event_count": 8,
+      "active": false
+    },
+    {
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T06:06:10.236000+00:00",
+      "last_update": "2026-06-04T06:09:56.270000+00:00",
+      "latest_total_tokens": 163867,
+      "latest_output_tokens": 5169,
+      "latest_reasoning_tokens": 2284,
+      "event_count": 6,
+      "active": false
+    },
+    {
+      "session_id": "019e9106-913b-7891-ae1c-a7ded76ef150",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T05:06:31.762000+00:00",
+      "last_update": "2026-06-04T05:06:31.762000+00:00",
+      "latest_total_tokens": 0,
+      "latest_output_tokens": 0,
+      "latest_reasoning_tokens": 0,
+      "event_count": 1,
+      "active": false
+    },
+    {
+      "session_id": "019e9106-770f-7402-ad67-83cc5e796821",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T05:06:25.718000+00:00",
+      "last_update": "2026-06-04T05:06:25.718000+00:00",
+      "latest_total_tokens": 0,
+      "latest_output_tokens": 0,
+      "latest_reasoning_tokens": 0,
+      "event_count": 1,
+      "active": false
+    },
+    {
+      "session_id": "019e90a2-b420-7153-ad19-9c8c92a34b66",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-wuhan",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T03:19:06.415000+00:00",
+      "last_update": "2026-06-04T04:30:47.174000+00:00",
+      "latest_total_tokens": 6063742,
+      "latest_output_tokens": 53322,
+      "latest_reasoning_tokens": 12229,
+      "event_count": 62,
+      "active": false
+    },
+    {
+      "session_id": "019e9060-cdd2-77a0-9231-bcad34db0ecf",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:05:51.191000+00:00",
+      "last_update": "2026-06-04T02:29:05.459000+00:00",
+      "latest_total_tokens": 3062385,
+      "latest_output_tokens": 23281,
+      "latest_reasoning_tokens": 8550,
+      "event_count": 38,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-8428-7491-b6c2-e49f0395200b",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:06.637000+00:00",
+      "last_update": "2026-06-04T02:21:44.888000+00:00",
+      "latest_total_tokens": 2545666,
+      "latest_output_tokens": 15882,
+      "latest_reasoning_tokens": 5777,
+      "event_count": 20,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-8184-7f31-a253-b88cd6f21c8e",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:06.204000+00:00",
+      "last_update": "2026-06-04T02:18:04.061000+00:00",
+      "latest_total_tokens": 1578474,
+      "latest_output_tokens": 13114,
+      "latest_reasoning_tokens": 7303,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-8043-7390-a234-a704fca64b25",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:02.870000+00:00",
+      "last_update": "2026-06-04T02:17:14.498000+00:00",
+      "latest_total_tokens": 1453671,
+      "latest_output_tokens": 13072,
+      "latest_reasoning_tokens": 5424,
+      "event_count": 18,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-7d29-72f1-802a-2da34a573050",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:24.020000+00:00",
+      "last_update": "2026-06-04T02:17:11.243000+00:00",
+      "latest_total_tokens": 1703517,
+      "latest_output_tokens": 16765,
+      "latest_reasoning_tokens": 7091,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-7f36-7342-8e31-a13a71917bcf",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:05.807000+00:00",
+      "last_update": "2026-06-04T02:16:48.363000+00:00",
+      "latest_total_tokens": 1770194,
+      "latest_output_tokens": 11809,
+      "latest_reasoning_tokens": 4668,
+      "event_count": 15,
+      "active": false
+    },
+    {
+      "session_id": "019e9061-7fc3-7532-b8a4-78488a767239",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T02:07:08.206000+00:00",
+      "last_update": "2026-06-04T02:15:14.079000+00:00",
+      "latest_total_tokens": 1680639,
+      "latest_output_tokens": 15075,
+      "latest_reasoning_tokens": 8222,
+      "event_count": 14,
+      "active": false
+    },
+    {
+      "session_id": "019e8754-3e4b-7841-80c3-c3b83b5b77b9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/i-want-to-set-up-an",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:55:15.382000+00:00",
+      "last_update": "2026-06-04T01:43:32.063000+00:00",
+      "latest_total_tokens": 582750,
+      "latest_output_tokens": 7133,
+      "latest_reasoning_tokens": 1403,
+      "event_count": 25,
+      "active": false
+    },
+    {
+      "session_id": "019e8748-b321-7c00-b6d4-13ec71d1841e",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/curl-fssl-https-chatgpt-com-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:42:42.420000+00:00",
+      "last_update": "2026-06-04T00:55:50.490000+00:00",
+      "latest_total_tokens": 1440995,
+      "latest_output_tokens": 14181,
+      "latest_reasoning_tokens": 1218,
+      "event_count": 33,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-9299-7411-8e61-565fd3b14997",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:25.280000+00:00",
+      "last_update": "2026-06-04T00:46:20.006000+00:00",
+      "latest_total_tokens": 1026190,
+      "latest_output_tokens": 14520,
+      "latest_reasoning_tokens": 8296,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-63a4-7043-991b-e91c840ad4b7",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:28.781000+00:00",
+      "last_update": "2026-06-04T00:46:11.558000+00:00",
+      "latest_total_tokens": 991044,
+      "latest_output_tokens": 14126,
+      "latest_reasoning_tokens": 8596,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-9213-74a0-ae2b-c2fc8e79175f",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:24.069000+00:00",
+      "last_update": "2026-06-04T00:45:44.336000+00:00",
+      "latest_total_tokens": 1216676,
+      "latest_output_tokens": 10710,
+      "latest_reasoning_tokens": 4955,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-a8c7-76a1-89c5-da03fc0abe0c",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:31.995000+00:00",
+      "last_update": "2026-06-04T00:45:23.727000+00:00",
+      "latest_total_tokens": 987219,
+      "latest_output_tokens": 11030,
+      "latest_reasoning_tokens": 5578,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-a7a0-7071-8145-972ac8f649a2",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:31.812000+00:00",
+      "last_update": "2026-06-04T00:45:04.877000+00:00",
+      "latest_total_tokens": 654678,
+      "latest_output_tokens": 11253,
+      "latest_reasoning_tokens": 6878,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e9011-aa85-7720-bdde-432a6f9b408c",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:39:27.449000+00:00",
+      "last_update": "2026-06-04T00:44:05.156000+00:00",
+      "latest_total_tokens": 398372,
+      "latest_output_tokens": 10036,
+      "latest_reasoning_tokens": 6244,
+      "event_count": 6,
+      "active": false
+    },
+    {
+      "session_id": "019e8ff1-17ef-7372-b735-1c987163fc1c",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-opensource",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-04T00:04:01.758000+00:00",
+      "last_update": "2026-06-04T00:36:28.491000+00:00",
+      "latest_total_tokens": 3768606,
+      "latest_output_tokens": 41538,
+      "latest_reasoning_tokens": 6584,
+      "event_count": 62,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd6-ec55-70c3-a0a4-5299ea26fdd2",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:35:08.143000+00:00",
+      "last_update": "2026-06-03T23:41:31.885000+00:00",
+      "latest_total_tokens": 2095498,
+      "latest_output_tokens": 16556,
+      "latest_reasoning_tokens": 7861,
+      "event_count": 23,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd6-c894-7273-8a32-0d4042decbed",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:34:51.609000+00:00",
+      "last_update": "2026-06-03T23:40:46.555000+00:00",
+      "latest_total_tokens": 1422159,
+      "latest_output_tokens": 15681,
+      "latest_reasoning_tokens": 7860,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd6-a791-7510-a5a5-b80c82b47ec6",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:34:48.235000+00:00",
+      "last_update": "2026-06-03T23:39:52.823000+00:00",
+      "latest_total_tokens": 1703448,
+      "latest_output_tokens": 11988,
+      "latest_reasoning_tokens": 4426,
+      "event_count": 18,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd7-2853-79a2-adf6-52235aa5c3d1",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:35:24.634000+00:00",
+      "last_update": "2026-06-03T23:39:52.346000+00:00",
+      "latest_total_tokens": 1031803,
+      "latest_output_tokens": 11664,
+      "latest_reasoning_tokens": 5606,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd6-8f39-7dc2-9836-6563784ea99c",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:34:37.159000+00:00",
+      "last_update": "2026-06-03T23:39:34.142000+00:00",
+      "latest_total_tokens": 1501587,
+      "latest_output_tokens": 12297,
+      "latest_reasoning_tokens": 5959,
+      "event_count": 14,
+      "active": false
+    },
+    {
+      "session_id": "019e8fd7-0a04-72e1-9075-e76ecbfaaada",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:35:13.535000+00:00",
+      "last_update": "2026-06-03T23:38:50.376000+00:00",
+      "latest_total_tokens": 798471,
+      "latest_output_tokens": 9208,
+      "latest_reasoning_tokens": 3686,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbe-dd2d-7f23-8a49-5abf09221323",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:08:54+00:00",
+      "last_update": "2026-06-03T23:14:42.374000+00:00",
+      "latest_total_tokens": 1956327,
+      "latest_output_tokens": 15585,
+      "latest_reasoning_tokens": 9148,
+      "event_count": 18,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbe-a931-7752-bca9-ed178a875047",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:08:34.566000+00:00",
+      "last_update": "2026-06-03T23:14:32.837000+00:00",
+      "latest_total_tokens": 1663364,
+      "latest_output_tokens": 15069,
+      "latest_reasoning_tokens": 8488,
+      "event_count": 18,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbf-2aba-7652-9c1c-e93a6adb98c4",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:09:10.755000+00:00",
+      "last_update": "2026-06-03T23:12:40.188000+00:00",
+      "latest_total_tokens": 569948,
+      "latest_output_tokens": 8860,
+      "latest_reasoning_tokens": 4492,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbf-4efa-7650-95b5-3a8b49e63758",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:09:20.589000+00:00",
+      "last_update": "2026-06-03T23:12:25.458000+00:00",
+      "latest_total_tokens": 376038,
+      "latest_output_tokens": 8592,
+      "latest_reasoning_tokens": 4828,
+      "event_count": 6,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbe-fd49-72d2-b067-bdb34e1396f9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:08:58.639000+00:00",
+      "last_update": "2026-06-03T23:12:00.301000+00:00",
+      "latest_total_tokens": 561384,
+      "latest_output_tokens": 8737,
+      "latest_reasoning_tokens": 5262,
+      "event_count": 8,
+      "active": false
+    },
+    {
+      "session_id": "019e8fbe-c313-7b62-8674-28504888c526",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T23:08:43.954000+00:00",
+      "last_update": "2026-06-03T23:11:59.772000+00:00",
+      "latest_total_tokens": 484459,
+      "latest_output_tokens": 10015,
+      "latest_reasoning_tokens": 6252,
+      "event_count": 7,
+      "active": false
+    },
+    {
+      "session_id": "019e8f70-078c-7e72-90ed-2af9aa6c321d",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T21:42:42.505000+00:00",
+      "last_update": "2026-06-03T23:02:39.384000+00:00",
+      "latest_total_tokens": 25037857,
+      "latest_output_tokens": 96250,
+      "latest_reasoning_tokens": 9874,
+      "event_count": 184,
+      "active": false
+    },
+    {
+      "session_id": "019e8f83-defe-7f02-b7fc-a22a7793d4ad",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:04:25.620000+00:00",
+      "last_update": "2026-06-03T22:10:49.356000+00:00",
+      "latest_total_tokens": 2478509,
+      "latest_output_tokens": 17130,
+      "latest_reasoning_tokens": 7353,
+      "event_count": 20,
+      "active": false
+    },
+    {
+      "session_id": "019e8f83-a321-75e2-b4f5-54b80cd01686",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:04:10.117000+00:00",
+      "last_update": "2026-06-03T22:09:42.895000+00:00",
+      "latest_total_tokens": 2154264,
+      "latest_output_tokens": 14529,
+      "latest_reasoning_tokens": 5183,
+      "event_count": 20,
+      "active": false
+    },
+    {
+      "session_id": "019e8f84-52d1-7a71-b531-3b12483e5e17",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:05:06.219000+00:00",
+      "last_update": "2026-06-03T22:08:46.216000+00:00",
+      "latest_total_tokens": 1444548,
+      "latest_output_tokens": 10613,
+      "latest_reasoning_tokens": 3317,
+      "event_count": 14,
+      "active": false
+    },
+    {
+      "session_id": "019e8f83-bfe0-7cc0-857a-edc81c9d625e",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:04:13.783000+00:00",
+      "last_update": "2026-06-03T22:08:35.319000+00:00",
+      "latest_total_tokens": 1705232,
+      "latest_output_tokens": 10703,
+      "latest_reasoning_tokens": 3867,
+      "event_count": 17,
+      "active": false
+    },
+    {
+      "session_id": "019e8f83-fcd5-71e3-b0bc-2a7a70644678",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:04:36.819000+00:00",
+      "last_update": "2026-06-03T22:08:09.433000+00:00",
+      "latest_total_tokens": 940282,
+      "latest_output_tokens": 10401,
+      "latest_reasoning_tokens": 4782,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8f84-27d0-7283-8447-6d8b1e5c915b",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:04:47.795000+00:00",
+      "last_update": "2026-06-03T22:07:29.080000+00:00",
+      "latest_total_tokens": 568432,
+      "latest_output_tokens": 8095,
+      "latest_reasoning_tokens": 3369,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8f81-bb08-7131-800f-815c52080cbb",
+      "cwd": "/",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T22:01:56.446000+00:00",
+      "last_update": "2026-06-03T22:06:18.077000+00:00",
+      "latest_total_tokens": 862216,
+      "latest_output_tokens": 10253,
+      "latest_reasoning_tokens": 2695,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8f49-11ba-76f3-85a1-fa2e18eecfa8",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-sports",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T21:00:06.838000+00:00",
+      "last_update": "2026-06-03T21:57:23.650000+00:00",
+      "latest_total_tokens": 12193861,
+      "latest_output_tokens": 79038,
+      "latest_reasoning_tokens": 13413,
+      "event_count": 94,
+      "active": false
+    },
+    {
+      "session_id": "019e8f41-46bd-7240-9744-d191e6fb50b8",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-01",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:51:41.823000+00:00",
+      "last_update": "2026-06-03T21:43:38.624000+00:00",
+      "latest_total_tokens": 17814166,
+      "latest_output_tokens": 76418,
+      "latest_reasoning_tokens": 13938,
+      "event_count": 137,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3a-8c7f-7722-a5b6-64e1df9a69a1",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:44:25.986000+00:00",
+      "last_update": "2026-06-03T20:49:21.160000+00:00",
+      "latest_total_tokens": 1538871,
+      "latest_output_tokens": 16580,
+      "latest_reasoning_tokens": 8119,
+      "event_count": 17,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3a-7793-7063-8a42-e26837639e85",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:44:05.326000+00:00",
+      "last_update": "2026-06-03T20:47:45.740000+00:00",
+      "latest_total_tokens": 1168352,
+      "latest_output_tokens": 11209,
+      "latest_reasoning_tokens": 5390,
+      "event_count": 14,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3b-1cb9-72e2-812f-720d8d7193fd",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:45:00.575000+00:00",
+      "last_update": "2026-06-03T20:47:22.006000+00:00",
+      "latest_total_tokens": 606017,
+      "latest_output_tokens": 8537,
+      "latest_reasoning_tokens": 3002,
+      "event_count": 10,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3a-aa1c-7260-856e-59f9863c0acd",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:44:32.807000+00:00",
+      "last_update": "2026-06-03T20:47:13.614000+00:00",
+      "latest_total_tokens": 620280,
+      "latest_output_tokens": 9864,
+      "latest_reasoning_tokens": 4764,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3a-5db4-7252-9387-932a945df9c1",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:44:01.820000+00:00",
+      "last_update": "2026-06-03T20:47:12.614000+00:00",
+      "latest_total_tokens": 678167,
+      "latest_output_tokens": 11101,
+      "latest_reasoning_tokens": 5748,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8f3a-e39c-7862-9dcd-cd3ebc067f44",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:44:54.238000+00:00",
+      "last_update": "2026-06-03T20:46:36.822000+00:00",
+      "latest_total_tokens": 591174,
+      "latest_output_tokens": 6295,
+      "latest_reasoning_tokens": 3002,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-4c54-72f3-9008-34b251464ff6",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:22.621000+00:00",
+      "last_update": "2026-06-03T20:25:59.615000+00:00",
+      "latest_total_tokens": 1938328,
+      "latest_output_tokens": 12780,
+      "latest_reasoning_tokens": 4342,
+      "event_count": 22,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-39ff-7043-ad62-3be82c903357",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:17.367000+00:00",
+      "last_update": "2026-06-03T20:25:20.040000+00:00",
+      "latest_total_tokens": 1307882,
+      "latest_output_tokens": 12013,
+      "latest_reasoning_tokens": 5429,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-38d9-7dd1-a191-520cdbc76239",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:20.711000+00:00",
+      "last_update": "2026-06-03T20:24:28.262000+00:00",
+      "latest_total_tokens": 908402,
+      "latest_output_tokens": 11742,
+      "latest_reasoning_tokens": 5754,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-3a7d-71e2-840c-bf6b5f82c7e4",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:19.183000+00:00",
+      "last_update": "2026-06-03T20:24:18.236000+00:00",
+      "latest_total_tokens": 729308,
+      "latest_output_tokens": 10972,
+      "latest_reasoning_tokens": 5228,
+      "event_count": 10,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-3969-7b93-b0a1-2e2f102da345",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:18.193000+00:00",
+      "last_update": "2026-06-03T20:23:43.199000+00:00",
+      "latest_total_tokens": 739871,
+      "latest_output_tokens": 8448,
+      "latest_reasoning_tokens": 2973,
+      "event_count": 12,
+      "active": false
+    },
+    {
+      "session_id": "019e8f25-4435-7dc1-94f3-e7cf9a8ccafc",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T20:21:23.799000+00:00",
+      "last_update": "2026-06-03T20:23:36.284000+00:00",
+      "latest_total_tokens": 740846,
+      "latest_output_tokens": 8259,
+      "latest_reasoning_tokens": 3990,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-dbb9-7880-b36d-f87632871f85",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:05.019000+00:00",
+      "last_update": "2026-06-03T12:11:59.909000+00:00",
+      "latest_total_tokens": 1719704,
+      "latest_output_tokens": 19076,
+      "latest_reasoning_tokens": 6235,
+      "event_count": 21,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-da45-77f2-a446-1b2f43dceafb",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:05.708000+00:00",
+      "last_update": "2026-06-03T12:11:29.470000+00:00",
+      "latest_total_tokens": 1445577,
+      "latest_output_tokens": 16595,
+      "latest_reasoning_tokens": 5991,
+      "event_count": 18,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-d0cc-7eb0-8df5-17e7a2122aa6",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:03.957000+00:00",
+      "last_update": "2026-06-03T12:10:08.973000+00:00",
+      "latest_total_tokens": 1074998,
+      "latest_output_tokens": 13535,
+      "latest_reasoning_tokens": 6025,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-dfb2-7351-bb4e-3230a132dbf9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:08.843000+00:00",
+      "last_update": "2026-06-03T12:09:17.203000+00:00",
+      "latest_total_tokens": 963323,
+      "latest_output_tokens": 9713,
+      "latest_reasoning_tokens": 3783,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-ddb9-7a13-b148-f7e0c388c1cf",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:05.003000+00:00",
+      "last_update": "2026-06-03T12:09:15.953000+00:00",
+      "latest_total_tokens": 855405,
+      "latest_output_tokens": 10896,
+      "latest_reasoning_tokens": 4868,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8d5d-e101-7431-9308-5a56bcef40dd",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T12:04:08.651000+00:00",
+      "last_update": "2026-06-03T12:08:33.988000+00:00",
+      "latest_total_tokens": 620798,
+      "latest_output_tokens": 9575,
+      "latest_reasoning_tokens": 4016,
+      "event_count": 10,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfa-f77d-7263-b09e-e4cbb97810ef",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:16:02.028000+00:00",
+      "last_update": "2026-06-03T10:21:22.637000+00:00",
+      "latest_total_tokens": 1286609,
+      "latest_output_tokens": 13061,
+      "latest_reasoning_tokens": 5683,
+      "event_count": 15,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfa-fb10-7b81-aca4-91a531c80afc",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:16:01.466000+00:00",
+      "last_update": "2026-06-03T10:20:30.369000+00:00",
+      "latest_total_tokens": 1059195,
+      "latest_output_tokens": 9749,
+      "latest_reasoning_tokens": 3057,
+      "event_count": 15,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfa-f458-7a40-b60c-5279713ea48a",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:16:02.240000+00:00",
+      "last_update": "2026-06-03T10:19:58.954000+00:00",
+      "latest_total_tokens": 994392,
+      "latest_output_tokens": 9950,
+      "latest_reasoning_tokens": 3802,
+      "event_count": 12,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfa-f6cc-7d20-9a5e-d1f9d04b2af9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:15:58.733000+00:00",
+      "last_update": "2026-06-03T10:19:53.167000+00:00",
+      "latest_total_tokens": 690022,
+      "latest_output_tokens": 8228,
+      "latest_reasoning_tokens": 3580,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfb-01f9-7a00-bbeb-d47cfaefba7e",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:15:58.335000+00:00",
+      "last_update": "2026-06-03T10:19:38.779000+00:00",
+      "latest_total_tokens": 668313,
+      "latest_output_tokens": 8378,
+      "latest_reasoning_tokens": 3109,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e8cfa-fee2-7813-bb70-61aa67f2050f",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:16:01.416000+00:00",
+      "last_update": "2026-06-03T10:19:14.361000+00:00",
+      "latest_total_tokens": 456136,
+      "latest_output_tokens": 7395,
+      "latest_reasoning_tokens": 3426,
+      "event_count": 8,
+      "active": false
+    },
+    {
+      "session_id": "019e8cec-1369-7e71-8b53-de974d780ecd",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:00:05.457000+00:00",
+      "last_update": "2026-06-03T10:10:13.490000+00:00",
+      "latest_total_tokens": 1118635,
+      "latest_output_tokens": 14113,
+      "latest_reasoning_tokens": 7003,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8cee-29ba-7d21-bc85-f64df0c77d6a",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:02:04.970000+00:00",
+      "last_update": "2026-06-03T10:08:31.212000+00:00",
+      "latest_total_tokens": 1410051,
+      "latest_output_tokens": 10779,
+      "latest_reasoning_tokens": 1871,
+      "event_count": 19,
+      "active": false
+    },
+    {
+      "session_id": "019e8cea-bd20-7f41-a03e-c5a4557b51f9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:59:21.068000+00:00",
+      "last_update": "2026-06-03T10:07:50.524000+00:00",
+      "latest_total_tokens": 1228949,
+      "latest_output_tokens": 13390,
+      "latest_reasoning_tokens": 5016,
+      "event_count": 16,
+      "active": false
+    },
+    {
+      "session_id": "019e8cec-cae4-7791-b48d-d726a7ef32a7",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:01:06.524000+00:00",
+      "last_update": "2026-06-03T10:06:57.457000+00:00",
+      "latest_total_tokens": 728903,
+      "latest_output_tokens": 9173,
+      "latest_reasoning_tokens": 3408,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce9-dfac-7421-8df8-dd934de959c9",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:58:24.749000+00:00",
+      "last_update": "2026-06-03T10:06:55.375000+00:00",
+      "latest_total_tokens": 1084158,
+      "latest_output_tokens": 13407,
+      "latest_reasoning_tokens": 5944,
+      "event_count": 13,
+      "active": false
+    },
+    {
+      "session_id": "019e8ced-8aab-7da3-bc06-b54060a7879f",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T10:01:28.199000+00:00",
+      "last_update": "2026-06-03T10:05:53.338000+00:00",
+      "latest_total_tokens": 581247,
+      "latest_output_tokens": 8091,
+      "latest_reasoning_tokens": 2545,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8cea-cea8-7752-bdb5-04127a80beeb",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:59:29.455000+00:00",
+      "last_update": "2026-06-03T10:04:42.820000+00:00",
+      "latest_total_tokens": 497487,
+      "latest_output_tokens": 7956,
+      "latest_reasoning_tokens": 2903,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce9-c81d-7653-a023-1aa3dd6bd693",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:58:10.953000+00:00",
+      "last_update": "2026-06-03T10:04:41.974000+00:00",
+      "latest_total_tokens": 454026,
+      "latest_output_tokens": 9054,
+      "latest_reasoning_tokens": 4751,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce8-2218-7b02-afe4-c903a3a76710",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:55:36.195000+00:00",
+      "last_update": "2026-06-03T10:04:41.474000+00:00",
+      "latest_total_tokens": 585474,
+      "latest_output_tokens": 10292,
+      "latest_reasoning_tokens": 6064,
+      "event_count": 10,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce8-7aeb-70f3-b593-52e9519d4ceb",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:55:39.099000+00:00",
+      "last_update": "2026-06-03T10:04:16.774000+00:00",
+      "latest_total_tokens": 471924,
+      "latest_output_tokens": 12154,
+      "latest_reasoning_tokens": 7350,
+      "event_count": 8,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce7-bb95-7f93-bb76-461accbe03a3",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:55:00.294000+00:00",
+      "last_update": "2026-06-03T10:04:10.813000+00:00",
+      "latest_total_tokens": 614601,
+      "latest_output_tokens": 12358,
+      "latest_reasoning_tokens": 6603,
+      "event_count": 10,
+      "active": false
+    },
+    {
+      "session_id": "019e8ce8-d631-7392-993c-16e5033ed5f5",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T09:56:48.462000+00:00",
+      "last_update": "2026-06-03T10:02:49.731000+00:00",
+      "latest_total_tokens": 281227,
+      "latest_output_tokens": 7908,
+      "latest_reasoning_tokens": 4302,
+      "event_count": 6,
+      "active": false
+    },
+    {
+      "session_id": "019e8c80-c704-77c3-aeb3-0a94f919398b",
+      "cwd": "/Users/linzezhang",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T08:02:17.810000+00:00",
+      "last_update": "2026-06-03T08:16:23.853000+00:00",
+      "latest_total_tokens": 774091,
+      "latest_output_tokens": 24293,
+      "latest_reasoning_tokens": 13117,
+      "event_count": 23,
+      "active": false
+    },
+    {
+      "session_id": "019e8c3e-ae42-7502-98b8-daab1af1f7c0",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T06:50:10.710000+00:00",
+      "last_update": "2026-06-03T06:55:41.087000+00:00",
+      "latest_total_tokens": 116658,
+      "latest_output_tokens": 2525,
+      "latest_reasoning_tokens": 1276,
+      "event_count": 6,
+      "active": false
+    },
+    {
+      "session_id": "019e8c3a-ed0b-7ae2-9d1e-95f8794998a5",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T06:46:11.849000+00:00",
+      "last_update": "2026-06-03T06:49:05.173000+00:00",
+      "latest_total_tokens": 138430,
+      "latest_output_tokens": 2681,
+      "latest_reasoning_tokens": 1117,
+      "event_count": 7,
+      "active": false
+    },
+    {
+      "session_id": "019e8c20-36b9-7e73-b4fe-6c177128c355",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T06:16:44.271000+00:00",
+      "last_update": "2026-06-03T06:37:53.628000+00:00",
+      "latest_total_tokens": 1097680,
+      "latest_output_tokens": 13304,
+      "latest_reasoning_tokens": 5474,
+      "event_count": 28,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcb-8dab-7d02-9d07-a9907a75ba09",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:44:07.353000+00:00",
+      "last_update": "2026-06-03T04:47:43.451000+00:00",
+      "latest_total_tokens": 535144,
+      "latest_output_tokens": 7612,
+      "latest_reasoning_tokens": 1066,
+      "event_count": 11,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcc-4536-7d50-ae3a-3debbdea59a6",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:44:58.171000+00:00",
+      "last_update": "2026-06-03T04:47:26.718000+00:00",
+      "latest_total_tokens": 419622,
+      "latest_output_tokens": 5786,
+      "latest_reasoning_tokens": 608,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcb-e8eb-7ec3-8297-9cd729bd6b2e",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:44:49.385000+00:00",
+      "last_update": "2026-06-03T04:47:19.148000+00:00",
+      "latest_total_tokens": 445113,
+      "latest_output_tokens": 6057,
+      "latest_reasoning_tokens": 529,
+      "event_count": 8,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcb-6fd0-77f1-ba68-ef2098f58769",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:44:01.445000+00:00",
+      "last_update": "2026-06-03T04:47:08.939000+00:00",
+      "latest_total_tokens": 461248,
+      "latest_output_tokens": 6568,
+      "latest_reasoning_tokens": 721,
+      "event_count": 9,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcb-a72a-7fe2-94e5-b22de1f46085",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:44:31.034000+00:00",
+      "last_update": "2026-06-03T04:46:15.326000+00:00",
+      "latest_total_tokens": 295896,
+      "latest_output_tokens": 4143,
+      "latest_reasoning_tokens": 535,
+      "event_count": 5,
+      "active": false
+    },
+    {
+      "session_id": "019e8bcb-5249-7343-adfe-1e57d27cfcac",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-03T04:43:56.216000+00:00",
+      "last_update": "2026-06-03T04:45:48.403000+00:00",
+      "latest_total_tokens": 401768,
+      "latest_output_tokens": 5261,
+      "latest_reasoning_tokens": 642,
+      "event_count": 5,
+      "active": false
+    },
+    {
+      "session_id": "019e8a15-2f15-7b21-82ed-a143cd45aa82",
+      "cwd": "/Users/linzezhang",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T20:45:17.284000+00:00",
+      "last_update": "2026-06-02T20:48:37.995000+00:00",
+      "latest_total_tokens": 378542,
+      "latest_output_tokens": 9440,
+      "latest_reasoning_tokens": 1761,
+      "event_count": 15,
+      "active": false
+    },
+    {
+      "session_id": "019e8757-5270-7940-8147-2907682961ef",
+      "cwd": "/Users/linzezhang",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:58:38.274000+00:00",
+      "last_update": "2026-06-02T08:01:05.058000+00:00",
+      "latest_total_tokens": 315212,
+      "latest_output_tokens": 6718,
+      "latest_reasoning_tokens": 1807,
+      "event_count": 14,
+      "active": false
+    },
+    {
+      "session_id": "019e8728-6cf3-7d93-b7f6-f76ac117fcda",
+      "cwd": "/Users/linzezhang/Documents/Codex/2026-06-02/npx-skills-add-tencent-wechatreading-g",
+      "originator": "Codex Desktop",
+      "start_time": "2026-06-02T07:07:22.925000+00:00",
+      "last_update": "2026-06-02T07:14:07.661000+00:00",
+      "latest_total_tokens": 732289,
+      "latest_output_tokens": 10734,
+      "latest_reasoning_tokens": 6076,
+      "event_count": 20,
+      "active": false
+    }
+  ],
+  "alerts": [],
+  "burn_rate_primary_percent_per_hour": 23.051764016753175,
+  "trend_points": [
+    {
+      "timestamp": "2026-06-04T06:03:10.941000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 140956241,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:20.674000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 71518048,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:23.789000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 261201339,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:30.439000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175423577,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:35.381000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 140985785,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:38.991000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144789089,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:45.491000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175526889,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:46.922000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 261380984,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:47.046000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 321562227,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:03:55.701000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141028559,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:03.902000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 321710390,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:04.730000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 71728096,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:04.748000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144854422,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:07.574000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 261561147,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:10.685000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 33250874,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:13.447000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141076120,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:23.142000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 321858754,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:29.899000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 33436530,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:34.404000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144922580,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:35.132000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141127166,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:47.804000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144990884,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:52.171000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175634019,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:53.200000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322007494,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:53.832000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 71938791,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:54.872000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141178708,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:04:59.850000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 261743225,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:13.139000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145059444,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:23.363000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141230535,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:23.817000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 261911128,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:30.073000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145128298,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:32.399000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322157756,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:33.056000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175742090,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:48.418000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141282627,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:50.782000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322308168,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:52.599000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 72149884,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:53.333000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175850480,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:57.026000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141334887,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:58.217000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262081979,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:05:58.369000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145195758,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:01.617000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322458953,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:10.169000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145263631,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:10.236000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 23701,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:12.115000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 175959675,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:17.967000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141389226,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:20.084000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322610539,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:26.210000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145331589,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:27.975000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262256681,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:31.152000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176069128,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:31.900000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 72361629,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:33.666000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322762318,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:36.355000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141443977,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:40.443000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145403303,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:42.535000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176178779,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:44.026000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262433490,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:52.836000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 322914421,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:06:55.337000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 33629306,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:07.732000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141499033,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:08.490000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 48697,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:10.858000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 72574019,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:15.277000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176288669,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:16.599000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145475319,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:24.121000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262611073,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:34.403000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 33822561,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:42.448000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 21972,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:43.904000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74005,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:46.356000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145547654,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:50.512000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262788891,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:50.898000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141554325,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:07:53.698000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323066883,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:09.130000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 22148,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:13.348000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 72786791,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:21.747000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44181,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:23.310000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176399218,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:25.448000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 262966885,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:28.900000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141611303,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:32.450000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34017520,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:33.067000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145620548,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:34.166000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48602,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:39.659000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 22123,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:41.116000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 100919,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:52.921000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 263145094,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:53.720000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141668637,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:55.321000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323219583,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:55.961000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 83871,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:57.572000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 71903,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:58.347000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34212958,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:08:59.387000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 59583,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:02.678000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176511140,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:05.740000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 72999933,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:09.445000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145703524,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:13.914000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 131795,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:29.590000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141728084,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:30.120000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 263323503,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:30.407000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34408655,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:34.259000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 100063,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:35.075000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 130295,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:38.118000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176623577,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:40.749000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 109460,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:43.333000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145805530,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:54.328000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34604436,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:56.270000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 163867,
+      "session_id": "019e913c-97f9-7422-87a3-1a4819f221c3"
+    },
+    {
+      "timestamp": "2026-06-04T06:09:59.890000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 141452,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:01.447000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 263502697,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:02.147000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323372407,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:03.064000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176736224,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:03.257000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141787716,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:03.681000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 73213438,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:18.153000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34800380,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:21.731000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141847612,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:25.652000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 183401,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:28.802000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 171396,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:32.491000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 263682246,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:35.023000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 145913336,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:44.169000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141908484,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:46.579000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 263862335,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:48.360000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176849431,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:49.382000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 200930,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:50.348000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 73427316,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:54.592000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 34997799,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:55.135000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323525350,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:56.527000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264043702,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:57.041000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 141972431,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:10:57.073000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 230372,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:06.048000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 244960,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:06.844000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 35195499,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:06.852000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 273077,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:08.499000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 176963635,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:09.085000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264225272,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:14.333000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 146022943,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:14.360000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 280418,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:26.200000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264407270,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:33.134000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 73641561,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:34.388000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 348077,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:34.591000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 35395520,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:37.064000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323678421,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:37.071000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142036805,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:42.112000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 334428,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:11:53.112000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 146132851,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:01.089000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 333062,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:01.237000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177078416,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:10.145000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264589731,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:12.740000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 35596090,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:21.807000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323831615,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:33.625000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 73856453,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:37.936000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142101311,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:12:40.654000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 428121,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:07.722000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 427872,
+      "session_id": "019e913e-2ab6-7761-a4ed-35a5c5d0da52"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:13.780000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177193288,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:20.968000+00:00",
+      "primary_used_percent": 10.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 146243515,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:25.364000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 35796931,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:28.736000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 386337,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:36.456000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264772562,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:13:48.402000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 522445,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:13.719000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142165934,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:13.832000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 323984995,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:15.162000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74071449,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:27.714000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 35998129,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:36.710000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177309127,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:36.782000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 460736,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:39.219000+00:00",
+      "primary_used_percent": 13.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146354599,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:45.207000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 264955707,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:56.591000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142230870,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:14:57.312000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 617997,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:04.792000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 36199434,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:22.360000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 547217,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:23.629000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324139263,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:25.401000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74287080,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:25.761000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142296997,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:41.277000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 717150,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:42.096000+00:00",
+      "primary_used_percent": 13.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146471558,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:42.805000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177425287,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:44.513000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 265140680,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:15:53.009000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 36401037,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:23.786000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142365098,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:33.826000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 265325754,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:34.072000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 36602842,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:43.428000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 637065,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:49.817000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324293652,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:52.463000+00:00",
+      "primary_used_percent": 13.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146589446,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:16:52.615000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142433609,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:03.334000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177541590,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:05.136000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74496891,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:06.003000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 36805264,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:12.060000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324448166,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:12.627000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142502196,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:16.537000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 265513772,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:20.426000+00:00",
+      "primary_used_percent": 13.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146707805,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:25.996000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 728457,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:34.937000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 820235,
+      "session_id": "019e913e-b1c5-7f91-af75-683368a96887"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:36.586000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177658023,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:42.414000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 37008063,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:51.871000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 265703742,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:54.041000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142571117,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:17:57.089000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324603529,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:05.544000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177775182,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:07.034000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 825849,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:10.144000+00:00",
+      "primary_used_percent": 13.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146827185,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:12.544000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 37211301,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:13.160000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74707326,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:19.608000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142640280,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:31.179000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 37414685,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:31.347000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 177894584,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:35.375000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324760289,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:40.264000+00:00",
+      "primary_used_percent": 5.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 265894915,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:40.434000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142709797,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:42.488000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178014196,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:43.024000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 37618436,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:43.894000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 926952,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:49.876000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 324917382,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:18:54.969000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 37822274,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:04.228000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 38026682,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:04.299000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 74918121,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:04.361000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 266084523,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:07.276000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178136246,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:36.692000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325075307,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:37.185000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 38231505,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:37.216000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 1035334,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:38.091000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 266274802,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:44.400000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 75129789,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:19:53.658000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178258961,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:12.864000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142780740,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:12.928000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 38436546,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:16.939000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 75341559,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:23.672000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 38641754,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:26.386000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 266479067,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:29.215000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 1153217,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:30.747000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178381879,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:20:31.254000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142853820,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:04.301000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 75556152,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:05.596000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325234116,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:06.512000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 146946975,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:38.516000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 38847108,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:44.492000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 266688678,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:45.015000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 142928105,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:51.644000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147067191,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:54.220000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 75772659,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:21:58.785000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 39053342,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:11.142000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 1273892,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:11.242000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143002778,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:12.407000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178504998,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:14.795000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325393042,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:27.625000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 266901064,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:49.221000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 39259702,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:51.229000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143077586,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:53.088000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 1394690,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:22:53.090000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 75989411,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:02.930000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147190173,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:05.452000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 76208301,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:09.598000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 267113863,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:11.585000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 39466418,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:15.388000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147314025,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:19.466000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178628238,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:20.170000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 267326863,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:22.318000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325552082,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:25.718000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 39673932,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:30.935000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147438485,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:44.366000+00:00",
+      "primary_used_percent": 11.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 1517836,
+      "session_id": "019e913d-b03c-7e41-bfd1-305dc585f9d2"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:48.533000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 267540215,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:50.065000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325711245,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:50.695000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 76431891,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:23:50.922000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178751594,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:02.073000+00:00",
+      "primary_used_percent": 9.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 39882006,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:02.780000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147564580,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:06.610000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 267753874,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:09.974000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 325870975,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:13.122000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 178878957,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:14.995000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 40090335,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:17.937000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 267967930,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:23.157000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179013235,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:24.952000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 268182166,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:26.575000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 40299017,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:30.481000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326041182,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:32.430000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179150746,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:34.864000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147692112,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:38.272000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 268396903,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:43.927000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179288619,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:45.975000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 268611800,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:49.433000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147820188,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:51.176000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326213640,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:24:59.731000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 268827235,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:00.576000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326386343,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:02.014000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179427237,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:02.619000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 147948701,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:08.951000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 76657212,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:09.995000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 269042833,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:12.147000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 40515875,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:12.714000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326559246,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:18.510000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148077663,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:24.219000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179566823,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:35.247000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 40733344,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:38.270000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 269258947,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:52.478000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148207111,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:57.775000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326732714,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:25:59.486000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 76882668,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:00.764000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143152748,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:01.694000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179706790,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:02.937000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 40951041,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:19.148000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148337056,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:21.635000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 269475224,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:21.663000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179850140,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:43.628000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 41170003,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:47.956000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 269691627,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:51.171000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 326906392,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:52.412000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148467459,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:26:53.130000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 77108233,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:27:04.528000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 179995024,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:27:52.700000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143229701,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:27:57.630000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 41389818,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:16.683000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 269908540,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:24.811000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180140574,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:34.116000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143306785,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:36.297000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 77333916,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:36.753000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327080941,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:36.842000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 41609882,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:40.250000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180286256,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:45.384000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148598805,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:46.933000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 270125937,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:28:57.335000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143385902,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:00.298000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 41830318,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:01.841000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 270343515,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:07.492000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180433136,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:07.541000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148732071,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:15.687000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 42051000,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:23.384000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 270561688,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:23.583000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 42271806,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:24.626000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327255608,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:25.492000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 148870078,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:25.607000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180584041,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:26.505000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 77559715,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:35.282000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 270780134,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:35.283000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 42493413,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:36.024000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180735886,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:29:38.083000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143470215,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:03.714000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327430393,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:07.039000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 77785636,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:08.964000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149008373,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:24.274000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 42715174,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:25.896000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143554716,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:45.694000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 180889499,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:48.062000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 78011726,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:30:53.831000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 270998791,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:10.537000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327605293,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:11.272000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149147080,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:15.581000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 42937479,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:35.056000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 78237919,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:40.269000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 271219265,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:45.199000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143640078,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:31:47.764000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181043802,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:01.729000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327780301,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:09.049000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 43160173,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:20.029000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 78464378,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:24.621000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 271442046,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:24.676000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143725546,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:28.113000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181198326,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:31.648000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 43383038,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:41.072000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 327955842,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:32:59.199000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 43606005,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:00.668000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143814244,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:02.201000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149285923,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:03.032000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 271666678,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:06.254000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181353363,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:08.789000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 78686952,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:14.336000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 328132331,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:16.697000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149424986,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:23.771000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 271892418,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:28.959000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 43812706,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:36.532000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 78909664,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:38.021000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143903810,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:41.672000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44019520,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:44.133000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 328309556,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:52.391000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149566964,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:55.697000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 143993663,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:33:55.762000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181511046,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:11.506000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181669312,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:12.330000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149709460,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:13.342000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44227772,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:15.704000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 272120145,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:26.713000+00:00",
+      "primary_used_percent": 1.0,
+      "secondary_used_percent": 16.0,
+      "total_tokens": 328489927,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:41.360000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144083908,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:44.491000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 79133803,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:49.480000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181827979,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:50.294000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44436423,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:34:54.246000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 272348064,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:04.395000+00:00",
+      "primary_used_percent": 7.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 144174405,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:05.033000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 328661557,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:08.878000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44645272,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:16.212000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 272576141,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:16.588000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 149857825,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:18.067000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 181987581,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:18.523000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 44854245,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:20.902000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144174405,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:25.279000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 45063510,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:29.012000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182147456,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:37.345000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 45273152,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:38.145000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 79358061,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:43.041000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 328837039,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:45.191000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182307755,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:46.045000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150010655,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:52.880000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144263637,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:35:59.554000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 272806124,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:07.290000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 45483005,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:13.809000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144352885,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:13.850000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182468558,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:17.144000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150168062,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:27.557000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 273039425,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:28.227000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144442468,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:28.462000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329018363,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:28.544000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 45693196,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:35.574000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182629971,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:37.099000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 79583714,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:48.547000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 45903489,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:36:59.535000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182791621,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:00.693000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 273273679,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:02.801000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150325808,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:04.511000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 46114359,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:12.312000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 273509846,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:20.568000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329200031,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:23.266000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 79810346,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:26.575000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144532261,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:29.624000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 46326139,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:39.516000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150483663,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:40.271000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 182953488,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:42.363000+00:00",
+      "primary_used_percent": 14.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 273746986,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:37:48.431000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 46538132,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:00.124000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144622932,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:04.636000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 46750229,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:16.025000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80037923,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:19.077000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 273983439,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:22.035000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 46962716,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:24.066000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144714687,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:24.160000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150641628,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:28.279000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183115479,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:36.515000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144806868,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:39.368000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80266475,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:40.631000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274220438,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:50.785000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80499724,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:51.485000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 144906799,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:57.284000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145006888,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:38:58.354000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274460575,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:00.772000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150799711,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:03.081000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145107229,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:07.259000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 47177377,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:10.863000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329386470,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:11.961000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183277588,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:14.599000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145210339,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:16.859000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 47392392,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:20.490000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329573112,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:25.839000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145319876,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:29.602000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183443796,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:30.778000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274702253,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:34.646000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329759893,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:36.214000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 150957921,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:43.658000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145435566,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:48.083000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183613913,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:52.669000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 47607599,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:39:55.503000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183784392,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:00.807000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145552764,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:04.928000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 183955208,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:10.654000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 329947902,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:11.570000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 151116253,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:14.246000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 184127793,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:30.274000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 184301140,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:30.355000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 47822976,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:34.137000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 330136363,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:37.118000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145672768,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:37.379000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274702253,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:38.710000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80499724,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:39.331000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48038568,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:46.346000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48254333,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:47.180000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 151274691,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:50.945000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 184475345,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:53.969000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48470363,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:54.152000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80532018,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:55.464000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274735274,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:56.257000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 330325274,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:40:57.792000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 184650090,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:03.269000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48686564,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:05.148000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 184825027,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:05.238000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80566461,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:06.256000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145793861,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:11.237000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 330517350,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:15.050000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274771856,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:16.381000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 48903363,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:17.315000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80601970,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:19.907000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 145915347,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:22.434000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 185000534,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:25.267000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 151433297,
+      "session_id": "019e8b29-5726-7ff0-a044-dbfc6a15e460"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:26.267000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274808650,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:26.490000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80642827,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:27.986000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 49120449,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:34.706000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80685753,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:35.443000+00:00",
+      "primary_used_percent": 8.0,
+      "secondary_used_percent": 17.0,
+      "total_tokens": 185176746,
+      "session_id": "019e8c9e-6816-7320-8d6b-c6f215378abd"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:35.888000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274845659,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:37.695000+00:00",
+      "primary_used_percent": 20.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 330710857,
+      "session_id": "019e87bb-28e0-73b3-b9b6-757877868fd8"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:41.565000+00:00",
+      "primary_used_percent": 23.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 24215,
+      "session_id": "019e915d-5a3b-7d83-9671-9254b2ec7d65"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:43.205000+00:00",
+      "primary_used_percent": 15.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 80729947,
+      "session_id": "019e874e-132a-7b83-81df-dd0ebce9d483"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:44.557000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 146037102,
+      "session_id": "019e8d22-4ad0-7760-a31c-d61b090bef20"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:47.370000+00:00",
+      "primary_used_percent": 16.0,
+      "secondary_used_percent": 18.0,
+      "total_tokens": 49339130,
+      "session_id": "019e873f-234c-7590-9dba-f388304d7af6"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:52.568000+00:00",
+      "primary_used_percent": 21.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 274882883,
+      "session_id": "019e8be0-7cb3-7f03-b022-7cde7aceb3f7"
+    },
+    {
+      "timestamp": "2026-06-04T06:41:53.610000+00:00",
+      "primary_used_percent": 23.0,
+      "secondary_used_percent": 19.0,
+      "total_tokens": 24391,
+      "session_id": "019e915d-83fc-7c81-a44c-3216f205291f"
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-06-02",
+      "sessions": 8,
+      "events": 576,
+      "latest_total_tokens_sum": 58306919,
+      "latest_output_tokens_sum": 274557,
+      "latest_reasoning_tokens_sum": 38311
+    },
+    {
+      "date": "2026-06-03",
+      "sessions": 76,
+      "events": 5758,
+      "latest_total_tokens_sum": 785899676,
+      "latest_output_tokens_sum": 3423570,
+      "latest_reasoning_tokens_sum": 807896
+    },
+    {
+      "date": "2026-06-04",
+      "sessions": 32,
+      "events": 3918,
+      "latest_total_tokens_sum": 1252213196,
+      "latest_output_tokens_sum": 4440730,
+      "latest_reasoning_tokens_sum": 914061
+    }
+  ],
+  "top_projects": [
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-fifa",
+      "sessions": 59,
+      "active_sessions": 3,
+      "latest_total_tokens_sum": 337795552,
+      "latest_output_tokens_sum": 1555227,
+      "last_update": "2026-06-04T06:41:53.610000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-02/codex",
+      "sessions": 1,
+      "active_sessions": 1,
+      "latest_total_tokens_sum": 330710857,
+      "latest_output_tokens_sum": 1008057,
+      "last_update": "2026-06-04T06:41:37.695000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step",
+      "sessions": 7,
+      "active_sessions": 1,
+      "latest_total_tokens_sum": 188081485,
+      "latest_output_tokens_sum": 789371,
+      "last_update": "2026-06-04T06:41:35.443000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex",
+      "sessions": 16,
+      "active_sessions": 2,
+      "latest_total_tokens_sum": 162909974,
+      "latest_output_tokens_sum": 735621,
+      "last_update": "2026-06-04T06:41:25.267000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604",
+      "sessions": 1,
+      "active_sessions": 1,
+      "latest_total_tokens_sum": 146037102,
+      "latest_output_tokens_sum": 465975,
+      "last_update": "2026-06-04T06:41:44.557000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat-2",
+      "sessions": 1,
+      "active_sessions": 1,
+      "latest_total_tokens_sum": 80729947,
+      "latest_output_tokens_sum": 232302,
+      "last_update": "2026-06-04T06:41:43.205000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat",
+      "sessions": 1,
+      "active_sessions": 1,
+      "latest_total_tokens_sum": 49339130,
+      "latest_output_tokens_sum": 153329,
+      "last_update": "2026-06-04T06:41:47.370000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab",
+      "sessions": 1,
+      "active_sessions": 0,
+      "latest_total_tokens_sum": 25037857,
+      "latest_output_tokens_sum": 96250,
+      "last_update": "2026-06-03T23:02:39.384000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-01",
+      "sessions": 1,
+      "active_sessions": 0,
+      "latest_total_tokens_sum": 17814166,
+      "latest_output_tokens_sum": 76418,
+      "last_update": "2026-06-03T21:43:38.624000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-sports",
+      "sessions": 1,
+      "active_sessions": 0,
+      "latest_total_tokens_sum": 12193861,
+      "latest_output_tokens_sum": 79038,
+      "last_update": "2026-06-03T21:57:23.650000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-wuhan",
+      "sessions": 1,
+      "active_sessions": 0,
+      "latest_total_tokens_sum": 6063742,
+      "latest_output_tokens_sum": 53322,
+      "last_update": "2026-06-04T04:30:47.174000+00:00"
+    },
+    {
+      "project": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System",
+      "sessions": 5,
+      "active_sessions": 0,
+      "latest_total_tokens_sum": 4579020,
+      "latest_output_tokens_sum": 46960,
+      "last_update": "2026-06-04T06:09:56.270000+00:00"
+    }
+  ],
+  "totals": {
+    "token_count_events": 10252,
+    "sessions": 103,
+    "active_sessions": 10,
+    "latest_total_tokens_sum": 1370147394,
+    "latest_output_tokens_sum": 5416160,
+    "latest_reasoning_tokens_sum": 1259525
+  }
+}

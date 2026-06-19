@@ -1,0 +1,4 @@
+date,sessions,events,latest_total_tokens_sum,latest_output_tokens_sum,latest_reasoning_tokens_sum
+2026-06-02,8,576,58306919,274557,38311
+2026-06-03,76,5758,785899676,3423570,807896
+2026-06-04,32,3918,1252213196,4440730,914061
