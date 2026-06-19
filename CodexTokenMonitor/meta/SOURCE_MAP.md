@@ -17,6 +17,9 @@ Codex Token Monitor
 - LaunchAgent: `/Users/linzezhang/Library/LaunchAgents/local.codex-usage-monitor.dashboard.plist`
 - Logs: `/Users/linzezhang/Library/Logs/CodexUsageMonitor`
 - CodexBar install artifact: `/Users/linzezhang/Documents/Codex/2026-06-05/codexmonitor-url-token/work/codexbar-install/CodexBar-macos-universal-0.32.4.zip`
+- CodexBar support data: `/Users/linzezhang/Library/Application Support/CodexBar`
+- CodexBar app state: `/Users/linzezhang/Library/Application Support/com.steipete.codexbar`
+- CodexBar preferences: `/Users/linzezhang/Library/Preferences/com.steipete.codexbar.plist`
 
 ## Known Runtime Processes At Backup Time
 

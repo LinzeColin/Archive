@@ -89,7 +89,17 @@ USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_DRY_RUN=1 python3 check_token_usage_ale
 
 Gmail SMTP passwords are not archived. Use macOS Keychain or environment variables only on the target machine.
 
-## 6. Continue Development
+## 6. Restore CodexBar Support Data
+
+CodexBar support data is optional. Restore it only if you want to reproduce the archived CodexBar local state.
+
+```bash
+rsync -a "vendor/codexbar-support/Application Support/CodexBar" "$HOME/Library/Application Support/"
+rsync -a "vendor/codexbar-support/Application Support/com.steipete.codexbar" "$HOME/Library/Application Support/"
+cp "vendor/codexbar-support/Preferences/com.steipete.codexbar.plist" "$HOME/Library/Preferences/"
+```
+
+## 7. Continue Development
 
 Primary source directory:
 

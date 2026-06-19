@@ -77,3 +77,13 @@
 ./source/codex-usage-monitor/tests/test_parser_metrics.py
 ./source/codex-usage-monitor/uninstall-launch-agent.sh
 ./vendor/CodexBar-macos-universal-0.32.4.zip
+./vendor/codexbar-support/Application Support/CodexBar/usage-history.jsonl
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Application Support__com.steipete.codexbar__history__codex.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Application Support__com.steipete.codexbar__openai-dashboard.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Group Containers__Y5PE65HELJ.com.steipete.codexbar__widget-snapshot.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Preferences__com.steipete.codexbar.plist
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/manifest.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/codexbar-lifecycle-state.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/history/codex.json
+./vendor/codexbar-support/Application Support/com.steipete.codexbar/openai-dashboard.json
+./vendor/codexbar-support/Preferences/com.steipete.codexbar.plist

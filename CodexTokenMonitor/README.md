@@ -13,6 +13,7 @@ Target repository path: `LinzeColin/Archive/CodexTokenMonitor`
 - `config/`: LaunchAgent and menu-plugin inventory needed to reinstall local services.
 - `data/usage.sqlite.gz`: consistent SQLite cache snapshot exported with `sqlite3 .backup`, plus schema, integrity check, and table counts.
 - `vendor/CodexBar-macos-universal-0.32.4.zip`: archived CodexBar install package used by the alert workflow.
+- `vendor/codexbar-support/`: CodexBar Application Support and preference files present at backup time.
 - `history/rollout_summaries/`: selected Codex usage-token-alert rollout summaries.
 - `CHECKSUMS.sha256` and `meta/file_inventory.relative.txt`: integrity and inventory files.
 

@@ -13,6 +13,7 @@
 | xbar/SwiftBar plugin state | `config/menu_plugins/` | Inventory and symlink target included |
 | app symlinks in `/Applications`, `~/Applications`, `~/Desktop`, `~/Downloads` | `meta/app_symlinks.txt` | Inventory included; app bundle source included under `source` |
 | CodexBar installer zip | `vendor/CodexBar-macos-universal-0.32.4.zip` | Included |
+| CodexBar Application Support and preferences | `vendor/codexbar-support/` | Included after secret scan |
 | selected usage-token-alert rollout summaries | `history/rollout_summaries/` | Included |
 
 ## Deliberate Exclusions
