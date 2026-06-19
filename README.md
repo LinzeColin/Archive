@@ -2,9 +2,8 @@
 
 Archived and reference project hub for LinzeColin.
 
-This repository is a parent index that keeps archived/reference repositories
-together as git submodules. The original repositories remain independent and
-keep their own history, issues, settings, and release flow.
+This repository keeps archived/reference project code together as real
+directories. It is no longer a submodule-only index.
 
 ## Projects
 
@@ -16,27 +15,19 @@ keep their own history, issues, settings, and release flow.
 ## Clone
 
 ```bash
-git clone --recurse-submodules git@github.com:LinzeColin/Archive.git
+git clone git@github.com:LinzeColin/Archive.git
 ```
 
-If already cloned:
+## Update
 
 ```bash
-git submodule update --init --recursive
-```
-
-## Update submodule pointers
-
-```bash
-git submodule update --remote --merge
 git status
-git add .gitmodules COM1005 Linear-Regression-Live-Series
-git commit -m "Update archive submodule pointers"
+git add .
+git commit -m "Update Archive"
 git push
 ```
 
 ## Rule
 
-Do not move project source code into this parent repository unless a future
-monorepo migration is explicitly approved. This parent repository should remain
-a clean navigation and orchestration layer.
+Treat this repository as the source-level archive hub. Keep archived project
+directories readable and self-contained.
