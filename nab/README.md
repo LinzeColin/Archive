@@ -12,6 +12,13 @@
 
 The static source is the exact byte-for-byte migration of the former CodexProject `nab.html` at task source lock `cfee2cea2f1851cd192406ae70fc0aeef72ed996`.
 
+## Verified deployment
+
+- Deployed source commit: `10129d6c40883941e0845cb15222a46b7b2e3dc9`
+- Deployment ID: `2dbbeb7f-92d0-4ad1-8bc1-36a4c1b71004`
+- Version ID: `ef260ee4-ca7e-4783-adc9-d9297a77ecb5`
+- `https://nab.linzezhang35.workers.dev` and `https://nab.linzezhang.com` both returned HTTP 200 with the `NAB IR Roadshow` title on 2026-07-10.
+
 ## Validate and deploy
 
 ```bash
@@ -31,4 +38,3 @@ The deployment command requires local Wrangler OAuth or a correctly scoped Cloud
 ## Rollback
 
 Use Cloudflare deployment history to restore the previous Worker version, or revert the bounded Archive commit. Do not force-push.
-
