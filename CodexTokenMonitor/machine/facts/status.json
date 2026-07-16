@@ -1,0 +1,11 @@
+{
+  "version": "archive-20260619",
+  "stage": "已归档",
+  "phase": "可移植备份",
+  "task": "整套本机监控已归档为可移植、可恢复的备份",
+  "real_progress": "本机监控系统（仪表盘 + 命令行 + 告警自动化）已完整运行，并归档为可移植备份；运行时令牌、日志、字节码与凭证已按安全边界排除。",
+  "report_grade": "归档含源码、`SQLite` 快照、恢复步骤与校验清单",
+  "business_verdict": "作为本机 Codex 用量监控的可恢复归档就位。",
+  "evidence_status": "DECLARED",
+  "rendered_at": "2026-07-16"
+}

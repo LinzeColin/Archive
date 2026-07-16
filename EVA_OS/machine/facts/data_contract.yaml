@@ -1,0 +1,15 @@
+{
+  "data_flow": "研究、回测与账本数据在本机流转，产出报告与验证证据；系统只读、不接实盘。归档保留历史材料，机器真相以旧 `docs/governance/` 历史记录为准。",
+  "entities": [
+    {
+      "entity": "研究/回测结果",
+      "keys": [
+        "`result_id`",
+        "`inputs`",
+        "`evidence`",
+        "`as_of`"
+      ],
+      "pk": "`result_id`"
+    }
+  ]
+}

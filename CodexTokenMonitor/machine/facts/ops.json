@@ -1,0 +1,19 @@
+{
+  "troubleshooting": [
+    {
+      "symptom": "恢复后命令不可执行",
+      "cause": "脚本缺可执行权限",
+      "fix": "对 `codex-usage` 与相关脚本执行 `chmod +x`。"
+    },
+    {
+      "symptom": "测试失败",
+      "cause": "运行环境缺依赖或路径不符",
+      "fix": "先 `python3 -m py_compile`，再 `python3 -m unittest discover -s tests`。"
+    },
+    {
+      "symptom": "看不到用量",
+      "cause": "本机服务未装或令牌未在本机重建",
+      "fix": "按 `RESTORE.md` 重装 `LaunchAgent` 与菜单栏插件，并在本机重建访问令牌。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "FEAT-CTM-001",
+    "name": "用量监控仪表盘（前端）",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-002",
+    "name": "命令行 `codex-usage`（即时查看用量）",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-003",
+    "name": "token 用量告警自动化",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-004",
+    "name": "`SQLite` 用量缓存一致性快照",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-005",
+    "name": "CodexBar 菜单栏集成",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-006",
+    "name": "LaunchAgent 本地后台服务",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-007",
+    "name": "菜单栏插件（xbar/SwiftBar）状态",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-008",
+    "name": "一键恢复流程",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-CTM-009",
+    "name": "校验与文件清单（`CHECKSUMS.sha256`）",
+    "status": "archived",
+    "evidence": "declared"
+  }
+]

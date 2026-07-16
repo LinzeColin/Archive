@@ -1,0 +1,14 @@
+{
+  "data_flow": "本机监控采集 Codex 用量写入 `SQLite` 缓存；仪表盘与命令行读取展示；告警自动化按阈值触发本机通知。归档只保留一致性快照与源码，不含运行时机密。",
+  "entities": [
+    {
+      "entity": "用量记录",
+      "keys": [
+        "`project`",
+        "`usage`",
+        "`timestamp`"
+      ],
+      "pk": "`timestamp`"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "运行边界": {
+      "value": "禁止实盘 / 禁止下单 / 禁止存密码",
+      "intent": "研究平台安全红线。",
+      "where": "`README.md`"
+    },
+    "活跃入口": {
+      "value": "PFI_OS",
+      "intent": "归档后新工作转移到的产品。",
+      "where": "`LinzeColin/CodexProject/PFI`"
+    }
+  }
+}

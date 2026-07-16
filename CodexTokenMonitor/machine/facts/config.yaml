@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "恢复入口": {
+      "value": "`source/codex-usage-monitor`",
+      "intent": "可运行源码、仪表盘、命令行与测试所在。",
+      "where": "归档目录"
+    },
+    "用量快照": {
+      "value": "`data/usage.sqlite.gz`",
+      "intent": "一致性 `SQLite` 备份，恢复用量历史。",
+      "where": "归档目录"
+    },
+    "安全排除": {
+      "value": "运行时令牌 / 日志 / 字节码 / 凭证",
+      "intent": "归档绝不含机密；恢复时在本机重建。",
+      "where": "`BACKUP_SCOPE.md`"
+    }
+  }
+}

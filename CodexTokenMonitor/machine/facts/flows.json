@@ -1,0 +1,22 @@
+{
+  "main": [
+    {
+      "step": "1",
+      "who": "本人",
+      "do": "克隆归档仓并进入 `source/codex-usage-monitor`",
+      "out": "取得可运行源码"
+    },
+    {
+      "step": "2",
+      "who": "本人",
+      "do": "编译并跑测试（`py_compile` 与 `unittest`）",
+      "out": "确认可运行"
+    },
+    {
+      "step": "3",
+      "who": "本人",
+      "do": "运行 `codex-usage now` 查看用量",
+      "out": "即时用量与告警恢复"
+    }
+  ]
+}

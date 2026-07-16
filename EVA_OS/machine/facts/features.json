@@ -1,0 +1,74 @@
+[
+  {
+    "id": "FEAT-EVA-001",
+    "name": "量化研究与回测主入口（QuantLab）",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-002",
+    "name": "研究总线",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-003",
+    "name": "持仓管理",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-004",
+    "name": "报告产出",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-005",
+    "name": "独立验证",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-006",
+    "name": "跨系统证据流",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-007",
+    "name": "账本：账单导入",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-008",
+    "name": "账本：分类与人工复核",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-009",
+    "name": "账本：周期报告与仪表盘",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-010",
+    "name": "账本：标签库与行为分析",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-011",
+    "name": "账本：数据可信与对账",
+    "status": "archived",
+    "evidence": "declared"
+  },
+  {
+    "id": "FEAT-EVA-012",
+    "name": "只读下游访问",
+    "status": "archived",
+    "evidence": "declared"
+  }
+]

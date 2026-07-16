@@ -1,0 +1,14 @@
+{
+  "troubleshooting": [
+    {
+      "symptom": "需要活跃开发或新功能",
+      "cause": "EVA_OS 已归档",
+      "fix": "到活跃入口 PFI_OS 进行；EVA_OS 只作历史归档，不再更新。"
+    },
+    {
+      "symptom": "要查历史模型/参数/证据",
+      "cause": "机器真相在旧 `docs/governance/` 历史记录",
+      "fix": "归档目录保留历史材料供查阅；新工作以 PFI_OS 为准。"
+    }
+  ]
+}

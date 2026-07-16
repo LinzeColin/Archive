@@ -1,0 +1,11 @@
+{
+  "version": "archive-20260626",
+  "stage": "已归档",
+  "phase": "被 PFI_OS 取代",
+  "task": "EVA_OS 历史材料已归档；活跃产品入口转为 PFI_OS",
+  "real_progress": "QuantLab 已形成个人日常使用的完整研究闭环（研究、分析、回测、实验记录）；系统于 2026-06-26 归档，活跃入口迁至 PFI_OS。",
+  "report_grade": "研究闭环完整；结果要求准确、可验证、可追溯",
+  "business_verdict": "作为被 PFI_OS 取代的量化研究平台归档保存。",
+  "evidence_status": "DECLARED",
+  "rendered_at": "2026-07-16"
+}
