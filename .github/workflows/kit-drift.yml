@@ -1,0 +1,29 @@
+name: Kit Drift
+
+# 单独一个 workflow，不并进 dual-plane.yml —— 其余仓里那个文件的 sha256 被别的
+# 契约钉着（Governance 的迁移适配器血缘、MetaDatabase 的 ABD S00 复审），
+# 本仓虽无此约束，但保持同一形状，免得以后有人照着改错仓。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kit-drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: kit 副本必须与 Governance 唯一真源一致
+        run: |
+          set -euo pipefail
+          SCRIPT="machine/tools/check_kit_drift.py"
+          [ -f "$SCRIPT" ] || { echo "FAIL: 缺少 $SCRIPT"; exit 1; }
+          python3 "$SCRIPT" --root .
