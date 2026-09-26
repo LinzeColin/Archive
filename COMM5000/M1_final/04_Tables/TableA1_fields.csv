@@ -1,0 +1,22 @@
+﻿Table A1  The 20 fields in the dataset
+Field,Type,Unit or values,Note
+Brand,Text,13 brands after trimming,"Luxury = Audi, BMW, Mercedes"
+Model,Text,"39 models, each with one brand",
+Year,Numeric,2000 to 2024,Year + Registration_Age = 2025
+Mileage_kmpl,Numeric,km per litre,"Fuel efficiency, not distance"
+Engine_CC,Numeric,cc,
+Horsepower,Numeric,hp,
+Fuel_Type,Text,"CNG, Diesel, Electric, Hybrid, Petrol, Unknown",Labels cleaned
+Transmission,Text,"Automatic, Manual, Unknown",
+Owner_Type,Text,"First, Second, Third, Fourth+",
+Color,Text,"7 colours, Unknown",
+City,Text,"8 cities, Unknown",
+Kms_Driven,Numeric,km,"Usage; cap 1,000,000 for analysis"
+Insurance_Valid,Binary,1 = valid,84.9% valid
+Service_History,Binary,1 = records available,75.1% available
+Accidents,Numeric,"count, 0 to 5",
+Tax_Paid,Binary,1 = paid,90.0% paid
+Number_of_Doors,Numeric,"2, 4 or 5",
+Seats,Numeric,"2, 4, 5 or 7",
+Registration_Age,Numeric,"years, 1 to 25","About 40,000 cars at each age"
+Car_Price,Numeric,INR,Target variable

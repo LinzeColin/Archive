@@ -1,0 +1,25 @@
+﻿"Table 2  Numerical summaries for all listings, luxury (Audi, BMW, Mercedes) and non-luxury listings"
+Variable,Group,n,Mean,Median,Modeᶜ,SD,Min,Max
+Car_Price (INR),All,"1,005,000","1,015,107","673,522","275,000","1,147,780","8,043","51,993,222"
+,Luxury,"232,172","1,012,738","672,614","325,000","1,130,612","11,017","41,975,979"
+,Non-luxury,"772,828","1,015,818","673,731","275,000","1,152,888","8,043","51,993,222"
+Registration_Age (years),All,"1,005,000",13.0,13.0,6.0,7.2,1.0,25.0
+,Luxury,"232,172",13.0,13.0,18.0,7.2,1.0,25.0
+,Non-luxury,"772,828",13.0,13.0,19.0,7.2,1.0,25.0
+Kms_Driven (km)ᵃ,All,"998,866","196,142","152,610","95,000","150,624","3,216","999,999"
+,Luxury,"230,726","196,322","153,009","95,000","150,612","3,216","999,919"
+,Non-luxury,"768,140","196,089","152,494","85,000","150,628","3,546","999,999"
+Engine_CC (cc)ᵇ,All,"1,004,936","1,506","1,494",875,408,304,"2,720"
+,Luxury,"232,158","1,507","1,495",875,409,304,"2,664"
+,Non-luxury,"772,778","1,506","1,494",875,408,305,"2,720"
+Horsepower (hp)ᵇ,All,"1,004,957",120.5,119.8,62.5,38.7,4.6,235.2
+,Luxury,"232,159",120.5,119.8,57.5,38.8,7.6,234.0
+,Non-luxury,"772,798",120.5,119.8,62.5,38.7,4.6,235.2
+Mileage_kmpl (km/l)ᵇ,All,"1,004,960",18.00,18.00,11.25,4.18,5.60,30.32
+,Luxury,"232,164",18.00,17.99,11.25,4.17,5.70,27.11
+,Non-luxury,"772,796",18.01,18.00,11.25,4.18,5.60,30.32
+Accidents (count),All,"1,005,000",0.30,0.00,0.00,0.55,0.00,5.00
+,Luxury,"232,172",0.30,0.00,0.00,0.55,0.00,5.00
+,Non-luxury,"772,828",0.30,0.00,0.00,0.55,0.00,5.00
+
+"Source: calculated from Stable Space (2026). ᵃ Rows with Kms_Driven ≤ 1,000,000. ᵇ Zero values and values beyond the mean ± 3 SD excluded. ᶜ Exact most frequent value for Registration_Age and Accidents. No exact value repeats for the continuous variables, so the midpoint of the most frequent class is shown (classes: price 50,000; km 10,000; cc 50; hp 5; km/l 0.5). Min and Max of the technical fields are isolated values (Table 1). SD is the sample standard deviation."

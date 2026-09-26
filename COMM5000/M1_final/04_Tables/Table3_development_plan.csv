@@ -1,0 +1,7 @@
+﻿Table 3  Development plan
+Question,Stage,Method,Output
+Is vehicle age associated with price?,Milestone 2,H0: the correlation of age and log price is zero; H1: it is not. Compare age bands,Test result and 95% confidence interval
+How strongly is usage associated with price?,Milestone 2,H0: the slope of log price on log kilometres is zero; H1: it is not. Compare the two segments,Estimated slope with confidence interval
+Is there a luxury premium?,Milestone 2,H0: mean log price is equal for the two segments; H1: luxury is higher. Two-sample t-test,Test result and 95% confidence interval
+Can the fields predict price?,Final report,"Multiple regression on log price; fit on 80% of rows, check on the other 20%",Typical error against the median benchmark; price ranges
+Do the choices in Table 1 matter?,Both,"Repeat key results without Unknown rows, extreme values or possible duplicates",Conclusions kept only if unchanged
