@@ -1,0 +1,8 @@
+﻿Table 2  Variable types and how each type is summarised
+Type,Fields,Summaries used
+"Numeric, continuous","Car_Price, Kms_Driven, Engine_CC, Horsepower, Mileage_kmpl","Mean, median, modal class, SD, min, max, quartiles; correlation with price"
+"Numeric, discrete","Registration_Age, Year, Accidents, Number_of_Doors, Seats","The same, with the exact mode; count of each value"
+Categorical,"Brand, Model, Fuel_Type, Transmission, Owner_Type, Color, City","Count and share of each category, Unknown kept; median price per category"
+"Binary (1 = yes, 0 = no)","Insurance_Valid, Service_History, Tax_Paid","Share of 1s; here a 0 means “no”, not a missing value"
+
+"Source: Stable Space (2026, cell B5). Results are in Tables 3 and A1 to A3."

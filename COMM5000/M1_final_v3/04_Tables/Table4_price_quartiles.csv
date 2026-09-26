@@ -1,0 +1,7 @@
+﻿Table 4  Car_Price quartiles by segment (INR)
+Group,n,Q1,Median,Q3,IQR
+All,"1,005,000","365,843","673,522","1,240,714","874,871"
+Luxury,"232,172","365,600","672,614","1,239,750","874,150"
+Non-luxury,"772,828","365,894","673,731","1,241,027","875,133"
+
+Source: calculated from Stable Space (2026). Quartiles as Excel PERCENTILE.INC; IQR = Q3 − Q1.

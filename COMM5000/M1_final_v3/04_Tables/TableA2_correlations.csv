@@ -1,0 +1,16 @@
+﻿Table A2  Pearson correlation between Car_Price and each numeric field
+Field,All,Luxury,Non-luxury
+"Kms_Driven (≤ 1,000,000 km)",−0.0510,−0.0520,−0.0507
+Horsepower,+0.0328,+0.0362,+0.0318
+Engine_CC,+0.0264,+0.0285,+0.0258
+Tax_Paid,+0.0017,+0.0013,+0.0018
+Number_of_Doors,+0.0007,+0.0018,+0.0003
+Mileage_kmpl,+0.0002,−0.0008,+0.0005
+Registration_Age,+0.0001,−0.0001,+0.0001
+Year,−0.0001,+0.0001,−0.0001
+Insurance_Valid,−0.0002,+0.0044,−0.0016
+Service_History,−0.0003,+0.0002,−0.0004
+Accidents,−0.0003,−0.0007,−0.0002
+Seats,−0.0007,−0.0011,−0.0006
+
+Source: calculated from Stable Space (2026). Engine_CC and Horsepower are strongly correlated with each other (r = 0.81).
