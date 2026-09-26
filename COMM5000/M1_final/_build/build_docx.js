@@ -27,7 +27,7 @@ const NONE = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
 function cell(text, { width, bold = false, fill, align = AlignmentType.LEFT, top, bottom, size = 8.5, color = INK }) {
   return new TableCell({
     width: { size: width, type: WidthType.DXA }, verticalAlign: VerticalAlign.TOP,
-    margins: { top: 20, bottom: 20, left: 70, right: 70 },
+    margins: { top: 30, bottom: 30, left: 70, right: 70 },
     shading: fill ? { type: ShadingType.CLEAR, color: 'auto', fill } : undefined,
     borders: { top: top || NONE, bottom: bottom || NONE, left: NONE, right: NONE },
     children: [new Paragraph({ alignment: align, spacing: { before: 0, after: 0, line: 240 }, children: [new TextRun({ text: String(text), bold, font: FONT, size: PT(size), color })] })],

@@ -26,18 +26,18 @@ def up(x, d=1): import math; return math.ceil(x * 10**d - 1e-9) / 10**d
 
 BODY = [
 ('h1', '1  Introduction'),
-('p', "India’s used car market now outsells the new car market, yet price appraisal still relies heavily on manual valuation (UNSW Business School 2026, p. 4). Our client, an online marketplace, needs a fast and consistent price estimate at appraisal to support instant cash offers, spot mispriced listings and forecast stock turnover. It first needs to know what is linked to price and how reliable the data are."),
+('p', "India’s used car market now outsells the new car market, yet price appraisal still relies heavily on manual valuation (UNSW Business School 2026, p. 4). Our client, an online marketplace, needs a fast and consistent price estimate at appraisal to support instant cash offers, spot mispriced listings and forecast stock turnover. An offer set too high erodes margin and one set too low loses the seller, so the client needs a typical price and its likely spread."),
 ('p', f"This report explores the {n0(R['n_all'])} listings in the course dataset (Stable Space 2026) against the two project objectives (UNSW Business School 2026, p. 4): how Car_Price relates to the other variables, including brand segment, and how the methods could be improved. Section 2 presents the analysis and Section 3 the findings and plan."),
 ('h1', '2  Data Summaries and Descriptive Statistics'),
 ('h2', '2.1  Data preparation'),
-('p', f"The analysis uses the workbook as randomised on 26 September 2026 (stamp in cell B6 of the Dataset sheet), with every number calculated by Excel formulas. Labels were corrected only where the intended category was obvious, and no listing was deleted (Table 1). ‘Unknown’ entries were kept as a category because they affect {unk_share:.1f}% of rows and cannot be recovered. No cell is blank because the macro fills gaps (Stable Space 2026) and sets negative draws to zero, so technical zeros were treated as missing."),
+('p', f"The analysis uses the workbook as randomised on 26 September 2026 (Dataset sheet, cell B6), with every number calculated by Excel formulas. Labels were corrected only where the intended category was obvious, and no listing was deleted (Table 1). ‘Unknown’ entries were kept as a category because they affect {unk_share:.1f}% of rows and cannot be recovered. No cell is blank because the macro fills gaps (Stable Space 2026) and sets negative draws to zero, so technical zeros were treated as missing."),
 ('p', f"The randomising macro (Franch 2026, slide 7) rewrites five numeric columns in its code, so repeated listings no longer look identical. Matching rows on the other 15 fields gives {n0(dp['obs_pairs'])} identical pairs, about {round(dp['excess'], -1):,.0f} more than the {n0(dp['exp_pairs'])} expected by chance. These possible repeats cannot be told apart from chance matches, so they were flagged but kept. Keeping one row per match moves the median by only {abs(drop_first_med):.2f}% (Table A4)."),
-('p', f"The guide treats more than 1,000,000 km as implausible (UNSW Business School 2026, p. 7). These {n0(R['km_over_1m'])} listings are close to the {n0(R['km_lognorm']['expected_over_1m'])} expected from a log-normal fit, so they may be a genuine tail, but were left out of the usage analysis. A few isolated values, such as {E['hp_min_kept']:.1f} hp or a price of INR {n0(D['All']['Car_Price']['min'])}, are implausible for a car but too few to matter (Table 1)."),
+('p', f"The guide treats more than 1,000,000 km as implausible (UNSW Business School 2026, p. 7). These {n0(R['km_over_1m'])} listings are close to the {n0(R['km_lognorm']['expected_over_1m'])} expected from a log-normal fit, so they may be a genuine tail, but were left out of the usage analysis. A few isolated values, such as {E['hp_min_kept']:.1f} hp, are implausible but too few to matter (Table 1)."),
 ('table', 'T1'),
 ('h2', '2.2  The variables'),
 ('p', "Table A1 describes all 20 fields. Car_Price is in Indian rupees (INR), and Year and Registration_Age carry the same information. Registration_Age is spread evenly over 1 to 25 years, and Engine_CC, Horsepower and Mileage_kmpl are almost flat across their main range, so their modes in Table 2 are not typical values."),
 ('h2', '2.3  Distribution of Car_Price'),
-('p', f"Car_Price is strongly right-skewed (Table 2; skewness {D['All']['Car_Price']['skew']:.1f}). The long right tail lifts the mean of INR {n0(D['All']['Car_Price']['mean'])} to {R['mean_over_median_pct']:.1f}% above the median of INR {n0(D['All']['Car_Price']['median'])}, and {R['share_below_mean']*100:.1f}% of listings sit below the mean (Figure 1a). The median and interquartile range (INR {n0(D['All']['Car_Price']['q1'])} to {n0(D['All']['Car_Price']['q3'])}) therefore describe a typical car better and should be reported to the client. Log price is almost symmetric (skewness {R['logprice']['skew']:.3f}; Figure 1b), which suits later modelling."),
+('p', f"Car_Price is strongly right-skewed (Table 2; skewness {D['All']['Car_Price']['skew']:.1f}). The long right tail lifts the mean of INR {n0(D['All']['Car_Price']['mean'])} to {R['mean_over_median_pct']:.1f}% above the median of INR {n0(D['All']['Car_Price']['median'])}, and {R['share_below_mean']*100:.1f}% of listings sit below the mean (Figure 1a). The median and interquartile range (INR {n0(D['All']['Car_Price']['q1'])} to {n0(D['All']['Car_Price']['q3'])}) therefore describe a typical car better and should be reported to the client. Log price is almost symmetric (skewness {R['logprice']['skew']:.3f}; Figure 1b)."),
 ('table', 'T2'),
 ('fig', 'F1'),
 ('h2', '2.4  Price, vehicle age and usage'),
@@ -47,13 +47,15 @@ BODY = [
 ('fig', 'F3'),
 ('h2', '2.5  Brand segment and other variables'),
 ('p', f"Luxury listings carry no price premium. Their mean price is {abs(S['mean_diff_pct']):.2f}% lower than for non-luxury cars and their median {abs(S['median_diff_pct']):.2f}% lower, trivial next to a price SD of INR {D['All']['Car_Price']['sd']/1e6:.2f} million. The 13 brand medians lie within {R['brand_median_range_pct']:.2f}% of each other with overlapping intervals (Figure 4a)."),
-('p', f"Among the other numeric fields, only Horsepower (+{CO['Horsepower']['All']['pearson']:.3f}) and Engine_CC (+{CO['Engine_CC']['All']['pearson']:.3f}) exceed ±{up(max(max_other.values()), 3):.3f} in any segment (Figure 4b; Table A2). Other category medians differ by at most {cat_max:.2f}%, and the {MO['spread']:.1f}% spread across the {MO['k']} models is about what chance gives (Table A3). The conclusions hold without Unknown rows, extreme prices or possible duplicates (Table A4)."),
+('p', f"Among the other numeric fields, only Horsepower (+{CO['Horsepower']['All']['pearson']:.3f}) and Engine_CC (+{CO['Engine_CC']['All']['pearson']:.3f}) exceed ±{up(max(max_other.values()), 3):.3f} in any segment (Figure 4b; Table A2). Other category medians differ by at most {cat_max:.2f}%, and the {MO['spread']:.1f}% spread across the {MO['k']} models is about what chance gives (Figure 5; Table A3). The conclusions hold without Unknown rows, extreme prices or possible duplicates (Table A4)."),
 ('fig', 'F4'),
+('fig', 'F5'),
 ('h1', '3  Conclusion and Development Plan'),
 ('h2', '3.1  Findings'),
-('p', f"Price should be described by its median and modelled on a log scale. Usage has a weak negative association with price, Horsepower and Engine_CC weaker positive ones, and age, brand segment, model and the other fields none of practical size. A luxury premium in cash offers is therefore not supported. Any model must also handle Unknown fields ({unk_share:.0f}% of rows) and possible duplicates."),
+('p', f"Price should be described by its median and modelled on a log scale. Usage has a weak negative association with price, Horsepower and Engine_CC weaker positive ones, and age, brand segment, model and the other fields none of practical size. A luxury premium in cash offers is therefore not supported. Table 4 sets out recommendations for the client, with their evidence and risks."),
+('table', 'T4'),
 ('h2', '3.2  Limitations and a better approach'),
-('p', f"The data are simulated for assessment (UNSW Business School 2026, p. 4), and the macro’s code regenerates Mileage_kmpl, Engine_CC, Horsepower, Kms_Driven and Car_Price without reference to brand or age. This probably explains the missing associations. Each summary also looks at one variable at a time. A straight line of log price on log kilometres (Excel SLOPE and INTERCEPT), fitted and checked on the same listings, misses the listed price by a median of {R['km_logmodel']['mdape']:.1f}%, barely better than quoting the overall median ({R['km_logmodel']['mdape_median_all']:.1f}%). On that line, 10% more kilometres means a price about {abs(per10):.1f}% lower. Offers based on kilometres alone would be unreliable. A better approach would fit a multiple regression on log price, check it on a hold-out sample and quote a price range. The client should also record inspection condition and trim level, and validate any model on its own final sale prices."),
+('p', f"The data are simulated for assessment (UNSW Business School 2026, p. 4), and the macro’s code regenerates Mileage_kmpl, Engine_CC, Horsepower, Kms_Driven and Car_Price without reference to brand or age. This probably explains the missing associations. Each summary also looks at one variable at a time. A straight line of log price on log kilometres (Excel SLOPE and INTERCEPT), fitted and checked on the same listings, misses the listed price by a median of {R['km_logmodel']['mdape']:.1f}%, barely better than quoting the overall median ({R['km_logmodel']['mdape_median_all']:.1f}%). On that line, 10% more kilometres means a price about {abs(per10):.1f}% lower. A better approach would fit a multiple regression on log price, check it on a hold-out sample and quote a price range. Beyond this project, which may use only the supplied fields (Franch 2026, slide 3), the client could collect condition, trim and final sale price (Table 4)."),
 ('h2', '3.3  Development plan'),
 ('p', f"Milestone 2 will test the hypotheses in Table 3. The final report will then fit and validate the regression, allowing for the strong Engine_CC–Horsepower correlation (r = {R['corr_engine_hp']:.2f})."),
 ('table', 'T3'),
@@ -84,6 +86,27 @@ T1 = {'title': 'Table 1  Data problems and how they were treated', 'widths': [27
  ],
  'note': 'Source: calculated from Stable Space (2026). A group of k identical rows gives k(k − 1)/2 pairs and k − 1 repeat rows. The chance count multiplies, over 13 fields, the probability that two random rows share a category (sum of squared shares); Brand and Year are left out because Model and Registration_Age already fix them.'}
 
+T4 = {'title': 'Table 4  Recommendations for the client', 'widths': [27, 27, 24, 22],
+ 'head': ['Recommendation', 'Evidence', 'Constraints and risks', 'Implication'],
+ 'rows': [
+  ['Quote each offer as a median-based price with a range, not a single figure', f"Skewness {D['All']['Car_Price']['skew']:.1f}; typical error {R['km_logmodel']['mdape']:.0f}% for the kilometre line (Table 2; Section 3.2)", 'Ranges may look less precise to sellers', 'Clearer offers; a wide range signals a car that needs an appraiser'],
+  ['Use kilometres only as a small adjustment', f"r = {A['km']['pearson']:.3f}; about {abs(per10):.1f}% lower price per 10% more km; wide spread within each decile (Figure 2d)", 'The signal is weak and may differ in real sales', 'Kilometres should not drive an offer on their own'],
+  ['Apply no luxury premium and no separate segment pricing', f"Luxury mean {S['mean_diff_pct']:.2f}% (95% CI {ci_lo:.2f}% to +{ci_hi:.2f}%); brand medians within {R['brand_median_range_pct']:.2f}% (Figure 4a)", 'The data are simulated; a real market may show a premium', 'Re-test on the client’s own sales before segment pricing or targeted marketing'],
+  ['Send listings priced outside the 5th to 95th percentile of their usage decile to an appraiser', f"The bands in Table A5 flag {E['band_out_share']*100:.1f}% of listings", 'Needs appraiser time; bands must be refreshed as prices move', f"Quicker decisions for about {100-E['band_out_share']*100:.0f}% of listings; effort goes to unusual prices"],
+  ['Tighten data entry: fixed lists for brand and fuel, required fields, no zero specifications, checks for repeats and for more than 1,000,000 km', f"Table 1: {n0(R['brand_relabelled'])} brand and {n0(R['fuel_relabelled'])} fuel labels fixed; {n0(R['rows_any_unknown'])} rows with Unknown; about {round(dp['excess'], -1):,.0f} excess repeat pairs", 'Form changes take time; stricter checks may slow listing', 'Cleaner data and fewer Unknown values for later models'],
+  ['Beyond this project, collect condition, trim and final sale price', 'The supplied fields explain little of price (Section 3.2)', 'This project may use only the supplied fields (Franch 2026, slide 3); collection has a cost', 'Future models can target sale prices, not asking prices'],
+  ['Automate offers only after a hold-out test and a trial on completed sales', f"In-sample error {R['km_logmodel']['mdape']:.1f}% against {R['km_logmodel']['mdape_median_all']:.1f}% for the overall median", 'Delays automation', 'Avoids systematic over- or under-offers'],
+ ]}
+
+def ta5():
+    out = []
+    for b in E['km_bands']:
+        out.append([f"D{b['d']}", f"{n0(b['lo'])} to {n0(b['hi'])}", n0(b['n'])] + [n0(x) for x in b['q']])
+    return out
+TA5 = {'title': 'Table A5  Car_Price bands by Kms_Driven decile (INR; listings with Kms_Driven ≤ 1,000,000)', 'widths': [9, 24, 11, 11, 11, 12, 11, 11],
+ 'head': ['Decile', 'Kms_Driven (km)', 'n', 'P5', 'Q1', 'Median', 'Q3', 'P95'], 'rows': ta5(), 'num_from': 2,
+ 'note': f"Source: calculated from Stable Space (2026). Listings below P5 or above P95 of their own decile make up {E['band_out_share']*100:.1f}% of the total (manual-check rule in Table 4)."}
+
 DV = [('Car_Price', 'Car_Price (INR)', 0), ('Registration_Age', 'Registration_Age (years)', 1), ('Kms_c', 'Kms_Driven (km)ᵃ', 0), ('Engine_CC_c', 'Engine_CC (cc)ᵇ', 0),
       ('Horsepower_c', 'Horsepower (hp)ᵇ', 1), ('Mileage_kmpl_c', 'Mileage_kmpl (km/l)ᵇ', 2), ('Accidents', 'Accidents (count)', 2)]
 def t2rows():
@@ -104,7 +127,6 @@ T3 = {'title': 'Table 3  Development plan', 'widths': [24, 11, 38, 27],
   ['How strongly is usage associated with price?', 'Milestone 2', 'H0: the slope of log price on log kilometres is zero; H1: it is not. Compare the two segments', 'Estimated slope with confidence interval'],
   ['Is brand segment associated with price?', 'Milestone 2', 'H0: mean log price is equal for the two segments; H1: it differs. Two-sample t-test', 'Test result and 95% confidence interval'],
   ['Can the fields predict price?', 'Final report', 'Multiple regression on log price; fit on 80% of rows, check on the other 20%', 'Typical error against the median benchmark; price ranges'],
-  ['Which listings need a manual check now?', 'Now', 'Compare each listing’s price with the interquartile range for its usage decile (Figure 2d)', 'Listings outside the range sent for manual appraisal'],
   ['Do the choices in Table 1 matter?', 'Both', 'Repeat key results without Unknown rows, extreme values or possible duplicates', 'Conclusions kept only if unchanged'],
  ]}
 
@@ -156,15 +178,15 @@ def ta4():
     return out
 TA4 = {'title': 'Table A4  Sensitivity of the main results to the cleaning choices', 'widths': [31, 12, 14, 12, 12, 19], 'head': ['Scenario', 'Rows', 'Median price', 'r (age)', 'r (km)', 'Luxury median gap'], 'rows': ta4(), 'num_from': 1,
  'note': 'Source: calculated from Stable Space (2026). The duplicate scenario uses a sorted copy holding only price and segment.'}
-APPX = ['TA1', 'TA2', 'TA3', 'TA4']
-TABLES = {'T1': T1, 'T2': T2, 'T3': T3, 'TA1': TA1, 'TA2': TA2, 'TA3': TA3, 'TA4': TA4}
-for _t in (TA1, TA2, TA3, TA4): _t['font'] = 8
+APPX = ['TA1', 'TA2', 'TA3', 'TA4', 'TA5']
+TABLES = {'T1': T1, 'T2': T2, 'T3': T3, 'T4': T4, 'TA5': TA5, 'TA1': TA1, 'TA2': TA2, 'TA3': TA3, 'TA4': TA4}
 
 FIGS = {
- 'F1': ('fig/Figure1_price_distribution.png', f"Figure 1  Distribution of Car_Price (n = {n0(R['n_all'])}). (a) Raw scale in INR 50,000 classes; the {E['share_over_5m']*100:.1f}% of listings above INR 5 million are not shown. (b) Log scale by segment. M = million, k = thousand. Source: calculated from Stable Space (2026).", 15.5),
- 'F2': ('fig/Figure2_price_age_usage.png', 'Figure 2  Car_Price against Registration_Age (a, b) and Kms_Driven (c, d). (a) and (c) Random samples of 5,000 listings (orange = luxury, blue = non-luxury); ages in (a) are spread by up to 0.3 years so that points do not overlap. (b) and (d) Medians by segment with the interquartile range (IQR) for all listings; (c) and (d) use listings with Kms_Driven ≤ 1,000,000. Source: calculated from Stable Space (2026).', 14.5),
- 'F3': ('fig/Figure3_surface_sampling.png', 'Figure 3  (a) Median Car_Price by five-year age band and usage decile, about 20,000 listings per cell; the vertical axis starts at INR 560,000. (b) Expected spread of the correlation in a random sample of 5,000 rows (normal approximation); vertical lines mark the full-data values and triangles the samples used in Figure 2. Source: calculated from Stable Space (2026).', 15.0),
- 'F4': ('fig/Figure4_segment_correlations.png', f"Figure 4  (a) Median Car_Price by brand and segment (orange = luxury, blue = non-luxury) with 95% intervals (ranks n/2 ± 1.96√n/2 of the sorted prices); the axis does not start at zero and the dashed line is the overall median. The 95% confidence interval for the luxury minus non-luxury difference in mean price, as a percentage of the non-luxury mean, is {ci_lo:.2f}% to +{ci_hi:.2f}%. (b) Pearson correlation of each numeric field with Car_Price. Source: calculated from Stable Space (2026).", 15.5),
+ 'F1': ('fig/Figure1_price_distribution.png', f"Figure 1  Distribution of Car_Price (n = {n0(R['n_all'])}). (a) Raw scale in INR 50,000 classes; the {E['share_over_5m']*100:.1f}% of listings above INR 5 million are not shown. (b) Log scale by segment. M = million, k = thousand. Source: calculated from Stable Space (2026).", 16.5),
+ 'F2': ('fig/Figure2_price_age_usage.png', 'Figure 2  Car_Price against Registration_Age (a, b) and Kms_Driven (c, d). (a) and (c) Random samples of 5,000 listings (orange = luxury, blue = non-luxury); ages in (a) are spread by up to 0.3 years so that points do not overlap. (b) and (d) Medians by segment with the interquartile range (IQR) for all listings; (c) and (d) use listings with Kms_Driven ≤ 1,000,000. Source: calculated from Stable Space (2026).', 16.5),
+ 'F3': ('fig/Figure3_surface_sampling.png', 'Figure 3  (a) Median Car_Price by five-year age band and usage decile, about 20,000 listings per cell; the vertical axis starts at INR 560,000. (b) Expected spread of the correlation in a random sample of 5,000 rows (normal approximation); vertical lines mark the full-data values and triangles the samples used in Figure 2. Source: calculated from Stable Space (2026).', 16.5),
+ 'F4': ('fig/Figure4_segment_correlations.png', f"Figure 4  (a) Median Car_Price by brand and segment (orange = luxury, blue = non-luxury) with 95% intervals (ranks n/2 ± 1.96√n/2 of the sorted prices); the axis does not start at zero and the dashed line is the overall median. The 95% confidence interval for the luxury minus non-luxury difference in mean price, as a percentage of the non-luxury mean, is {ci_lo:.2f}% to +{ci_hi:.2f}%. (b) Pearson correlation of each numeric field with Car_Price. Source: calculated from Stable Space (2026).", 16.5),
+ 'F5': ('fig/Figure5_category_model_medians.png', f"Figure 5  (a) Median Car_Price of each category relative to the overall median (grey = Unknown). (b) Median Car_Price of each model with its 95% interval (ranks n/2 ± 1.96√n/2 of the sorted prices; orange = luxury brand, blue = non-luxury); {MO['cover']} of the {MO['k']} intervals include the overall median. Source: calculated from Stable Space (2026).", 16.5),
 }
 
 def body_word_count():

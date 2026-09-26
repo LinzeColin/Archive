@@ -149,5 +149,38 @@ ax.axvline(0, color=GREY, lw=0.6)
 ax.set_yticks(y); ax.set_yticklabels([v.replace(' (≤1m km)', '') for v in order]); ax.set_xlim(-0.07, 0.05)
 ax.set_xlabel('Pearson r with Car_Price'); ax.legend(loc='lower right', handletextpad=0.2); letter(ax, 'b', x=-0.55)
 save(fig, 'Figure4_segment_correlations')
+# ---------- Figure 5: medians by category and by model ----------
+med_all = P.median()
+fig, axs = plt.subplots(1, 2, figsize=(W, 4.1), gridspec_kw={'wspace': 0.6, 'width_ratios': [1, 1.1]})
+ax = axs[0]; y = 0; ticks, labs = [], []
+FIELD_ORDER = [('Fuel_Type', ['Petrol', 'Diesel', 'CNG', 'Electric', 'Hybrid', 'Unknown']), ('Transmission', ['Manual', 'Automatic', 'Unknown']),
+               ('Owner_Type', ['First', 'Second', 'Third', 'Fourth+']), ('Color', ['Black', 'Blue', 'Brown', 'Grey', 'Red', 'Silver', 'White', 'Unknown']),
+               ('City', ['Ahmedabad', 'Bangalore', 'Chennai', 'Delhi', 'Hyderabad', 'Kolkata', 'Mumbai', 'Pune', 'Unknown'])]
+for fld, cats in FIELD_ORDER:
+    ticks.append(y); labs.append(fld); y += 1
+    for c_ in cats:
+        v = R['cat_medians'][fld][c_]['median'] / med_all * 100 - 100
+        ax.plot([0, v], [y, y], color=LIGHT, lw=1.6, solid_capstyle='butt', zorder=1)
+        ax.plot(v, y, 'o', ms=3, color=GREY if c_ == 'Unknown' else INK, zorder=2); ticks.append(y); labs.append(c_); y += 1
+    y += 0.4
+ax.axvline(0, color=GREY, lw=0.6, ls=(0, (2, 1.5))); ax.set_yticks(ticks); ax.set_yticklabels(labs); ax.set_ylim(y - 0.6, -0.8)
+FLDS = {f for f, _ in FIELD_ORDER}
+for tl in ax.get_yticklabels():
+    if tl.get_text() in FLDS: tl.set_fontweight('bold')
+for t_, l_ in zip(ticks, labs):
+    if l_ in FLDS: ax.yaxis.get_major_ticks()[ticks.index(t_)].tick1line.set_visible(False)
+ax.set_xlim(-1.6, 1.6); ax.set_xlabel('Median Car_Price vs overall median (%)'); letter(ax, 'a', x=-0.3)
+ax = axs[1]; rows5 = []
+brand_of = df.groupby('Model').BrandC.first()
+for m_, g in df.groupby('Model'):
+    m, l, h_ = med_ci(g.Car_Price.values); rows5.append((m_, m, l, h_))
+rows5.sort(key=lambda r: r[1])
+for i, (m_, m, l, h_) in enumerate(rows5):
+    c = LUX if brand_of[m_] in ('Audi', 'BMW', 'Mercedes') else NON
+    ax.plot([l / med_all * 100 - 100, h_ / med_all * 100 - 100], [i, i], color=c, lw=0.9, alpha=0.9); ax.plot(m / med_all * 100 - 100, i, 'o', ms=2.4, color=c)
+ax.axvline(0, color=GREY, lw=0.6, ls=(0, (2, 1.5)))
+ax.set_yticks(range(len(rows5))); ax.set_yticklabels([f'{r[0]} ({brand_of[r[0]]})' for r in rows5], fontsize=5.2); ax.set_ylim(-0.8, len(rows5) - 0.2)
+ax.set_xlabel('Median Car_Price vs overall median (%, 95% interval)'); letter(ax, 'b', x=-0.52)
+save(fig, 'Figure5_category_model_medians')
 json.dump(R, open('results.json', 'w'), indent=1)
 print('figs ok', R['landscape'])

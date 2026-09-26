@@ -128,6 +128,14 @@ for r in range(5,CS.max_row+1):
     if fld!='Brand_Clean': mx=max(mx,abs(d))
 lastr=[c.row for c in CS['A'] if c.value and str(c.value).startswith('Largest difference')][0]
 chk('cs max diff',CS[f'I{lastr}'].value,mx); print('category rows checked',ncs)
+
+# ---- decile P5/P95 band
+Kd=wbv['Km_Deciles']; out=0
+for dd in range(10):
+    sub=kk[kk.dec==dd].Car_Price; p5,p95=sub.quantile(.05),sub.quantile(.95)
+    chk(f'dec {dd+1} p5',Kd[f'J{4+dd}'].value,p5); chk(f'dec {dd+1} p95',Kd[f'K{4+dd}'].value,p95)
+    chk(f'dec {dd+1} below',Kd[f'L{4+dd}'].value,float((sub<p5).sum())); chk(f'dec {dd+1} above',Kd[f'M{4+dd}'].value,float((sub>p95).sum())); out+=(sub<p5).sum()+(sub>p95).sum()
+chk('share outside band',Kd['F16'].value,out/len(kk))
 bad=[c for c in checks if not c[3]]
 print(f'CHECKED {len(checks)} cells; mismatches {len(bad)}')
 for b in bad[:40]: print('  MISMATCH',b)

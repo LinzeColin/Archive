@@ -373,7 +373,7 @@ widths(a_, {'A': 12, 'B': 10, 'C': 12, 'D': 13, 'E': 12, 'F': 15, 'G': 18, 'H': 
 
 # ------------------------------------------------------------------ Km_Deciles
 k_ = wsK; k_['A1'] = 'Car_Price by Kms_Driven decile (rows with KM_OK = TRUE)'; k_['A1'].font = FT
-head(k_, 3, 1, ['Decile', 'Km from (exclusive)', 'Km to (inclusive)', 'n', 'Q1 (all)', 'Median (all)', 'Q3 (all)', 'Median luxury', 'Median non-luxury'])
+head(k_, 3, 1, ['Decile', 'Km from (exclusive)', 'Km to (inclusive)', 'n', 'Q1 (all)', 'Median (all)', 'Q3 (all)', 'Median luxury', 'Median non-luxury', 'P5 (all)', 'P95 (all)', 'n below P5', 'n above P95'])
 for dd in range(1, 11):
     rr = 3 + dd; k_[f'A{rr}'] = f'D{dd}'
     put(k_, f'B{rr}', 0 if dd == 1 else f'=C{rr-1}', '#,##0')
@@ -385,8 +385,13 @@ for dd in range(1, 11):
     put(k_, f'G{rr}', f'=_xlfn.PERCENTILE.INC(IF({cd},{C["Price"]}),0.75)', '#,##0', arr=True)
     put(k_, f'H{rr}', f'=MEDIAN(IF({cd}*({C["Seg"]}="Luxury"),{C["Price"]}))', '#,##0', arr=True)
     put(k_, f'I{rr}', f'=MEDIAN(IF({cd}*({C["Seg"]}="Non-luxury"),{C["Price"]}))', '#,##0', arr=True)
+    put(k_, f'J{rr}', f'=_xlfn.PERCENTILE.INC(IF({cd},{C["Price"]}),0.05)', '#,##0', arr=True)
+    put(k_, f'K{rr}', f'=_xlfn.PERCENTILE.INC(IF({cd},{C["Price"]}),0.95)', '#,##0', arr=True)
+    put(k_, f'L{rr}', f'=SUMPRODUCT({cd}*({C["Price"]}<J{rr}))', '#,##0')
+    put(k_, f'M{rr}', f'=SUMPRODUCT({cd}*({C["Price"]}>K{rr}))', '#,##0')
 k_['A15'] = 'Change in median from D1 to D10'; put(k_, 'F15', '=F13/F4-1', '0.0%', FB)
-widths(k_, {'A': 32, 'B': 18, 'C': 16, 'D': 11, 'E': 12, 'F': 13, 'G': 12, 'H': 14, 'I': 17})
+k_['A16'] = 'Share of listings outside the P5-P95 band of their decile (manual-check rule)'; put(k_, 'F16', '=(SUM(L4:L13)+SUM(M4:M13))/SUM(D4:D13)', '0.0%', FB)
+widths(k_, {'A': 32, 'B': 18, 'C': 16, 'D': 11, 'E': 12, 'F': 13, 'G': 12, 'H': 14, 'I': 17, 'J': 12, 'K': 12, 'L': 12, 'M': 12})
 
 # ------------------------------------------------------------------ Surface (5 age bands x 10 deciles)
 s_ = wsSu; s_['A1'] = 'Median Car_Price by age band and km decile (used for the 3-D surface)'; s_['A1'].font = FT
@@ -531,7 +536,7 @@ STEPS = [
  ('8', 'Calculated Pearson r between Car_Price and every other numeric field for the three groups, the log-scale km model, and the km-cap sensitivity.', 'Correlations'),
  ('9', 'Compared luxury and non-luxury (means, medians, 95% CI of the mean difference), each brand, each category of the other text fields, and each of the 39 models (with a 95% interval for each model median).', 'Segment_Compare'),
  ('9b', 'Counted every category of the text and count fields for all, luxury and non-luxury listings.', 'Category_Shares'),
- ('10', 'Median price by age, by km decile, and by age band × km decile.', 'Age_Profile, Km_Deciles, Surface'),
+ ('10', 'Median price by age, by km decile, and by age band × km decile; P5 and P95 of each km decile and the share of listings outside that band (manual-check rule).', 'Age_Profile, Km_Deciles, Surface'),
  ('11', 'Duplicate check: copied DATA!AC with row number, price and segment, pasted as values, sorted by key, counted runs. Compared matching pairs with the number expected by chance from the category shares.', 'Dup_Check'),
  ('12', 'Scatter-plot samples: a uniform random number (seed 20260926), stored as a value, next to every row number; rows sorted by it. The first 5,000 rows form the age sample; the next 5,000 rows with KM_OK = TRUE form the km sample. INDEX fetches each row. The same can be done with =RAND() and Paste Values.', 'Plot_Sample'),
  ('13', 'Re-ran the key results without Unknown rows, without extreme prices and without repeat rows.', 'Sensitivity'),
