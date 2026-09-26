@@ -1,0 +1,17 @@
+﻿Table 1  Data problems and how they were treated
+Problem,Found with,Size,Treatment
+Brand labels with extra spaces (e.g. ‘ BMW ’),"TRIM, EXACT","10,040 rows (2,334 luxury)",Trimmed; 13 brands
+"Fuel_Type variants (PETROL, petrol, diesel with spaces, hybridd, electrik)","LOWER, TRIM, lookup table","20,123 rows","Mapped to CNG, Diesel, Electric, Hybrid, Petrol; Unknown kept"
+"Other text fields (Model, Transmission, Owner_Type, Color, City)","LEN, TRIM, category lists",No variants found,None needed
+"‘Unknown’ in Fuel_Type, Transmission, Color, City",COUNTIF,"78,733; 80,385; 80,419; 80,430. 283,648 rows have at least one",Kept as a category
+Blank cells,COUNTBLANK,0,None; the macro fills gaps
+Zero technical values (the macro sets negative draws to 0),COUNTIF,Mileage 4; Engine 12; Horsepower 10,Blank for that field only
+Technical values beyond mean ± 3 SD,"AVERAGEIF, STDEV.S, COUNTIFS","Mileage 36; Engine 52; Horsepower 33 (raw maxima 40.8 km/l, 5,502 cc, 393 hp)",Blank for that field only; far from the main range
+Isolated values inside the ± 3 SD limits,"MIN, COUNTIFS","hp: 44 < 50, 67 > 190; cc: 60 < 850, 97 > 2,250; km/l: 42 < 11, 37 > 25.5; price: 44 < INR 20,000",Kept; too few to move any median
+Identical rows on all 20 fields,FREQUENCY on Car_Price,0,None needed
+Repeated rows on the 15 non-randomised fields,"Sorted key, run count, category shares","31,575 pairs in 29,640 repeat rows; 26,821 pairs expected by chance",Flagged and kept
+"Kms_Driven above 1,000,000 km",COUNTIF; NORM.DIST on LN(km),"6,134 rows (0.61%), up to 5.8 million km (6,102 expected)","Excluded from usage analysis only (998,866 rows left)"
+Extreme Car_Price (3 × IQR on log scale),"QUARTILE, COUNTIF","1 low, 2 high",Kept
+Year and Registration_Age consistency,SUMPRODUCT,Sum is 2025 in all rows,Age used as supplied
+
+"Source: calculated from Stable Space (2026). A group of k identical rows gives k(k − 1)/2 pairs and k − 1 repeat rows. The chance count multiplies, over 13 fields, the probability that two random rows share a category (sum of squared shares); Brand and Year are left out because Model and Registration_Age already fix them. Limits for isolated values are the edges of the dense main range of each frequency distribution."
