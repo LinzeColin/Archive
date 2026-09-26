@@ -1,5 +1,5 @@
 ﻿Table A4  Sensitivity of the main results to the cleaning choices
-Scenario,Rows,Median price,r (age),r (km),Luxury median gap
+Scenario,Rows,Median price (INR),r (age),r (km),Luxury median gap
 All rows,"1,005,000","673,522",+0.00007,−0.0510,−0.17%
 Without rows containing Unknown,"721,352","672,595",+0.00057,−0.0516,+0.14%
 Without the 3 extreme prices,"1,004,997","673,521",−0.00002,−0.0513,−0.17%

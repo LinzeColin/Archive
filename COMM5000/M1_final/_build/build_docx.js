@@ -70,7 +70,7 @@ const children = [];
 children.push(new Paragraph({ spacing: { after: 60 }, children: [new TextRun({ text: doc.title, bold: true, font: FONT, size: PT(17), color: INK })] }));
 children.push(new Paragraph({ spacing: { after: 30 }, children: [new TextRun({ text: doc.sub, font: FONT, size: PT(9.5), color: GREY })] }));
 children.push(new Paragraph({ spacing: { after: 200 }, border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: RULE, space: 6 } },
-  children: [new TextRun({ text: `Word count: ${doc.wc} (excluding tables, figures, captions and references)`, font: FONT, size: PT(9), color: GREY })] }));
+  children: [new TextRun({ text: `Word count: ${doc.wc} (headings included; tables, figures, captions, notes, references and appendix excluded)`, font: FONT, size: PT(9), color: GREY })] }));
 for (const [kind, val] of doc.body) {
   if (kind === 'h1') children.push(new Paragraph({ heading: HeadingLevel.HEADING_1, keepNext: true, spacing: { before: 240, after: 80 }, children: [new TextRun({ text: val.replace('  ', '   '), bold: true, font: FONT, size: PT(13), color: INK })] }));
   else if (kind === 'h2') children.push(new Paragraph({ heading: HeadingLevel.HEADING_2, keepNext: true, spacing: { before: 160, after: 60 }, children: [new TextRun({ text: val.replace('  ', '   '), bold: true, font: FONT, size: PT(11), color: INK })] }));

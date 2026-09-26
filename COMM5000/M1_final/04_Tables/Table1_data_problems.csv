@@ -14,4 +14,4 @@ Repeated rows on the 15 non-randomised fields,"Sorted key, run count, category s
 Extreme Car_Price (3 × IQR on log scale),"QUARTILE, COUNTIF","1 low, 2 high",Kept
 Year and Registration_Age consistency,SUMPRODUCT,Sum is 2025 in all rows,Age used as supplied
 
-"Source: calculated from Stable Space (2026). A group of k identical rows gives k(k − 1)/2 pairs and k − 1 repeat rows. The chance count multiplies, over 13 fields, the probability that two random rows share a category (sum of squared shares); Brand and Year are left out because Model and Registration_Age already fix them."
+"Source: calculated from Stable Space (2026). A group of k identical rows gives k(k − 1)/2 pairs and k − 1 repeat rows. The chance count multiplies, over 13 fields, the probability that two random rows share a category (sum of squared shares); Brand and Year are left out because Model and Registration_Age already fix them. Limits for isolated values are the edges of the dense main range of each frequency distribution."
