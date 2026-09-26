@@ -61,7 +61,7 @@ fig, axs = plt.subplots(2, 2, figsize=(W, 4.3), gridspec_kw={'hspace': 0.45, 'ws
 ax = axs[0, 0]; j = rng.uniform(-0.3, 0.3, len(sA))
 for m, c in [(sA.Segment == 'Non-luxury', NON), (sA.Segment == 'Luxury', LUX)]:
     ax.scatter(sA.Registration_Age[m] + j[m], sA.Car_Price[m], s=1.3, color=c, alpha=0.45, lw=0, rasterized=True)
-ax.set_yscale('log'); ax.yaxis.set_major_formatter(KF); ax.yaxis.set_minor_formatter(NullFormatter()); ax.set_ylim(2e4, 2e7); ax.set_xlim(0, 26)
+ax.set_yscale('log'); ax.yaxis.set_major_formatter(KF); ax.yaxis.set_minor_formatter(NullFormatter()); ax.set_ylim(2e4, 5e7); ax.set_xlim(0, 26)
 ax.set_xlabel('Registration_Age (years)'); ax.set_ylabel('Car_Price (INR, log scale)'); letter(ax, 'a')
 ax = axs[0, 1]; ages = np.arange(1, 26); aq = np.array([R['age_iqr'][str(a)] for a in ages])
 ax.fill_between(ages, aq[:, 0], aq[:, 2], color=LIGHT, lw=0, label='IQR, all')
@@ -75,7 +75,7 @@ for m, c in [(sK.Segment == 'Non-luxury', NON), (sK.Segment == 'Luxury', LUX)]:
     ax.scatter(sK.Kms_c[m], sK.Car_Price[m], s=1.3, color=c, alpha=0.45, lw=0, rasterized=True)
 ax.set_xscale('log'); ax.set_yscale('log')
 for a in (ax.xaxis, ax.yaxis): a.set_major_formatter(KF); a.set_minor_formatter(NullFormatter())
-ax.set_ylim(2e4, 2e7); ax.set_xlim(5e3, 1.05e6)
+ax.set_ylim(2e4, 5e7); ax.set_xlim(5e3, 1.05e6)
 ax.set_xlabel('Kms_Driven (km, log scale; ≤ 1,000,000)'); ax.set_ylabel('Car_Price (INR, log scale)'); letter(ax, 'c')
 ax = axs[1, 1]; dec = np.arange(1, 11); kq = np.array([R['km_dec_iqr']['All'][str(d - 1)] for d in dec])
 ax.fill_between(dec, kq[:, 0], kq[:, 2], color=LIGHT, lw=0, label='IQR, all')

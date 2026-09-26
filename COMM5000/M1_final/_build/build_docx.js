@@ -38,17 +38,18 @@ function table(t) {
   const diff = TEXTW - widths.reduce((a, b) => a + b, 0); widths[0] += diff;
   const thick = { style: BorderStyle.SINGLE, size: 8, color: RULE }, thin = { style: BorderStyle.SINGLE, size: 4, color: RULE }, hair = { style: BorderStyle.SINGLE, size: 2, color: 'BFBFBF' };
   const numFrom = t.num_from ?? 99;
-  const rows = [new TableRow({ tableHeader: true, cantSplit: true, children: t.head.map((h, j) => cell(h, { width: widths[j], bold: true, fill: 'F2F2F2', top: thick, bottom: thin, align: j >= numFrom ? AlignmentType.RIGHT : AlignmentType.LEFT })) })];
+  const fs = t.font || 8.5;
+  const rows = [new TableRow({ tableHeader: true, cantSplit: true, children: t.head.map((h, j) => cell(h, { width: widths[j], bold: true, fill: 'F2F2F2', top: thick, bottom: thin, size: fs, align: j >= numFrom ? AlignmentType.RIGHT : AlignmentType.LEFT })) })];
   t.rows.forEach((r, i) => {
     const last = i === t.rows.length - 1; const grpTop = t.group_every && i > 0 && i % t.group_every === 0;
     rows.push(new TableRow({ cantSplit: true, children: r.map((c, j) => {
       let color = INK; if (t.group_every && j === 1) color = c === 'Luxury' ? 'B34A1E' : (c === 'Non-luxury' ? '1F5DA8' : INK);
       return cell(c, { width: widths[j], bold: (t.group_every && j === 0 && c !== ''), align: j >= numFrom ? AlignmentType.RIGHT : AlignmentType.LEFT,
-        top: grpTop ? hair : undefined, bottom: last ? thick : undefined, color });
+        top: grpTop ? hair : undefined, bottom: last ? thick : undefined, color, size: fs });
     }) }));
   });
   const out = [
-    new Paragraph({ keepNext: true, spacing: { before: 160, after: 60 }, children: runs(t.title.replace(/^(Table [A0-9]+)\s+/, '<b>$1</b>  '), { font: FONT, size: PT(9) }) }),
+    new Paragraph({ keepNext: true, spacing: { before: t.font ? 100 : 160, after: 60 }, children: runs(t.title.replace(/^(Table [A0-9]+)\s+/, '<b>$1</b>  '), { font: FONT, size: PT(9) }) }),
     new Table({ width: { size: TEXTW, type: WidthType.DXA }, columnWidths: widths, layout: TableLayoutType.FIXED, rows }),
   ];
   if (t.note) out.push(new Paragraph({ spacing: { before: 40, after: 120 }, children: [new TextRun({ text: t.note, font: FONT, size: PT(7.5), color: GREY })] }));

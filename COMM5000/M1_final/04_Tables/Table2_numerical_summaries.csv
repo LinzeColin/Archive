@@ -22,4 +22,4 @@ Accidents (count),All,"1,005,000",0.30,0.00,0.00,0.55,0.00,5.00
 ,Luxury,"232,172",0.30,0.00,0.00,0.55,0.00,5.00
 ,Non-luxury,"772,828",0.30,0.00,0.00,0.55,0.00,5.00
 
-"Source: calculated from Stable Space (2026). ᵃ Rows with Kms_Driven ≤ 1,000,000. ᵇ Zero values and values beyond the mean ± 3 SD excluded. ᶜ Exact most frequent value for Registration_Age and Accidents. No exact value repeats for the continuous variables, so the midpoint of the most frequent class is shown (classes: price 50,000; km 10,000; cc 50; hp 5; km/l 0.5). Min and Max of the technical fields are isolated values (Table 1). SD is the sample standard deviation."
+"Source: calculated from Stable Space (2026). ᵃ Kms_Driven ≤ 1,000,000. ᵇ Zeros and values beyond mean ± 3 SD excluded; Min and Max are isolated values (Table 1). ᶜ Exact mode for Registration_Age and Accidents; the continuous variables have no repeated value, so the midpoint of the most frequent class is shown (price 50,000; km 10,000; cc 50; hp 5; km/l 0.5). SD: sample standard deviation."

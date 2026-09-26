@@ -93,7 +93,7 @@ chk('sens unknown median',Se['C5'].value,u.Car_Price.median()); chk('sens unknow
 # ---- round-2 cells
 hpok=ok(raw.Horsepower); engok=ok(raw.Engine_CC)
 milok=ok(raw.Mileage_kmpl)
-extra=[raw.Kms_Driven.max(),0,0,0,0,0,(hpok&(raw.Horsepower<50)).sum(),(engok&(raw.Engine_CC<850)).sum(),(raw.Car_Price<20000).sum(),(hpok&(raw.Horsepower>190)).sum(),(engok&(raw.Engine_CC>2250)).sum(),(milok&(raw.Mileage_kmpl<11)).sum(),(milok&(raw.Mileage_kmpl>25.5)).sum(),raw.Horsepower[hpok].min()]
+extra=[raw.Kms_Driven.max(),0,0,0,0,0,(hpok&(raw.Horsepower<50)).sum(),(engok&(raw.Engine_CC<850)).sum(),(raw.Car_Price<20000).sum(),(hpok&(raw.Horsepower>190)).sum(),(engok&(raw.Engine_CC>2250)).sum(),(milok&(raw.Mileage_kmpl<11)).sum(),(milok&(raw.Mileage_kmpl>25.5)).sum(),raw.Engine_CC.max(),raw.Horsepower.max(),raw.Mileage_kmpl.max(),raw.Horsepower[hpok].min()]
 for i,e in enumerate(extra): chk(f'notes extra {47+i}',N_[f'C{47+i}'].value,float(e))
 ms=raw.groupby(['Seg','Registration_Age']).Car_Price.median().unstack(0)
 chk('age lux min',A['F31'].value,ms['Luxury'].min()); chk('age lux max',A['F32'].value,ms['Luxury'].max())
@@ -105,6 +105,29 @@ for r in range(r0,r0+raw.Model.nunique()):
     lo,hi=oci(p); chk(f'model lo {b}',G[f'F{r}'].value,lo); chk(f'model hi {b}',G[f'G{r}'].value,hi); cov+=int(lo<=med<=hi)
 rr=r0+raw.Model.nunique(); chk('model covering',G[f'H{rr}'].value,cov)
 mm=raw.groupby('Model').Car_Price.median(); chk('model spread',G[f'D{rr}'].value,mm.max()/mm.min()-1)
+
+# ---- round-3 cells
+Su2=wbv['Surface']; kk2=raw[raw.KMOK].copy(); kk2['dec']=pd.qcut(kk2.Kms_Driven,10,labels=False); kk2['ab']=(kk2.Registration_Age-1)//5
+cnt=kk2.groupby(['ab','dec']).size()
+for ab in range(5):
+    for dd in range(10): chk(f'surface n {ab},{dd}',Su2.cell(12+ab,3+dd).value,float(cnt.get((ab,dd),0)))
+chk('surface min n',Su2['C18'].value,float(cnt.min())); chk('surface max n',Su2['D18'].value,float(cnt.max()))
+both=raw[raw.EngOK&raw.HPOK]; chk('eng-hp r',C['B43'].value,float(np.corrcoef(both.Engine_CC,both.Horsepower)[0,1]))
+Sm=wbv['Summary']; rr5=[c.row for c in Sm['A'] if c.value=='Share of listings above INR 5,000,000'][0]
+chk('share >5M',Sm[f'C{rr5}'].value,float((raw.Car_Price>5e6).mean()))
+CS=wbv['Category_Shares']; mx=0; col={'Fuel_Clean':'FuelC','Transmission':'Transmission','Owner_Type':'Owner_Type','Color':'Color','City':'City','Number_of_Doors':'Number_of_Doors','Seats':'Seats','Accidents':'Accidents','Insurance_Valid':'Insurance_Valid','Service_History':'Service_History','Tax_Paid':'Tax_Paid','Brand_Clean':'BrandC'}
+fld=None; ncs=0
+for r in range(5,CS.max_row+1):
+    if CS[f'A{r}'].value: fld=CS[f'A{r}'].value
+    b=CS[f'B{r}'].value
+    if b is None or fld not in col: continue
+    x=raw[col[fld]]; L_=raw.Seg=='Luxury'
+    eq=(x==b) if not isinstance(b,(int,float)) else (x.astype(float)==float(b))
+    chk(f'cs n {fld} {b}',CS[f'C{r}'].value,float(eq.sum())); chk(f'cs lux {fld} {b}',CS[f'E{r}'].value,float((eq&L_).sum()))
+    d=(eq[L_].mean()-eq[~L_].mean())*100; chk(f'cs diff {fld} {b}',CS[f'I{r}'].value,float(d),1e-6); ncs+=1
+    if fld!='Brand_Clean': mx=max(mx,abs(d))
+lastr=[c.row for c in CS['A'] if c.value and str(c.value).startswith('Largest difference')][0]
+chk('cs max diff',CS[f'I{lastr}'].value,mx); print('category rows checked',ncs)
 bad=[c for c in checks if not c[3]]
 print(f'CHECKED {len(checks)} cells; mismatches {len(bad)}')
 for b in bad[:40]: print('  MISMATCH',b)

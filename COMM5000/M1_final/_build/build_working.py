@@ -60,7 +60,7 @@ for part, rad in [((d.Year - 2000).astype(np.int64), 25), (idx(FuelC, FUELS), 6)
 # ------------------------------------------------------------------ workbook skeleton
 wb = Workbook(); wsS = wb.active; wsS.title = 'Steps'
 wsD = wb.create_sheet('Dataset'); wsDATA = wb.create_sheet('DATA'); wsL = wb.create_sheet('Lists'); wsN = wb.create_sheet('Notes')
-wsSum = wb.create_sheet('Summary'); wsM = wb.create_sheet('Mode_Bins'); wsC = wb.create_sheet('Correlations'); wsG = wb.create_sheet('Segment_Compare')
+wsSum = wb.create_sheet('Summary'); wsM = wb.create_sheet('Mode_Bins'); wsC = wb.create_sheet('Correlations'); wsG = wb.create_sheet('Segment_Compare'); wsCS = wb.create_sheet('Category_Shares')
 wsA = wb.create_sheet('Age_Profile'); wsK = wb.create_sheet('Km_Deciles'); wsSu = wb.create_sheet('Surface'); wsDup = wb.create_sheet('Dup_Check')
 wsDS = wb.create_sheet('Dup_Sorted'); wsDS['A1'] = 'placeholder'
 wsP = wb.create_sheet('Plot_Sample'); wsSe = wb.create_sheet('Sensitivity'); wsCh = wb.create_sheet('Charts')
@@ -155,10 +155,13 @@ EXTRA = [
  ('Engine_CC above 2,250 cc that passes the ±3 SD rule', f'=COUNTIFS({C["EngOK"]},TRUE,{C["Eng"]},">2250")', 'COUNTIFS with flag Z', 'Isolated above the main range; kept'),
  ('Mileage_kmpl below 11 km/l that passes the ±3 SD rule', f'=COUNTIFS({C["MilOK"]},TRUE,{C["Mil"]},"<11")', 'COUNTIFS with flag Y', 'Isolated below the main range; kept'),
  ('Mileage_kmpl above 25.5 km/l that passes the ±3 SD rule', f'=COUNTIFS({C["MilOK"]},TRUE,{C["Mil"]},">25.5")', 'COUNTIFS with flag Y', 'Isolated above the main range; kept'),
+ ('Largest raw Engine_CC', f'=MAX({C["Eng"]})', 'MAX', 'Beyond mean + 3 SD; blank for that field'),
+ ('Largest raw Horsepower', f'=MAX({C["HP"]})', 'MAX', 'Beyond mean + 3 SD; blank for that field'),
+ ('Largest raw Mileage_kmpl', f'=MAX({C["Mil"]})', 'MAX', 'Beyond mean + 3 SD; blank for that field'),
  ('Smallest Horsepower kept', f'=MIN(IF({C["HPOK"]},{C["HP"]}))', 'MIN of flagged values', ''),
 ]
 for i, (a, f_, how, tr) in enumerate(EXTRA):
-    r = 47 + i; wsN[f'B{r}'] = a; put(wsN, f'C{r}', f_, '#,##0.0' if f_.startswith('=MIN(IF') else '#,##0', arr=f_.startswith('=MIN(IF')); wsN[f'D{r}'] = how; wsN[f'E{r}'] = tr
+    r = 47 + i; wsN[f'B{r}'] = a; put(wsN, f'C{r}', f_, '#,##0.0' if f_.startswith(('=MIN(IF', '=MAX(')) else '#,##0', arr=f_.startswith('=MIN(IF')); wsN[f'D{r}'] = how; wsN[f'E{r}'] = tr
     for c_ in 'BDE': wsN[f'{c_}{r}'].font = F
 widths(wsN, {'A': 3, 'B': 46, 'C': 16, 'D': 52, 'E': 44, 'F': 16, 'G': 12, 'H': 16, 'I': 22})
 
@@ -228,7 +231,8 @@ r += 1; wsSum[f'A{r}'] = 'Price distribution checks'; wsSum[f'A{r}'].font = FB; 
 PD = {}
 for lab, f_ in [('Mean above median (%)', f'=D{SUMREF[("Price","All")]}/E{SUMREF[("Price","All")]}-1'),
                 ('Share of listings below the mean', f'=COUNTIF({C["Price"]},"<"&D{SUMREF[("Price","All")]})/C{SUMREF[("Price","All")]}'),
-                ('Skewness of LN(Car_Price)', '=Notes!C43'), ('Geometric mean (EXP of mean LN price)', f'=EXP(AVERAGE(LN({C["Price"]})))')]:
+                ('Skewness of LN(Car_Price)', '=Notes!C43'), ('Geometric mean (EXP of mean LN price)', f'=EXP(AVERAGE(LN({C["Price"]})))'),
+                ('Share of listings above INR 5,000,000', f'=COUNTIF({C["Price"]},">5000000")/COUNT({C["Price"]})')]:
     wsSum[f'A{r}'] = lab; put(wsSum, f'C{r}', f_, '0.0%' if '%' in lab or 'Share' in lab else '#,##0.000', arr=('LN(' in f_ and 'Notes' not in f_)); PD[lab] = r; r += 1
 widths(wsSum, {'A': 26, 'B': 12, 'C': 11, 'D': 13, 'E': 13, 'F': 12, 'G': 13, 'H': 11, 'I': 13, 'J': 12, 'K': 13, 'L': 10})
 wsSum.freeze_panes = 'C5'
@@ -276,6 +280,8 @@ for i, (lab, ref, sref) in enumerate([('Price and age', CORRREF[('Age', 'All')],
     rr = 39 + i; wsC[f'A{rr}'] = lab; put(wsC, f'B{rr}', f'={ref}', '+0.0000;-0.0000'); put(wsC, f'C{rr}', 5000, '#,##0', FI)
     put(wsC, f'D{rr}', f'=(1-B{rr}^2)/SQRT(C{rr}-1)', '0.0000'); put(wsC, f'E{rr}', f'=B{rr}-1.96*D{rr}', '+0.0000;-0.0000'); put(wsC, f'F{rr}', f'=B{rr}+1.96*D{rr}', '+0.0000;-0.0000')
     put(wsC, f'G{rr}', f'={sref}', '+0.0000;-0.0000')
+wsC['A43'] = 'Correlation between Engine_CC and Horsepower (rows with both flags Z and AA = TRUE)'; wsC['A43'].font = FB
+put(wsC, 'B43', f'=CORREL(IF(({C["EngOK"]})*({C["HPOK"]}),{C["Eng"]}),IF(({C["EngOK"]})*({C["HPOK"]}),{C["HP"]}))', '0.000', FB, arr=True)
 widths(wsC, {'A': 52, 'B': 14, 'C': 14, 'D': 12, 'E': 12, 'F': 12, 'G': 20})
 
 # ------------------------------------------------------------------ Segment_Compare
@@ -327,6 +333,27 @@ for lab, v, vals in [('Fuel_Type', 'FuelC', FUELS), ('Transmission', 'Trans', TR
     CATREF[lab] = rr; rr += 3
 widths(g_, {'A': 44, 'B': 20, 'C': 12, 'D': 13, 'E': 16, 'F': 22, 'G': 18, 'H': 18, 'I': 18, 'J': 18})
 
+# ------------------------------------------------------------------ Category_Shares (counts and shares by segment)
+cs = wsCS; cs['A1'] = 'Share of listings in each category: all, luxury and non-luxury'; cs['A1'].font = FT
+cs['A2'] = 'COUNTIF / COUNTIFS on DATA. Difference = luxury share − non-luxury share, in percentage points. Brand and Model are left out of the maximum because the segments are defined by brand.'; cs['A2'].font = FN
+head(cs, 4, 1, ['Field', 'Category', 'n (all)', 'Share (all)', 'n (luxury)', 'Share (luxury)', 'n (non-luxury)', 'Share (non-luxury)', 'Difference (pp)'])
+rr = 5; d0 = None
+for lab, v, vals in [('Fuel_Clean', 'FuelC', FUELS), ('Transmission', 'Trans', TRANS), ('Owner_Type', 'Owner', OWN), ('Color', 'Color', COLS), ('City', 'City', CITY),
+                     ('Number_of_Doors', 'Doors', DOORS), ('Seats', 'Seats', SEATS), ('Accidents', 'Acc', [0, 1, 2, 3, 4, 5]), ('Insurance_Valid', 'Ins', [0, 1]),
+                     ('Service_History', 'Svc', [0, 1]), ('Tax_Paid', 'Tax', [0, 1]), ('Brand_Clean', 'BrandC', BRANDS)]:
+    r0 = rr
+    for val in vals:
+        cs[f'A{rr}'] = lab if rr == r0 else ''; cs[f'B{rr}'] = val
+        put(cs, f'C{rr}', f'=COUNTIF({C[v]},B{rr})', '#,##0'); put(cs, f'D{rr}', f'=C{rr}/Notes!$C$5', '0.0%')
+        put(cs, f'E{rr}', f'=COUNTIFS({C[v]},B{rr},{C["Seg"]},"Luxury")', '#,##0'); put(cs, f'F{rr}', f'=E{rr}/COUNTIF({C["Seg"]},"Luxury")', '0.0%')
+        put(cs, f'G{rr}', f'=COUNTIFS({C[v]},B{rr},{C["Seg"]},"Non-luxury")', '#,##0'); put(cs, f'H{rr}', f'=G{rr}/COUNTIF({C["Seg"]},"Non-luxury")', '0.0%')
+        put(cs, f'I{rr}', f'=(F{rr}-H{rr})*100', '+0.00;-0.00'); rr += 1
+    if lab == 'Tax_Paid': d0 = rr - 1
+    rr += 1
+cs[f'A{rr}'] = 'Largest difference between segments, excluding Brand (pp)'; cs[f'A{rr}'].font = FB
+put(cs, f'I{rr}', f'=MAX(ABS(MAX(I5:I{d0})),ABS(MIN(I5:I{d0})))', '0.00', FB)
+widths(cs, {'A': 20, 'B': 14, 'C': 11, 'D': 11, 'E': 11, 'F': 13, 'G': 13, 'H': 16, 'I': 15})
+
 # ------------------------------------------------------------------ Age_Profile
 a_ = wsA; a_['A1'] = 'Car_Price by Registration_Age (all rows)'; a_['A1'].font = FT
 head(a_, 3, 1, ['Age (years)', 'n', 'Q1 (all)', 'Median (all)', 'Q3 (all)', 'Median luxury', 'Median non-luxury', 'Mean (all)'])
@@ -370,6 +397,15 @@ for bi in range(5):
         cl = get_column_letter(2 + dd); kr = 3 + dd
         cd = f'({K})*({C["KM"]}>Km_Deciles!$B${kr})*({C["KM"]}<=Km_Deciles!$C${kr})*({C["Age"]}>=$A{rr})*({C["Age"]}<=$B{rr})'
         put(s_, f'{cl}{rr}', f'=MEDIAN(IF({cd},{C["Price"]}))', '#,##0', arr=True)
+s_['A10'] = 'Listings in each cell'; s_['A10'].font = FB
+head(s_, 11, 1, ['Age from', 'Age to'] + [f'D{i}' for i in range(1, 11)])
+for bi in range(5):
+    rr = 12 + bi; put(s_, f'A{rr}', f'=A{4 + bi}'); put(s_, f'B{rr}', f'=B{4 + bi}')
+    for dd in range(1, 11):
+        cl = get_column_letter(2 + dd); kr = 3 + dd
+        cd = f'({K})*({C["KM"]}>Km_Deciles!$B${kr})*({C["KM"]}<=Km_Deciles!$C${kr})*({C["Age"]}>=$A{rr})*({C["Age"]}<=$B{rr})'
+        put(s_, f'{cl}{rr}', f'=SUMPRODUCT({cd})', '#,##0')
+s_['A18'] = 'Smallest and largest cell'; put(s_, 'C18', '=MIN(C12:L16)', '#,##0', FB); put(s_, 'D18', '=MAX(C12:L16)', '#,##0', FB)
 widths(s_, {get_column_letter(i): 11 for i in range(1, 13)})
 
 # ------------------------------------------------------------------ Dup_Check (sorted key values pasted, run length formulas, chance baseline)
@@ -414,7 +450,7 @@ take = np.argsort(keys)[:5000]; take = take[np.argsort(keys[take])]
 okidx = np.where(KMOK.values)[0]; take2 = okidx[np.argsort(keys[okidx])[5000:10000]] if len(okidx) > 10000 else okidx[np.argsort(keys[okidx])[:5000]]
 take2 = take2[np.argsort(keys[take2])]
 q_ = wsP; q_['A1'] = 'Random samples of 5,000 rows for the two scatter plots'; q_['A1'].font = FT
-q_['A2'] = 'Steps: =RAND() next to every DATA row number, pasted as values, sorted by the key. Age sample: first 5,000 rows. Km sample: the next 5,000 rows among KM_OK = TRUE. Other columns use INDEX.'; q_['A2'].font = FN
+q_['A2'] = 'Method: a uniform random number between 0 and 1 (seed 20260926) is stored as a value next to every DATA row number, and rows are sorted by it. Age sample: the first 5,000 rows. Km sample: the next 5,000 rows with KM_OK = TRUE. Other columns use INDEX. To draw a fresh sample in Excel: =RAND() in a helper column, Paste Special > Values, sort by it, take the first 5,000 rows.'; q_['A2'].font = FN
 q_['A3'] = 'Age sample'; q_['A3'].font = FB; q_['H3'] = 'Km sample (KM_OK rows only)'; q_['H3'].font = FB
 head(q_, 4, 1, ['Source row', 'Random key (value)', 'Segment', 'Registration_Age', 'Car_Price'])
 head(q_, 4, 8, ['Source row', 'Random key (value)', 'Segment', 'Kms_Driven', 'Car_Price'])
@@ -494,9 +530,10 @@ STEPS = [
  ('7', 'Calculated n, mean, median, mode, SD, min, max, quartiles and skewness for all rows, luxury and non-luxury. Array formulas (MEDIAN(IF(...)) etc.) entered with Ctrl+Shift+Enter.', 'Summary'),
  ('8', 'Calculated Pearson r between Car_Price and every other numeric field for the three groups, the log-scale km model, and the km-cap sensitivity.', 'Correlations'),
  ('9', 'Compared luxury and non-luxury (means, medians, 95% CI of the mean difference), each brand, each category of the other text fields, and each of the 39 models (with a 95% interval for each model median).', 'Segment_Compare'),
+ ('9b', 'Counted every category of the text and count fields for all, luxury and non-luxury listings.', 'Category_Shares'),
  ('10', 'Median price by age, by km decile, and by age band × km decile.', 'Age_Profile, Km_Deciles, Surface'),
  ('11', 'Duplicate check: copied DATA!AC with row number, price and segment, pasted as values, sorted by key, counted runs. Compared matching pairs with the number expected by chance from the category shares.', 'Dup_Check'),
- ('12', 'Scatter-plot samples: put =RAND() next to every row number, pasted as values and sorted. The first 5,000 rows form the age sample; the next 5,000 rows with KM_OK = TRUE form the km sample. INDEX fetches each row.', 'Plot_Sample'),
+ ('12', 'Scatter-plot samples: a uniform random number (seed 20260926), stored as a value, next to every row number; rows sorted by it. The first 5,000 rows form the age sample; the next 5,000 rows with KM_OK = TRUE form the km sample. INDEX fetches each row. The same can be done with =RAND() and Paste Values.', 'Plot_Sample'),
  ('13', 'Re-ran the key results without Unknown rows, without extreme prices and without repeat rows.', 'Sensitivity'),
  ('14', 'Drew the charts from the tables above; the report figures use the same numbers.', 'Charts'),
  ('Note', 'The file has about 9 million helper-column formulas and several hundred array formulas over 1,005,000 rows. Excel recalculates everything when the file opens; allow a minute or two.', ''),
@@ -608,6 +645,8 @@ for item in zin.infolist():
     elif item.filename == 'xl/_rels/workbook.xml.rels' and ssx is None:
         rl = zin.read(item.filename).decode().replace('</Relationships>', '<Relationship Id="rIdSST1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/></Relationships>')
         zout.writestr(item, rl)
+    elif item.filename == 'docProps/app.xml':
+        zout.writestr(item, '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"/>')
     else: zout.writestr(item, zin.read(item.filename))
 if ssx is None: zout.writestr('xl/sharedStrings.xml', ssxml)
 zout.close(); zin.close(); os.remove(TMP); os.remove(tmpxml); os.remove(dupxml)
