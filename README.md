@@ -18,7 +18,7 @@ LinzeColin 的冷归档仓：退役 / 参考项目的源码，以真实目录保
 | `COMM5000` | 课程作业归档：M1 二手车价格探索性分析（报告、审计工作簿、3D 交互实验室、分析代码；原始数据见 Release `COMM5000`） |
 | `COMM5000/M1_final` | M1 定稿：Word/PDF 报告、图、表、中文说明与构建脚本（公式工作簿约 200 MB，不入仓） |
 | `Linear-Regression-Live-Series` | 线性回归直播系列（内容归档） |
-| `nab` | 从 `LinzeColin/CodexProject` 迁入的 Cloudflare L2 展示（内容归档） |
+| `nab` | 从 `LinzeColin/CodexProject` 迁入的 Cloudflare L2 展示（内容归档；**已下线归档，2026-09-30 起不再部署**，见 `nab/README.md`） |
 | `CodexTokenMonitor` | 退役的 token 用量监控工具（已双平面治理） |
 | `EVA_OS` | 退役项目（已双平面治理） |
 | `_codexproject_legacy` | 仓库拆分时从 CodexProject 迁出的遗留资产 |

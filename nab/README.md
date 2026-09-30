@@ -1,5 +1,9 @@
 # nab
 
+> **已归档（2026-09-30，Owner 决定）。** 线上站已下线且不再部署：`nab.linzezhang.com` 的 DNS 记录在 2026-08 迁到 VPS-3 时没有带过去（现为 NXDOMAIN），
+> Coolify 上也已没有对应应用；`deploy-nab` 部署 workflow 已删除。源码原样保留在本目录，仅作内容归档。
+> 如需复活：新建静态托管应用（`Dockerfile` + `nginx.conf` 可直接用）并重建 DNS，或按下文 Wrangler 命令重新部署到 Cloudflare Worker。
+
 `nab` is an archived L2 Cloudflare presentation experiment. It was moved from the `LinzeColin/CodexProject` repository root so CodexProject can remain a governance hub instead of a deployment source for this archive surface.
 
 ## Public surface
