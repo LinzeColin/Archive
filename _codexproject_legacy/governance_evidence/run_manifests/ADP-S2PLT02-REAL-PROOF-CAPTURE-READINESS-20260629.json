@@ -8,7 +8,7 @@
     "s2plt02_terminal_delivery_proof_artifact_missing",
     "real_scheduler_not_proven"
   ],
-  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir /Users/linzezhang/.adp/arxiv-daily-push --service-date 2026-06-29 --json",
+  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir ~/.adp/arxiv-daily-push --service-date 2026-06-29 --json",
   "cli_exit_code": 2,
   "current_pointer_changed": false,
   "daily_operation_enabled": false,

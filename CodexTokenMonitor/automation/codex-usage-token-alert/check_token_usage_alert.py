@@ -35,7 +35,7 @@ def _load_config() -> Dict[str, object]:
         "check_interval_hours": int(os.getenv("USAGE_ALERT_INTERVAL_HOURS", "4")),
         "alert_ratio_percent": float(os.getenv("USAGE_ALERT_MIN_RATIO_PERCENT", "10")),
         "cooldown_hours": int(os.getenv("USAGE_ALERT_COOLDOWN_HOURS", "20")),
-        "notify_to": os.getenv("USAGE_ALERT_TO", "linzezhang35@gmail.com"),
+        "notify_to": os.getenv("USAGE_ALERT_TO", "LinzeColin@users.noreply.github.com"),
         "db_path": Path(os.getenv("USAGE_DB_PATH", os.path.expanduser("~/.codex_usage_monitor/usage.sqlite"))),
         "openai_dashboard_path": Path(
             os.getenv(
@@ -63,7 +63,7 @@ def _load_config() -> Dict[str, object]:
         ),
         "smtp_host": os.getenv("USAGE_ALERT_SMTP_HOST", "smtp.gmail.com"),
         "smtp_port": int(os.getenv("USAGE_ALERT_SMTP_PORT", "465")),
-        "smtp_user": os.getenv("USAGE_ALERT_SMTP_USER", os.getenv("USAGE_ALERT_TO", "linzezhang35@gmail.com")),
+        "smtp_user": os.getenv("USAGE_ALERT_SMTP_USER", os.getenv("USAGE_ALERT_TO", "LinzeColin@users.noreply.github.com")),
         "smtp_password": os.getenv("USAGE_ALERT_SMTP_PASSWORD", ""),
         "smtp_from": os.getenv("USAGE_ALERT_SMTP_FROM", ""),
         "smtp_keychain_service": os.getenv("USAGE_ALERT_SMTP_KEYCHAIN_SERVICE", "codex-usage-token-alert-gmail-smtp"),

@@ -28,9 +28,9 @@
       "status": "Pass",
       "summary": "Entity Registry schema=QuantLabEntityRegistryV1; records=28.",
       "evidence": {
-        "json": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.json",
-        "csv": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.csv",
-        "markdown": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.md",
+        "json": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.json",
+        "csv": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.csv",
+        "markdown": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.md",
         "schema": "QuantLabEntityRegistryV1",
         "record_count": 28,
         "status_counts": {
@@ -45,7 +45,7 @@
       "status": "Pass",
       "summary": "Workflow inputs are queryable; rows=3.",
       "evidence": {
-        "db_path": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/researchBus/ResearchBus.sqlite",
+        "db_path": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/researchBus/ResearchBus.sqlite",
         "input_count": 3,
         "status_counts": {
           "Pending": 2,
@@ -63,7 +63,7 @@
       "status": "Pass",
       "summary": "RunMetadata files=31; report_evidence=1.",
       "evidence": {
-        "report_root": "/Users/linzezhang/Downloads/量化回测分析",
+        "report_root": "~/Downloads/量化回测分析",
         "metadata_count": 31,
         "report_evidence_count": 1
       },

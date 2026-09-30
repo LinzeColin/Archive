@@ -21,7 +21,7 @@ index 9b6448b..1f83dea 100644
 +- Chinese display coverage includes FastAPI/OpenAPI metadata, owner summary actions, approval queue storage/freshness/actionability, HTTP error detail, and Moomoo OpenD next-step guidance.
  - `AGENTS.md` now records the product rule: user-visible dashboard, App/script output, statuses, risk reasons, and owner-facing messages must default to Chinese.
  - `scripts/start_alpha_dashboard.sh` now performs a post-health-check stability confirmation before reporting startup success.
- - AppleScript `Alpha.app` is installed at `/Users/linzezhang/Downloads/Alpha.app`, `/Users/linzezhang/Applications/Alpha.app`, and `/Applications/Alpha.app`.
+ - AppleScript `Alpha.app` is installed at `~/Downloads/Alpha.app`, `~/Applications/Alpha.app`, and `/Applications/Alpha.app`.
 @@ -65,6 +66,7 @@ Build Alpha as a GitHub-backed personal quant agent workspace with automatic pap
  - Refresh cadence target is 300 seconds by default.
  - Use one app-managed paper loop; do not start a second external agent process beside the dashboard.

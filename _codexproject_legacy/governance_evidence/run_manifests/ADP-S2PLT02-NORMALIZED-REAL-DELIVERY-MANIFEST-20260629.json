@@ -6,10 +6,10 @@
     "post_run_launchagents_disabled": true,
     "post_run_launchagents_not_running": true,
     "post_run_persistent_allow_smtp_send": false,
-    "previous_run_backup": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z"
+    "previous_run_backup": "~/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z"
   },
   "current_pointer_changed": false,
-  "daily_input_report_path": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z/adp-daily-input-report.json",
+  "daily_input_report_path": "~/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z/adp-daily-input-report.json",
   "daily_input_source": "existing_report",
   "daily_operation_enabled": false,
   "db_migration_executed": false,

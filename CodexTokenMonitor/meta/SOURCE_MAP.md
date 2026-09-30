@@ -10,17 +10,17 @@ Codex Token Monitor
 
 ## Local Source Roots At Backup Time
 
-- Main source: `/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor`
-- Runtime data: `/Users/linzezhang/.codex_usage_monitor`
-- Alert automation: `/Users/linzezhang/.codex/automations/codex-usage-token-alert`
-- Alert validation skill: `/Users/linzezhang/.codex/memories/skills/codex-usage-token-alert-local-check`
-- LaunchAgent: `/Users/linzezhang/Library/LaunchAgents/local.codex-usage-monitor.dashboard.plist`
-- Logs: `/Users/linzezhang/Library/Logs/CodexUsageMonitor`
-- CodexBar install artifact: `/Users/linzezhang/Documents/Codex/2026-06-05/codexmonitor-url-token/work/codexbar-install/CodexBar-macos-universal-0.32.4.zip`
-- CodexBar support data: `/Users/linzezhang/Library/Application Support/CodexBar`
-- CodexBar app state: `/Users/linzezhang/Library/Application Support/com.steipete.codexbar`
-- CodexBar group container: `/Users/linzezhang/Library/Group Containers/Y5PE65HELJ.com.steipete.codexbar`
-- CodexBar preferences: `/Users/linzezhang/Library/Preferences/com.steipete.codexbar.plist`
+- Main source: `~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor`
+- Runtime data: `~/.codex_usage_monitor`
+- Alert automation: `~/.codex/automations/codex-usage-token-alert`
+- Alert validation skill: `~/.codex/memories/skills/codex-usage-token-alert-local-check`
+- LaunchAgent: `~/Library/LaunchAgents/local.codex-usage-monitor.dashboard.plist`
+- Logs: `~/Library/Logs/CodexUsageMonitor`
+- CodexBar install artifact: `~/Documents/Codex/2026-06-05/codexmonitor-url-token/work/codexbar-install/CodexBar-macos-universal-0.32.4.zip`
+- CodexBar support data: `~/Library/Application Support/CodexBar`
+- CodexBar app state: `~/Library/Application Support/com.steipete.codexbar`
+- CodexBar group container: `~/Library/Group Containers/Y5PE65HELJ.com.steipete.codexbar`
+- CodexBar preferences: `~/Library/Preferences/com.steipete.codexbar.plist`
 
 ## Known Runtime Processes At Backup Time
 

@@ -8,16 +8,16 @@ This file records read-only handshakes with the three source-system Codex thread
 
 | Source thread | Thread id | Original cwd | EVA_OS target | Current migration status |
 | --- | --- | --- | --- | --- |
-| Consumption Analysis Original | `019e8d22-4ad0-7760-a31c-d61b090bef20` | `/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604` | `systems/finance_ledger` | source/tests/docs migrated |
-| Government Document Interpretation | `019e8c9e-6816-7320-8d6b-c6f215378abd` | `/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step` | `systems/policy_intelligence` | source/tests/docs migrated |
-| Industry Research and Trading Strategy Advice | `019e8b29-5726-7ff0-a044-dbfc6a15e460` | `/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex` | `systems/industry_research` | source/tests/docs migrated |
+| Consumption Analysis Original | `019e8d22-4ad0-7760-a31c-d61b090bef20` | `~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604` | `systems/finance_ledger` | source/tests/docs migrated |
+| Government Document Interpretation | `019e8c9e-6816-7320-8d6b-c6f215378abd` | `~/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step` | `systems/policy_intelligence` | source/tests/docs migrated |
+| Industry Research and Trading Strategy Advice | `019e8b29-5726-7ff0-a044-dbfc6a15e460` | `~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex` | `systems/industry_research` | source/tests/docs migrated |
 
 ## Finance Ledger / Consumption Analysis
 
 Current root:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604
+~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604
 ```
 
 Migrated into EVA_OS:
@@ -54,7 +54,7 @@ Next EVA_OS step:
 Current policy system root:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry
+~/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry
 ```
 
 Migrated into EVA_OS:
@@ -79,9 +79,9 @@ reports/政策智能系统_交付评审包_20260615.zip
 Keep private and do not upload:
 
 ```text
-/Users/linzezhang/.policy-intelligence
-/Users/linzezhang/.codex/automations/automation
-/Users/linzezhang/Library/Application Support/Google/Chrome/Default
+~/.policy-intelligence
+~/.codex/automations/automation
+~/Library/Application Support/Google/Chrome/Default
 policy-search-secrets.json
 policy-platform-auth.json
 cookies, sessions, browser profiles, API keys, raw HTML dumps, debug logs
@@ -103,7 +103,7 @@ Next EVA_OS step:
 Current source root:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System
+~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System
 ```
 
 Migrated into EVA_OS:
@@ -116,7 +116,7 @@ systems/industry_research/SYSTEM_MANIFEST.json
 External report output:
 
 ```text
-/Users/linzezhang/Downloads/行研报告
+~/Downloads/行研报告
 ```
 
 Keep private and do not upload:
@@ -125,10 +125,10 @@ Keep private and do not upload:
 data/private/
 data/private/alipay/
 data/report_artifacts/
-/Users/linzezhang/Library/Containers/com.moomoo.mm-mac/
-/Users/linzezhang/.codex/
-/Users/linzezhang/Downloads/支付宝*
-/Users/linzezhang/Downloads/*交易明细*
+~/Library/Containers/com.moomoo.mm-mac/
+~/.codex/
+~/Downloads/支付宝*
+~/Downloads/*交易明细*
 real holdings, account data, cookies, API keys, moomoo local databases, runtime logs
 ```
 
@@ -136,7 +136,7 @@ Known remaining issues at source handoff time:
 
 - Automation health was `fail`.
 - Main blockers: automation model gate mismatch, stale quote snapshot, Alipay not updated, missing policy bridge, and missing 2026-06-15 reports.
-- The separate source handoff package path was reported as `/Users/linzezhang/Downloads/AI行研系统交接包_15062026.zip`.
+- The separate source handoff package path was reported as `~/Downloads/AI行研系统交接包_15062026.zip`.
 
 Current EVA_OS migration evidence:
 

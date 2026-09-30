@@ -71,56 +71,56 @@
 
 ## Fast Path
 
-第一次使用：双击 `/Users/linzezhang/Desktop/EVA_OS.app`、`/Users/linzezhang/Downloads/EVA_OS.app` 或 `/Applications/EVA_OS.app`。
+第一次使用：双击 `~/Desktop/EVA_OS.app`、`~/Downloads/EVA_OS.app` 或 `/Applications/EVA_OS.app`。
 
-停止使用：双击 `/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/StopQuantLab.command`。
+停止使用：双击 `~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/StopQuantLab.command`。
 
-报告目录：`/Users/linzezhang/Downloads/量化回测分析`。
+报告目录：`~/Downloads/量化回测分析`。
 
-快速生成样例报告：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/createSampleReport.sh`。
+快速生成样例报告：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/createSampleReport.sh`。
 
-日常检查：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh`。
+日常检查：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh`。
 
-日常就绪正式产物：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --output-dir data/systemAudit`。
+日常就绪正式产物：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --output-dir data/systemAudit`。
 
-Token ROI 台账：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/tokenRoiLedger.sh --output-dir data/value`。
+Token ROI 台账：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/tokenRoiLedger.sh --output-dir data/value`。
 
-公司现金流快照：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/cashFlowCommand.sh --output-dir data/cashflow`。
+公司现金流快照：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/cashFlowCommand.sh --output-dir data/cashflow`。
 
-政策雷达快照：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/policyRadar.sh --output-dir data/policy`。
+政策雷达快照：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/policyRadar.sh --output-dir data/policy`。
 
-消费守卫快照：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/consumptionGuard.sh --output-dir data/consumption`。
+消费守卫快照：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/consumptionGuard.sh --output-dir data/consumption`。
 
-总控报告：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter`。
+总控报告：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter`。
 
-行情事件日志：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/marketEventLayer.sh --output-dir data/marketEvents`。
+行情事件日志：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/marketEventLayer.sh --output-dir data/marketEvents`。
 
-数据湖 Manifest：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dataLakeManifest.sh --output-dir data/dataLake`。
+数据湖 Manifest：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dataLakeManifest.sh --output-dir data/dataLake`。
 
 事件回放：`scripts/eventReplay.sh --output-dir data/replay`。
 
-报告证据索引：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportDecisionSupport.sh --output-dir data/reportDecision`。
+报告证据索引：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportDecisionSupport.sh --output-dir data/reportDecision`。
 
-报告补证据任务预览：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --dry-run --output-dir data/reportDecision`。
+报告补证据任务预览：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --dry-run --output-dir data/reportDecision`。
 
-报告补证据任务入队：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --output-dir data/reportDecision`。
+报告补证据任务入队：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --output-dir data/reportDecision`。
 
-验证任务优先级计划：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validationPriorityPlan.sh --output-dir data/validationQueue`。
+验证任务优先级计划：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validationPriorityPlan.sh --output-dir data/validationQueue`。
 
-执行最高优先级验证任务：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runValidationTask.sh --output-dir data/validationQueue`。
+执行最高优先级验证任务：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runValidationTask.sh --output-dir data/validationQueue`。
 
-最终成品验收：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh`。
+最终成品验收：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh`。
 
 只读证据审计：`PYTHONPATH=src .venv/bin/python -m quantlab.examples.data_trust_audit --output-dir /private/tmp/quantlab-data-trust`。
 
-联网验证：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --network`。
+联网验证：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --network`。
 
-Moomoo 只读行情诊断：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh`。
+Moomoo 只读行情诊断：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh`。
 
-持仓簿：`/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/holdings/HoldingsBook.json`。
+持仓簿：`~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/holdings/HoldingsBook.json`。
 
-持仓导入目录：`/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/holdings/imports`。
+持仓导入目录：`~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/holdings/imports`。
 
-统一研究数据总线：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchBus.sh --json`。
+统一研究数据总线：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchBus.sh --json`。
 
-独立验证系统：`/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --json`。
+独立验证系统：`~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --json`。

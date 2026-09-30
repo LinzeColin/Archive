@@ -21,8 +21,8 @@ EVA_OS 是个人研究与决策支持中台，不是自动交易软件。
 启动入口：
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 

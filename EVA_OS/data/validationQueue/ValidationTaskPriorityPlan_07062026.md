@@ -4,7 +4,7 @@
 - Queue Records: `7058`
 - Candidate Records: `7058`
 - Prioritized Tasks: `200`
-- Queue: `/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json`
+- Queue: `~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json`
 
 ## Action Buckets
 | action_bucket | count |

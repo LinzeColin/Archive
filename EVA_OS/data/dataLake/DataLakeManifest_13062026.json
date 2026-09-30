@@ -4,7 +4,7 @@
   "generated_at": "2026-06-13T09:17:39",
   "layer": "Reproducible Data Lake",
   "lake_status": "Pass",
-  "project_root": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
+  "project_root": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
   "asset_count": 1,
   "immutable_asset_count": 1,
   "latest_alias_count": 4,

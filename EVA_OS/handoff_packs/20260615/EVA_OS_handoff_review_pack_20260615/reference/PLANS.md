@@ -53,7 +53,7 @@
 - Daily Readiness returns `ReadyForResearch` or clear review/blocking action items before daily use.
 - Real-data conclusions cite provider, date range, quality checks, and limitations.
 - Cross-system changes update ResearchBus documentation or handoff notes.
-- macOS launchers use `/Users/linzezhang/Desktop/EVA_OS.app`, `/Users/linzezhang/Downloads/EVA_OS.app`, and `/Applications/EVA_OS.app`.
+- macOS launchers use `~/Desktop/EVA_OS.app`, `~/Downloads/EVA_OS.app`, and `/Applications/EVA_OS.app`.
 - Token ROI Ledger outputs exist under `data/value` and do not fabricate `revenue_generated`, `cost_saved`, `loss_avoided`, `asset_reuse_value`, or `roi_score`.
 - Executive Command Center outputs exist under `data/commandCenter`, default navigation opens `总控驾驶舱`, and status downgrades to `NeedsReview` or `Blocked` when evidence is incomplete.
 - Report Decision Support outputs exist under `data/reportDecision`, Report Center exposes `证据索引`, and missing report evidence downgrades to `NeedsMoreEvidence` or `DoNotUse`.

@@ -1,11 +1,11 @@
 thread_id: 019ebb46-70f6-7543-ba48-3b6196b37b75
 updated_at: 2026-06-12T11:02:36+00:00
-rollout_path: /Users/linzezhang/.codex/archived_sessions/rollout-2026-06-12T20-00-16-019ebb46-70f6-7543-ba48-3b6196b37b75.jsonl
-cwd: /Users/linzezhang/.codex/automations/codex-usage-token-alert
+rollout_path: ~/.codex/archived_sessions/rollout-2026-06-12T20-00-16-019ebb46-70f6-7543-ba48-3b6196b37b75.jsonl
+cwd: ~/.codex/automations/codex-usage-token-alert
 
 # Codex usage alert automation was production-hardened, then synchronized and verified against the final conversation state.
 
-Rollout context: The automation lives in `/Users/linzezhang/.codex/automations/codex-usage-token-alert` and monitors Codex weekly token usage. The user repeatedly pushed from “test script” toward a real, stable notification workflow that reads accurately, wakes CodexBar when needed, and sends real email notifications. The final state was explicitly requested to be fully consistent with the conversation and to keep running normally.
+Rollout context: The automation lives in `~/.codex/automations/codex-usage-token-alert` and monitors Codex weekly token usage. The user repeatedly pushed from “test script” toward a real, stable notification workflow that reads accurately, wakes CodexBar when needed, and sends real email notifications. The final state was explicitly requested to be fully consistent with the conversation and to keep running normally.
 
 ## Task 1: Make the usage-alert automation production-stable and real-email capable
 Outcome: success
@@ -41,8 +41,8 @@ Failures and how to do differently:
 
 Reusable knowledge:
 - The exact runtime command remains:
-  `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
-- The automation’s stable working directory is `/Users/linzezhang/.codex/automations/codex-usage-token-alert`.
+  `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- The automation’s stable working directory is `~/.codex/automations/codex-usage-token-alert`.
 - The current production defaults in the script are:
   - `USAGE_ALERT_PREFERRED_SOURCE=auto`
   - `USAGE_ALERT_FRESH_SAMPLE_MINUTES=10`
@@ -51,14 +51,14 @@ Reusable knowledge:
   - `USAGE_ALERT_SEND_BACKEND=macos-mail`
 - The script uses CodexBar refresh behavior when a sample is not fresh: if CodexBar is not running, it is launched, the script waits for a fresh history/dashboard sample, and then CodexBar is closed if the script started it.
 - Gmail SMTP is still implemented and can be re-enabled, but the automation default was intentionally changed away from it because live SMTP authentication was not reliable in this rollout.
-- Keychain service for Gmail app password was standardized as `codex-usage-token-alert-gmail-smtp` with account `linzezhang35@gmail.com`.
+- Keychain service for Gmail app password was standardized as `codex-usage-token-alert-gmail-smtp` with account `LinzeColin@users.noreply.github.com`.
 - The automation records state/logs in `state/state.json` and `logs/runner.log`; these were used to verify `event=check`, `event=alert_sent`, and `trigger` values.
 
 References:
 - [1] `automation.toml` now shows:
   - `status = "ACTIVE"`
   - `rrule = "RRULE:FREQ=HOURLY;INTERVAL=4;BYMINUTE=0"`
-  - `command = "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once"`
+  - `command = "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once"`
   - `updated_at = 1781262108000`
   - prompt updated to mention CodexBar refresh and macOS Mail delivery to a Gmail inbox.
 - [2] `check_token_usage_alert.py` now contains:
@@ -70,10 +70,10 @@ References:
   - password whitespace normalization before SMTP login
 - [3] Verification evidence from logs:
   - normal run wrote `event=check` with `remaining_percent=90.0`, `remaining_days=6`, `sampled_at=2026-06-12T10:49:48+00:00`, `trigger=false`
-  - forced live send with macOS Mail wrote `event=alert_sent`, `mode=live`, `to=linzezhang35@gmail.com`
+  - forced live send with macOS Mail wrote `event=alert_sent`, `mode=live`, `to=LinzeColin@users.noreply.github.com`
 - [4] Keychain verification showed the credential entry exists with the expected service/account pair:
   - service `codex-usage-token-alert-gmail-smtp`
-  - account `linzezhang35@gmail.com`
+  - account `LinzeColin@users.noreply.github.com`
 
 ## Task 2: Final consistency check between conversation, automation config, and runtime behavior
 Outcome: success

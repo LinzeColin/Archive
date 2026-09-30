@@ -55,7 +55,7 @@
     "arxiv-daily-push/docs/phase_records/PHASE_S2PMT07_INTEGRATED_PRODUCTION_ACCEPTANCE_WRITE_GATE_MAINLINE_ATTESTATION.md",
     "governance/run_manifests/ADP-S2PMT07-INTEGRATED-PRODUCTION-ACCEPTANCE-WRITE-GATE-20260701.json",
     "governance/run_manifests/ADP-S2PMT07-AUTHORIZED-CONTROLLED-REAL-RUN-ACCEPTANCE-20260701.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260701/adp-local-runner-report.json"
+    "~/.adp/arxiv-daily-push/runs/20260701/adp-local-runner-report.json"
   ],
   "finished_at": "2026-07-01T16:52:40+10:00",
   "generated_at": "2026-07-01T17:31:00+10:00",

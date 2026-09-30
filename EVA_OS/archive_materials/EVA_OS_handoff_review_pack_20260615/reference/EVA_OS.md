@@ -53,20 +53,20 @@ EVA_OS 是本地优先、证据驱动、Codex 工程化、以经济价值转化�
 
 | 位置 | 路径 |
 | --- | --- |
-| 桌面 | `/Users/linzezhang/Desktop/EVA_OS.app` |
-| Downloads | `/Users/linzezhang/Downloads/EVA_OS.app` |
+| 桌面 | `~/Desktop/EVA_OS.app` |
+| Downloads | `~/Downloads/EVA_OS.app` |
 | Applications | `/Applications/EVA_OS.app` |
 
 如果需要重建入口，运行：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installMacAppLaunchers.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installMacAppLaunchers.sh
 ```
 
 总控报告命令：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter
 ```
 
 ## 风险边界

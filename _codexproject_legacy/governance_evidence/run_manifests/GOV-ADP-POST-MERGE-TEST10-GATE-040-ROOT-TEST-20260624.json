@@ -85,7 +85,7 @@
   "acceptance_after_test10": [
     "manual run number 10 exists and completed success",
     "scheduled-execution artifact reports notification_status sent",
-    "recipient is linzezhang35@gmail.com",
+    "recipient is LinzeColin@users.noreply.github.com",
     "email subject date equals Australia/Sydney service date",
     "candidate queue summary is present",
     "production scheduled job remains skipped or disabled",

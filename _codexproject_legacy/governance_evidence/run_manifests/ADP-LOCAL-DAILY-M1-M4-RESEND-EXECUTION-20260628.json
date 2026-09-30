@@ -12,7 +12,7 @@
   "summary": "2026-06-28 M1-M4 邮件补发完成：M1 识别为历史已发送，M2-M4 通过真实 SMTP 补发成功。",
   "status": "pass",
   "daily_input_source": "existing_report",
-  "daily_input_report_path": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-daily-input-report.json",
+  "daily_input_report_path": "~/.adp/arxiv-daily-push/runs/20260628/adp-daily-input-report.json",
   "mail_delivery_summary": {
     "planned_send_total": 4,
     "sent_mail_count": 4,

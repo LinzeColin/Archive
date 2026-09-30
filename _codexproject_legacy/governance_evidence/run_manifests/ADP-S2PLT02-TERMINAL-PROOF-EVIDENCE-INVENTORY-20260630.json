@@ -14,11 +14,11 @@
       "dry_run_evidence_present": true,
       "dry_run_mail_count": 4,
       "evidence_refs": [
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
+        "~/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
+        "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
+        "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
+        "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
+        "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
       ],
       "real_sent_mail_count": 0,
       "role": "day_2_delivery_candidate",
@@ -39,11 +39,11 @@
       "dry_run_evidence_present": true,
       "dry_run_mail_count": 4,
       "evidence_refs": [
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
-        "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
+        "~/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
+        "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
+        "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
+        "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
+        "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
       ],
       "real_sent_mail_count": 0,
       "role": "day_2_delivery_candidate",

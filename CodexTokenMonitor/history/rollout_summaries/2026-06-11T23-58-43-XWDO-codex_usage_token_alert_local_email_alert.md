@@ -1,7 +1,7 @@
 thread_id: 019eb91f-b69d-7980-90b1-97bd906971e4
 updated_at: 2026-06-12T00:00:39+00:00
-rollout_path: /Users/linzezhang/.codex/archived_sessions/rollout-2026-06-12T09-58-43-019eb91f-b69d-7980-90b1-97bd906971e4.jsonl
-cwd: /Users/linzezhang/.codex/automations/codex-usage-token-alert
+rollout_path: ~/.codex/archived_sessions/rollout-2026-06-12T09-58-43-019eb91f-b69d-7980-90b1-97bd906971e4.jsonl
+cwd: ~/.codex/automations/codex-usage-token-alert
 
 # Local execution check for the Codex usage alert automation
 
@@ -31,6 +31,6 @@ Reusable knowledge:
 - Earlier memory notes indicate prior local runs often skipped due to `interval_guard` or `cooldown`, and a dry-run (`USAGE_ALERT_DRY_RUN=1`) was used to verify trigger logic without sending mail.
 
 References:
-- [1] Memory file contents at `/Users/linzezhang/.codex/automations/codex-usage-token-alert/memory.md` noting prior runs, interval guard/cooldown behavior, and the `python3 check_token_usage_alert.py --once` entrypoint.
+- [1] Memory file contents at `~/.codex/automations/codex-usage-token-alert/memory.md` noting prior runs, interval guard/cooldown behavior, and the `python3 check_token_usage_alert.py --once` entrypoint.
 - [2] Script behavior from `check_token_usage_alert.py`: reads quota, computes `remaining_days`, checks `_should_send_alert`, then sends via `_send_via_gmail_smtp(...)` or `_send_via_macos_mail(...)`.
 - [3] Exact user request: "仅执行脚本，不调用模型，不产生额外LLM token。"

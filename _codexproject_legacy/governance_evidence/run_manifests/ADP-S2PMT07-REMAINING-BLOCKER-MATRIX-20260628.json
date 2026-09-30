@@ -195,7 +195,7 @@
     "targeted_unittest": "85 OK",
     "user_center_timestamp_check": "18 timestamps validated",
     "v7_2_validator": "PASS",
-    "wrong_directory_residual": "not present at /Users/linzezhang/Documents/arXiv/arxiv-daily-push/tests/test_user_center_candidate_pool.py"
+    "wrong_directory_residual": "not present at ~/Documents/arXiv/arxiv-daily-push/tests/test_user_center_candidate_pool.py"
   },
   "production_acceptance_claimed": false,
   "production_queue_mutated": false,

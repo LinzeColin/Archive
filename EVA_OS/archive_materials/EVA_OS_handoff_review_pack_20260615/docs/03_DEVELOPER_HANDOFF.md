@@ -17,7 +17,7 @@ docs/Index.md
 ## Local Project
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 GitHub:
@@ -34,7 +34,7 @@ The old `.venv` was removed during slimming. Some scripts now fall back to `QUAN
 Recommended setup:
 
 ```bash
-cd /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+cd ~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 python3 -m venv .venv
 .venv/bin/python -m pip install -e '.[test,app,data]'
 ```

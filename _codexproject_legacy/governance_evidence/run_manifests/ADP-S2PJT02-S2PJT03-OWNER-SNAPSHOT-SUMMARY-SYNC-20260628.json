@@ -18,8 +18,8 @@
     ],
     "snapshot_source_page": "arxiv-daily-push/用户中心/复习行动与收益.md",
     "runtime_report_sources_observed": [
-      "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/s2pjt02-review-schedule/adp-s2pjt02-review-schedule-report.json",
-      "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/s2pjt03-action-asset-roi/adp-s2pjt03-action-asset-roi-report.json"
+      "~/.adp/arxiv-daily-push/runs/20260628/s2pjt02-review-schedule/adp-s2pjt02-review-schedule-report.json",
+      "~/.adp/arxiv-daily-push/runs/20260628/s2pjt03-action-asset-roi/adp-s2pjt03-action-asset-roi-report.json"
     ]
   },
   "snapshot_values": {
@@ -63,7 +63,7 @@
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_owner_snapshot_current_state PYTHONPATH=arxiv-daily-push/src python3 -B -m unittest arxiv-daily-push/tests/test_governance_current_state.py -q",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_owner_snapshot_full2 PYTHONPATH=arxiv-daily-push/src python3 -B -m unittest discover -s arxiv-daily-push/tests -q",
     "PYTHONPATH=arxiv-daily-push/src python3 arxiv-daily-push/scripts/update_user_center_timestamps.py --check",
-    "PYTHONPATH=arxiv-daily-push/src python3 arxiv-daily-push/scripts/update_user_center_learning_snapshot.py --check --state-dir /Users/linzezhang/.adp/arxiv-daily-push",
+    "PYTHONPATH=arxiv-daily-push/src python3 arxiv-daily-push/scripts/update_user_center_learning_snapshot.py --check --state-dir ~/.adp/arxiv-daily-push",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_owner_snapshot_project PYTHONPATH=scripts:arxiv-daily-push/src python3 -B scripts/validate_project_governance.py --project arxiv-daily-push",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_owner_snapshot_sync PYTHONPATH=scripts:arxiv-daily-push/src python3 -B scripts/validate_governance_sync.py",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_owner_snapshot_changed3 PYTHONPATH=scripts:arxiv-daily-push/src python3 -B scripts/lean_governance.py validate --changed-only --enforce-sync --semantic --base-ref origin/main",
@@ -78,7 +78,7 @@
     "test_governance_current_state": "4 tests OK",
     "full_arxiv_daily_push_unittest": "666 tests OK",
     "user_center_timestamps": "18 user-center timestamps validated",
-    "learning_snapshot_check": "validated against /Users/linzezhang/.adp/arxiv-daily-push reports",
+    "learning_snapshot_check": "validated against ~/.adp/arxiv-daily-push reports",
     "project_governance": "errors 0 warnings 0",
     "governance_sync": "errors 0 warnings 0",
     "changed_only_governance_semantic_sync": "errors 0 warnings 0",

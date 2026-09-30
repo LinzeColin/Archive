@@ -4,7 +4,7 @@
   "status": "source_migrated",
   "migration_phase": "source_tests_docs_migrated",
   "legacy_local_roots": [
-    "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System"
+    "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System"
   ],
   "current_workspace_root": "systems/industry_research",
   "source_root": "systems/industry_research/source",

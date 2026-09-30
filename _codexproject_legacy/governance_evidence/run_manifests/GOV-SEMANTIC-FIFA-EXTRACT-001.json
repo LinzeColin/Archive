@@ -143,7 +143,7 @@
       "result": "206 tests ran; failed test_report_store_and_dashboard_outputs because present_required_column_count 0 != 21"
     },
     {
-      "command": "cd FIFA/tab-research-pipeline && HOME=<temp with 21-column Downloads/FIFA Report/TAB FIFA盘口研究系统.html fixture> /Users/linzezhang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest tests.test_pipeline -q",
+      "command": "cd FIFA/tab-research-pipeline && HOME=<temp with 21-column Downloads/FIFA Report/TAB FIFA盘口研究系统.html fixture> ~/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest tests.test_pipeline -q",
       "exit_code": 0,
       "result": "Ran 206 tests OK with Codex bundled Python and 21-column Downloads entry fixture"
     },

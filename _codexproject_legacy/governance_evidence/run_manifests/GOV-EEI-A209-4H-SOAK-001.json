@@ -126,7 +126,7 @@
       "result": "manifest_paths=399; checksum_paths=398; remote_status=PENDING"
     },
     {
-      "command": "cd EEI && PLAYWRIGHT_BROWSERS_PATH=/private/tmp/eei-ms-playwright UV_CACHE_DIR=/private/tmp/eei-uv-cache PNPM=/Users/linzezhang/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/pnpm make verify",
+      "command": "cd EEI && PLAYWRIGHT_BROWSERS_PATH=/private/tmp/eei-ms-playwright UV_CACHE_DIR=/private/tmp/eei-uv-cache PNPM=~/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/pnpm make verify",
       "exit_code": 0,
       "result": "PASS after sandbox-elevated Chromium rerun; unit tests 50 passed"
     }

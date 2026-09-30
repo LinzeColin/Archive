@@ -6,7 +6,7 @@
 - Pending New Tasks: `0`
 - Appended Tasks: `0`
 - Skipped Existing: `163`
-- Queue: `/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json`
+- Queue: `~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json`
 
 ## Gap Counts
 | evidence_gap | count |

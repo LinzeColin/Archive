@@ -19,7 +19,7 @@
   "status": "blocked",
   "result": "blocked_s2plt02_daily_run_success_dry_run_not_terminal_no_production",
   "summary": "S2PLT02 terminal proof evidence inventory now classifies 2026-06-29 and 2026-06-30 daily-run status=succeeded records as nonterminal because the linked M1-M4 SMTP product reports are dry-run, not real sent evidence.",
-  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-terminal-proof-evidence-inventory --repo-root /private/tmp/adp-s3-next-hdrIpr --state-dir /Users/linzezhang/.adp/arxiv-daily-push --candidate-service-dates 2026-06-29,2026-06-30 --launchctl-disabled-file /tmp/adp_launchctl_disabled_s2plt02.txt --generated-at 2026-06-30T15:31:00+10:00 --json",
+  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-terminal-proof-evidence-inventory --repo-root /private/tmp/adp-s3-next-hdrIpr --state-dir ~/.adp/arxiv-daily-push --candidate-service-dates 2026-06-29,2026-06-30 --launchctl-disabled-file /tmp/adp_launchctl_disabled_s2plt02.txt --generated-at 2026-06-30T15:31:00+10:00 --json",
   "cli_exit_code": 2,
   "state_hash": "a9179f2a386c23d6efb0495659f434a3991736ce7a10ec6e234659a4e6a0accf",
   "input_inventory_state_hash": "47a2ea86c16635cce0bf4bd89e77f37a144b4af4a6c1ccab7484e0ba10fc2c36",

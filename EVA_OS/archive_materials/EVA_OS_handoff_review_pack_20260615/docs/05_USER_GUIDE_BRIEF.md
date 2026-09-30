@@ -20,8 +20,8 @@ EVA_OS 是个人研究与决策支持中台。它帮助整理市场数据、策�
 ## App Entry Points
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 

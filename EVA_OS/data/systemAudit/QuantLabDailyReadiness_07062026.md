@@ -3,8 +3,8 @@
 ## Summary
 - Readiness Status: `ReadyForResearch`
 - Generated At: `2026-06-07T11:29:16`
-- Project Root: `/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance`
-- Report Root: `/Users/linzezhang/Downloads/量化回测分析`
+- Project Root: `~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance`
+- Report Root: `~/Downloads/量化回测分析`
 
 ## Core Gates
 | gate | status | evidence | next_action |
@@ -13,7 +13,7 @@
 | IntegrationAudit | Pass | summary={'pass': 6, 'review': 0, 'fail': 0, 'item_count': 6} | Run scripts/auditQuantLabIntegration.sh --no-write if not Pass. |
 | NoLiveTradingBoundary | Pass | No live order path must remain enforced. | Remove or fail closed any real-order code path. |
 | ReportEvidence | Pass | run_metadata=31; report_evidence_layer=Pass | Generate a report with RunMetadata before using results. |
-| LatestWordReport | Pass | /Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Generate at least one Word report for the current research session. |
+| LatestWordReport | Pass | ~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Generate at least one Word report for the current research session. |
 
 ## Provider Summary
 | ready | needs_config | needs_package | needs_opend | other |
@@ -23,7 +23,7 @@
 ## Latest Report
 | path | artifact_type | modified_at |
 | --- | --- | --- |
-| /Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Backtest Word Report |  |
+| ~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Backtest Word Report |  |
 
 ## Action Items
 - Configure provider API keys only for the data sources you actually use; do not store keys in source code.

@@ -4,8 +4,8 @@
   "as_of": "2026-06-07",
   "generated_at": "2026-06-07T11:29:16",
   "readiness_status": "ReadyForResearch",
-  "project_root": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
-  "report_root": "/Users/linzezhang/Downloads/量化回测分析",
+  "project_root": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
+  "report_root": "~/Downloads/量化回测分析",
   "core_gates": [
     {
       "gate": "DataTrust",
@@ -34,7 +34,7 @@
     {
       "gate": "LatestWordReport",
       "status": "Pass",
-      "evidence": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "evidence": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "next_action": "Generate at least one Word report for the current research session."
     }
   ],
@@ -148,7 +148,7 @@
     "artifact_type": "Backtest Word Report",
     "date_folder": "2026-06-07",
     "size_kb": 742.96,
-    "path": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx"
+    "path": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx"
   },
   "action_items": [
     "Configure provider API keys only for the data sources you actually use; do not store keys in source code.",

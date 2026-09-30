@@ -12,7 +12,7 @@
   "summary": "2026-06-29 M1-M4 受控前台真实 SMTP catch-up 发送完成；用于补齐 S2PLT02 第二真实日证据，不启用后台调度或生产验收。",
   "status": "pass",
   "daily_input_source": "existing_report",
-  "daily_input_report_path": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z/adp-daily-input-report.json",
+  "daily_input_report_path": "~/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z/adp-daily-input-report.json",
   "mail_delivery_summary": {
     "planned_send_total": 4,
     "sent_mail_count": 4,
@@ -45,7 +45,7 @@
   "controlled_run_details": {
     "execution_mode": "foreground_one_shot_no_launchagent_kickstart",
     "command_output_ref": "/tmp/adp_controlled_real_send_20260629_20260630T214335Z.json",
-    "previous_run_backup": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z",
+    "previous_run_backup": "~/.adp/arxiv-daily-push/runs/20260629_before_controlled_real_send_20260630T214335Z",
     "post_run_persistent_allow_smtp_send": false,
     "post_run_launchagents_disabled": true,
     "post_run_launchagents_not_running": true,

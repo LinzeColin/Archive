@@ -14,16 +14,16 @@ allowed-tools:
 
 ## When to use
 
-- Use for `/Users/linzezhang/.codex/automations/codex-usage-token-alert` when the user says to run the alert locally, verify whether the real alert path would send, or inspect why no email was sent.
+- Use for `~/.codex/automations/codex-usage-token-alert` when the user says to run the alert locally, verify whether the real alert path would send, or inspect why no email was sent.
 - Use when the user explicitly wants script-only execution with no extra LLM token usage.
 - Do not use for redesigning the alert policy or for unrelated Codex analytics questions.
 
 ## Inputs / context to gather
 
 1. Read the local automation files first:
-   - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/automation.toml`
-   - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py`
-   - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/memory.md`
+   - `~/.codex/automations/codex-usage-token-alert/automation.toml`
+   - `~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py`
+   - `~/.codex/automations/codex-usage-token-alert/memory.md`
 2. Confirm the intended mode:
    - normal local check: `--once`
    - branch validation without real email: `USAGE_ALERT_DRY_RUN=1`
@@ -39,7 +39,7 @@ allowed-tools:
 1. Confirm the documented entrypoint from `automation.toml`.
 2. Read the current memory note for the latest cooldown/interval context.
 3. Run the normal command first:
-   - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+   - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 4. Inspect `logs/runner.log` and `state/state.json` immediately after the run.
 5. Classify the result:
    - `event=check` with `trigger=false`: normal non-alert path succeeded

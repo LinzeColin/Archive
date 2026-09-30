@@ -14,9 +14,9 @@ Update 2026-06-16: the three migrated systems now have a low-token workspace man
 
 | System | Target | Phase | Source of truth before migration |
 | --- | --- | --- | --- |
-| Finance Ledger / Consumption Analysis | `systems/finance_ledger` | source/tests/docs migrated | `/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604` |
-| Industry Research / Trading Strategy Advice | `systems/industry_research` | source/tests/docs migrated | `/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System` |
-| Policy Intelligence / Government Document Interpretation | `systems/policy_intelligence` | source/tests/docs migrated | `/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry` |
+| Finance Ledger / Consumption Analysis | `systems/finance_ledger` | source/tests/docs migrated | `~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604` |
+| Industry Research / Trading Strategy Advice | `systems/industry_research` | source/tests/docs migrated | `~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System` |
+| Policy Intelligence / Government Document Interpretation | `systems/policy_intelligence` | source/tests/docs migrated | `~/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry` |
 
 ## Shared Contracts
 

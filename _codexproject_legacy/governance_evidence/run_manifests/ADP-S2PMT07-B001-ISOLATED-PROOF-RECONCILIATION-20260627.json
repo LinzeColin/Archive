@@ -23,12 +23,12 @@
   "source_of_truth_note": "The raw isolated launchd artifacts remain local runtime evidence under the owner state directory. This manifest records the verified proof identity, hashes, operation sequence, and production boundary in GitHub source-of-truth so reviewers do not rely on chat context.",
   "external_proof": {
     "proof_id": "b001-isolated-launchd-proof-20260627135653",
-    "proof_manifest_local_path": "/Users/linzezhang/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/b001-isolated-launchd-proof-manifest.json",
-    "proof_dir_local_path": "/Users/linzezhang/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653",
+    "proof_manifest_local_path": "~/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/b001-isolated-launchd-proof-manifest.json",
+    "proof_dir_local_path": "~/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653",
     "schema_version": "adp.b001.isolated_launchd_proof.v1",
     "generated_at": "2026-06-27T13:58:44.526539+10:00",
     "isolated_label": "com.linze.adp.b001.isolated.20260627135653",
-    "canonical_worktree_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
+    "canonical_worktree_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
     "operation_sequence": [
       "plist_generate",
       "plutil_lint",
@@ -69,9 +69,9 @@
       "blocking_reasons": [],
       "github_cloud_schedule_enabled": false,
       "production_run_allowed": true,
-      "project_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
+      "project_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
       "secret_values_logged": null,
-      "state_dir": "/Users/linzezhang/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/state",
+      "state_dir": "~/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/state",
       "status": "pass"
     },
     "production_boundary": {

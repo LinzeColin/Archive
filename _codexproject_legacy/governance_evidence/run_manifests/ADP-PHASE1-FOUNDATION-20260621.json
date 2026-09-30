@@ -95,7 +95,7 @@
   ],
   "model_delta": "Initialized MOD-ADP-001 active Phase 1 readiness/email dry-run gate and planned MOD-ADP-002/MOD-ADP-003 for later ranking and evidence gates.",
   "formula_delta": "Initialized FORM-ADP-001 readiness classification, FORM-ADP-002 dry-run email rendering, and planned FORM-ADP-003/FORM-ADP-004.",
-  "parameter_delta": "Initialized PARAM-ADP-001 through PARAM-ADP-019, including email recipient linzezhang35@gmail.com, Australia/Sydney timezone, 80 GiB media free-disk threshold, and planned ranking/evidence parameters.",
+  "parameter_delta": "Initialized PARAM-ADP-001 through PARAM-ADP-019, including email recipient LinzeColin@users.noreply.github.com, Australia/Sydney timezone, 80 GiB media free-disk threshold, and planned ranking/evidence parameters.",
   "version_delta": "Created arxiv-daily-push version 0.1.0 as Phase 1 foundation only.",
   "tests_run": [
     "PYTHONPYCACHEPREFIX=/tmp/codex_adp_pycache PYTHONPATH=arxiv-daily-push/src python3 -m unittest discover -s arxiv-daily-push/tests -q",
@@ -119,7 +119,7 @@
     "LOCAL_PASS: validate_project_governance --changed-only --enforce-sync exited 0 with errors 0 warnings 0",
     "LOCAL_PASS: generate_governance_dashboard --write exited PASS",
     "LOCAL_WARN_EXPECTED: doctor status warn because Phase 1 required commands are present but gh, ffmpeg, docker are missing and free disk is 26.0 GiB below the 80 GiB video/TTS threshold",
-    "LOCAL_PASS: render-email dry-run targets linzezhang35@gmail.com without reading SMTP secrets or sending mail",
+    "LOCAL_PASS: render-email dry-run targets LinzeColin@users.noreply.github.com without reading SMTP secrets or sending mail",
     "LOCAL_PASS: git diff --check exited 0"
   ],
   "evidence_refs": [

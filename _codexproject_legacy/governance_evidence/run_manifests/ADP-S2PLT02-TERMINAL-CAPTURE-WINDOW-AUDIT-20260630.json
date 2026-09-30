@@ -22,9 +22,9 @@
     "FINAL_ACCEPTANCE_BUNDLE/s2plt02_real_proof_capture_authorization.json",
     "governance/run_manifests/ADP-S2PLT02-TERMINAL-CAPTURE-WINDOW-AUDIT-20260630.json",
     "arxiv-daily-push/docs/phase_records/PHASE_S2PLT02_TERMINAL_CAPTURE_WINDOW_AUDIT.md",
-    "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json"
+    "~/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
+    "~/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
+    "~/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json"
   ],
   "fact_level": "EXTRACTED_FROM_LOCAL_RUNTIME_REPORTS_AND_LAUNCHD_STATE",
   "generated_at": "2026-06-30T08:49:26+10:00",
@@ -35,15 +35,15 @@
     "labels": {
       "com.linze.adp.local.daily": {
         "disabled_override_present": true,
-        "plist_ref": "/Users/linzezhang/Library/LaunchAgents/com.linze.adp.local.daily.plist"
+        "plist_ref": "~/Library/LaunchAgents/com.linze.adp.local.daily.plist"
       },
       "com.linze.adp.local.health": {
         "disabled_override_present": true,
-        "plist_ref": "/Users/linzezhang/Library/LaunchAgents/com.linze.adp.local.health.plist"
+        "plist_ref": "~/Library/LaunchAgents/com.linze.adp.local.health.plist"
       },
       "com.linze.adp.local.watchdog": {
         "disabled_override_present": true,
-        "plist_ref": "/Users/linzezhang/Library/LaunchAgents/com.linze.adp.local.watchdog.plist"
+        "plist_ref": "~/Library/LaunchAgents/com.linze.adp.local.watchdog.plist"
       }
     },
     "local_scheduler_installed_env": "true",
@@ -100,7 +100,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
           "status": "sent"
         },
         "M2": {
@@ -112,7 +112,7 @@
           "message_id_present": true,
           "real_send_attempted": true,
           "real_smtp_send_enabled": true,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
           "status": "sent"
         },
         "M3": {
@@ -124,7 +124,7 @@
           "message_id_present": true,
           "real_send_attempted": true,
           "real_smtp_send_enabled": true,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
           "status": "sent"
         },
         "M4": {
@@ -136,12 +136,12 @@
           "message_id_present": true,
           "real_send_attempted": true,
           "real_smtp_send_enabled": true,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json",
           "status": "sent"
         }
       },
       "real_smtp_sent": true,
-      "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
+      "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
       "runner_status": "pass",
       "sent_mail_count": 4,
       "sent_mail_products": [
@@ -174,7 +174,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
           "status": "dry_run"
         },
         "M2": {
@@ -186,7 +186,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
           "status": "dry_run"
         },
         "M3": {
@@ -198,7 +198,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
           "status": "dry_run"
         },
         "M4": {
@@ -210,12 +210,12 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json",
           "status": "dry_run"
         }
       },
       "real_smtp_sent": false,
-      "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
+      "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
       "runner_status": "pass",
       "sent_mail_count": 0,
       "sent_mail_products": [],
@@ -243,7 +243,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
           "status": "dry_run"
         },
         "M2": {
@@ -255,7 +255,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
           "status": "dry_run"
         },
         "M3": {
@@ -267,7 +267,7 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
           "status": "dry_run"
         },
         "M4": {
@@ -279,12 +279,12 @@
           "message_id_present": true,
           "real_send_attempted": false,
           "real_smtp_send_enabled": false,
-          "report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json",
+          "report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json",
           "status": "dry_run"
         }
       },
       "real_smtp_sent": false,
-      "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
+      "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
       "runner_status": "pass",
       "sent_mail_count": 0,
       "sent_mail_products": [],
@@ -294,7 +294,7 @@
   ],
   "smtp_capture_environment": {
     "ADP_ALLOW_SMTP_SEND": "false",
-    "env_file_ref": "/Users/linzezhang/.config/arxiv-daily-push/local-runner.env",
+    "env_file_ref": "~/.config/arxiv-daily-push/local-runner.env",
     "secret_values_logged": false,
     "smtp_secret_names_present": true
   },

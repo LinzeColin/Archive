@@ -1,33 +1,33 @@
 c08fb2d5a0c401d981e7563df95501e6db70b88e4d08a89529135326a58b6874  ./.gitignore
-f3accc05fbbe21a136880d80e97c15a7b5c5cb77018aa30433c19473e51bf797  ./BACKUP_SCOPE.md
+5e4087de61fc393cd68704809ac3d6d08df8d0befe870e9a5604b1f1536fd2a1  ./BACKUP_SCOPE.md
 b59f49640e745c0eb64ce7b4942890ace46e5c53d3cda7fde95c19cdd90c7a22  ./README.md
 c5c7c054bc73dd1496f53ed258038c4d8323d1e3fd160546e54a87f439dfa494  ./RESTORE.md
 1b63cf5999e693150ad0cd99264557b3aa295b9d0cbfe43591c6aaf01f7c148c  ./automation/codex-usage-token-alert/automation.toml
-ce14cfe14c6db640fa453ec16596dd38d751a72b77b35e723c01e28919c76682  ./automation/codex-usage-token-alert/check_token_usage_alert.py
-ed3810b1982371cb4d90a49f91aa40ad5d9db3d064edcc4e5e4f608fc3c5c0ac  ./automation/codex-usage-token-alert/memory.md
+35e33e82cc1e74a5e4b6279ead2f02ab1c009c69e4d8a992b699f3693808e6dc  ./automation/codex-usage-token-alert/check_token_usage_alert.py
+1334849086d885e2759823d5c17ea695831017ca5782bb762a169821c839f161  ./automation/codex-usage-token-alert/memory.md
 9efbc5b19c1a03cd8be7ea01a8df934b9a17befe3faf6ae6e450ee68363943eb  ./automation/codex-usage-token-alert/state/state.json
 f8a661fdcaa482dd81b889cb6b0ff23722be797db4556e2d768528610edfb0f5  ./config/launch_agents/local.codex-usage-monitor.dashboard.plist
-68bd18973b309a139975c18b2122cac2b46229fdf3a4983544198a38485d0f4f  ./config/menu_plugins/plugin_inventory.txt
-2db9d311047b07b931747e94d49e629a1b4743cf287e7494ba980a7b2ef91154  ./config/menu_plugins/xbar-codex-usage.30s.sh.target
-4e48ff148148e06c93c7ecc25d0b9844f4b6c8716d41a57528c51b1cc6a11456  ./data/project_aliases.json
+cb14299915d177d20efde75ede6c6cbc952805e4209095a10c4985471757d630  ./config/menu_plugins/plugin_inventory.txt
+1b7b6ccd21a26156b1ac1888f686f04c71d4f40d0412495b4a60b02e04b215b3  ./config/menu_plugins/xbar-codex-usage.30s.sh.target
+8de3abc47b7b027216f9103df3b89907628310f09403ea2eb8924d360b6b16a6  ./data/project_aliases.json
 06e50e36237e0cdf30000f72a280d7d7df8eb19bef54210c69be3802180ee091  ./data/usage.counts.tsv
 dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22  ./data/usage.integrity_check.txt
 586716bf17965ea181e3db000a3080ef6693140939fe19aa760b37ff63da91f7  ./data/usage.schema.sql
 461645f9fc68ad8e01db7fffed5027af3e661d04e96de9c81b240f07a4880180  ./data/usage.sqlite.gz
-2f392631475529c41839140513aa5f8d2bbfc4316a8d970269cdcb32ad00c46c  ./history/rollout_summaries/2026-06-10T07-42-41-fJkB-codex_usage_token_alert_gmail_smtp_local_alert.md
-b63a6a12922f37fb68aa98226c49262a4b926459c85573a738d7ed541481916e  ./history/rollout_summaries/2026-06-10T21-24-57-sa5h-codex_usage_token_alert_local_check_cooldown.md
-bea5b66f996dc4586462adb5c0116189119c1e2acc5288d00e0026c91f01fe9e  ./history/rollout_summaries/2026-06-11T01-34-10-T1TY-codex_usage_token_alert_local_alert_check_and_dry_run_valida.md
-c307a3766fbac9a388f9a38a9d24a1056b3805cc7f187bd42884e02a7d183f16  ./history/rollout_summaries/2026-06-11T23-58-43-XWDO-codex_usage_token_alert_local_email_alert.md
-ad1967d716b84fb35a053fe00e4f4d2578afafdfa4655fb0579041f6f9066e34  ./history/rollout_summaries/2026-06-12T03-39-33-GN3m-codex_usage_token_alert_dashboard_source_24h_time.md
-4834022418862ee53c70d0723a60472861bafc54955c299fe5e0042cf35c709d  ./history/rollout_summaries/2026-06-12T10-00-16-6G1f-codex_usage_token_alert_production_sync_and_send.md
-89d97283dc069e9b3952d8d932168a1ff8a545c26b6a8e72c61d2434ce93974d  ./history/rollout_summaries/2026-06-12T14-00-25-aWEN-codex_usage_token_alert_local_check_no_alert.md
+101f3c125bd2da7a68a0a9c37f55a9d532cc0ea77358656093e12f9440b13d38  ./history/rollout_summaries/2026-06-10T07-42-41-fJkB-codex_usage_token_alert_gmail_smtp_local_alert.md
+6843a1357100fe8a3ca6c7a9c8b4065bd50b3f2a837ffd3eab096e3f7bb842d3  ./history/rollout_summaries/2026-06-10T21-24-57-sa5h-codex_usage_token_alert_local_check_cooldown.md
+1d8dd988a5899b5091f26f1db5ddf3a43e84abaddc308ef5494cde74df43b846  ./history/rollout_summaries/2026-06-11T01-34-10-T1TY-codex_usage_token_alert_local_alert_check_and_dry_run_valida.md
+691fa5ea44052b81ec96d49a625d001fc08bf2e5c9dc48780520762f6214fe2f  ./history/rollout_summaries/2026-06-11T23-58-43-XWDO-codex_usage_token_alert_local_email_alert.md
+0bc3be61cd5c00fa191c070803813e8212f3b19e8b549faf18d7ad30de898335  ./history/rollout_summaries/2026-06-12T03-39-33-GN3m-codex_usage_token_alert_dashboard_source_24h_time.md
+abbcb8862c632253f88069edfcd07836cad58b13111f34d0e9fb031d20cb433a  ./history/rollout_summaries/2026-06-12T10-00-16-6G1f-codex_usage_token_alert_production_sync_and_send.md
+79fd2a6b32d7f7b2cfd52fedebaf6866b6ba27ceaf4a4b3a3cf463a436479d0f  ./history/rollout_summaries/2026-06-12T14-00-25-aWEN-codex_usage_token_alert_local_check_no_alert.md
 78a2080b563cad5989410482955b12e2ddfd6173a2b71a75c74ee7a3f5657727  ./meta/SECURITY_EXCLUSIONS.md
-4bdb54a23dadca55116e72394b49ca1e45ddf99639d25678866c9e07298ee93e  ./meta/SOURCE_MAP.md
-3f4e8633e5943712b1d6eb8579e73541227759e272da7c27a41f550ae94f39e2  ./meta/app_symlinks.txt
+5cabef9069ff9e051bb8d35e04718850d7131a8260dfe7551f0d9f11c6cdb109  ./meta/SOURCE_MAP.md
+d68ada0cad10f74ad8aa4ee7f74c2094078e57b8847dd2453a72ffba2687cacc  ./meta/app_symlinks.txt
 9e4ad201dfd9b5d63acb1ec6465073ec4086edbfa57317053396654a5b0d1d23  ./meta/file_inventory.relative.txt
-6570f2b0937e1b2dc7e6d0b6a07433635b9555790dc4c15dea8a546920377900  ./skills/codex-usage-token-alert-local-check/SKILL.md
+222e405be4009717a81029ebbf87b134ca3e298db3cfdd27eb51c7818408120d  ./skills/codex-usage-token-alert-local-check/SKILL.md
 bc6377d1e616dc6ba236ba7c330d73dcff5de76cb893426116c9455c99aadfa9  ./source/codex-usage-monitor/HANDOFF.md
-b3f04421b3188270cefd40984dfce82208605ae254d197801c4ad21dfc6a9373  ./source/codex-usage-monitor/README.md
+592ca79db736a38cccfeae22a2271bf0080c0e766b7a309090ee7b121d187ee1  ./source/codex-usage-monitor/README.md
 0f21ddb34a27e97bb07be00482a068b7a4523cb5c6e5da558b9ce88d4840416b  ./source/codex-usage-monitor/assets/icon/CodexTokenMonitor.icns
 8f8ae1d4e32efb11f80de9c569948de04ffb2d7d36d02f1b43ee66c2affc8e3d  ./source/codex-usage-monitor/assets/icon/ICON_DESIGN.md
 3f3256690a4e584e936ffed22ba8553eabeb5d5e69335baab763c391faec7a11  ./source/codex-usage-monitor/assets/icon/codex-token-monitor-icon-1024.png
@@ -44,7 +44,7 @@ b603d618435b1b712cbe83e34beee6626bad2c95b9a35f26b19ad25d63044bb4  ./source/codex
 baefed7903e64b375adb60288e51fd7a0ad4459925c002120e00c4292b52a1b4  ./source/codex-usage-monitor/install-launch-agent.sh
 180bcb0c34f02ab2d4a366ead986059f9f388c8ab1fd0e40784ae6bb6ec2582c  ./source/codex-usage-monitor/install-menubar.sh
 3fad7fd17a7ab193c8e1d5f617d42165c5ff9ff3dcd7eed872ad0c5cd9a28d0d  ./source/codex-usage-monitor/macos/Codex Token Monitor.app/Contents/Info.plist
-502e066960a8cdf8e376a42b72820c84efb50c91b00a1d8a4da4801cbbf477f6  ./source/codex-usage-monitor/macos/Codex Token Monitor.app/Contents/MacOS/Codex Token Monitor
+92c0992baa53227c1e618433d799a1026f10be8e13272bddc37a613b3779b8db  ./source/codex-usage-monitor/macos/Codex Token Monitor.app/Contents/MacOS/Codex Token Monitor
 0f21ddb34a27e97bb07be00482a068b7a4523cb5c6e5da558b9ce88d4840416b  ./source/codex-usage-monitor/macos/Codex Token Monitor.app/Contents/Resources/CodexTokenMonitor.icns
 861596f4b1a9674aebb77a5dd4b11122c6de367fc62c8b8a34533fe0cce9e701  ./source/codex-usage-monitor/macos/CodexTokenMonitor.iconset/icon_128x128.png
 84678f6e9a0797ba5ca3fa66896655fac1799a4b71d5272311f9049ef4185b01  ./source/codex-usage-monitor/macos/CodexTokenMonitor.iconset/icon_128x128@2x.png
@@ -57,13 +57,13 @@ a42196bb5f113bf28685f20d53a399514cb254cbb44ae0ca069c10731c2df4e7  ./source/codex
 821c531b4f986ff0b46511eb1d777a03ffd3dce03f16d78bc82c4decdd608e01  ./source/codex-usage-monitor/macos/CodexTokenMonitor.iconset/icon_512x512.png
 3f3256690a4e584e936ffed22ba8553eabeb5d5e69335baab763c391faec7a11  ./source/codex-usage-monitor/macos/CodexTokenMonitor.iconset/icon_512x512@2x.png
 0782c2c7219f1abb3875c2db08d2156995a1b197ac20fcc118060330c1cbbf64  ./source/codex-usage-monitor/macos/CodexUsageMenuBar.swift
-734d8e7343fe850515dc14bcdcb523a247781abd82c63cb55a333597a36ed5d1  ./source/codex-usage-monitor/menubar/codex-usage.30s.sh
-2f1ebadd8ae18802d46ca9550b8ce493c542e8cb02d4c701f1e4c7728b50eebe  ./source/codex-usage-monitor/project_aliases.example.json
+a43ae1e5c839bec7f31e59f30f28da2d85ce6a5165c33de20314776766a7831b  ./source/codex-usage-monitor/menubar/codex-usage.30s.sh
+7d48cb135b395e86cc33417cd8cfa064f3a50b71e613c36a66e16d5bcb694073  ./source/codex-usage-monitor/project_aliases.example.json
 a1c4e03b24928e2d3e2a5dc6d7518034aa49a95428827bc6e0ea9f10df92cd36  ./source/codex-usage-monitor/quit-background-monitor.sh
 62d4c6a37102e68b546565070392a0f94ba08b0fd84eba5fbf92ed37777064ce  ./source/codex-usage-monitor/quit-monitor-app.sh
 09b5c8542266f147e25ff0b0a2e60000ccf28411f5f0b8401bceb3897132c3a4  ./source/codex-usage-monitor/quit-swiftbar.sh
 99fc0bc5872cc5f1bb080b70ce6b2145d09e52535c1e4839cf8bb6ddc67c4f51  ./source/codex-usage-monitor/reports/codex_usage_report.csv
-ef934405935f177d0a379ea37d48470b4add27e638ef9e728630e01cb9fda5db  ./source/codex-usage-monitor/reports/codex_usage_report.json
+5f2ef2426d1a0132386305fdde6f49210156531710b6bcdb90615c9538870fa0  ./source/codex-usage-monitor/reports/codex_usage_report.json
 72df4284089f06965798d66016a26043be81b645ca499c05f380211d92c6c077  ./source/codex-usage-monitor/reports/codex_usage_report.md
 ef571b62f20c46e35c4a1750fddf3b6048f23056c4807468d6e9c06d07d5dbed  ./source/codex-usage-monitor/resume-background-monitor.sh
 3b059a6a4a897b2b0c43d635f97858621283fc711f2f74d3121399debb66abb5  ./source/codex-usage-monitor/start-dashboard-lan.sh
@@ -79,13 +79,13 @@ bce4f24c6a02a994804dea7575ba9eb3dcf15056872f87420ebecb271ffb47b8  ./source/codex
 f8863df7e9f584da6397a085377a3040d96881a4138557855de694321df9e401  ./vendor/CodexBar-macos-universal-0.32.4.zip
 0d90be1a95b3d78b8d5dfd864154865f1fcfa3bbf682d54ba6c17fcc549d1676  ./vendor/codexbar-support/Application Support/CodexBar/usage-history.jsonl
 83d87ef1a95d567579a79f72c5fc3808c2ecc17e1a75bd75f3a1f4c85ee58d94  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Application Support__com.steipete.codexbar__history__codex.json
-582f21c767a55b1bb5f7fbbf0aeb1f78c6c924442d8eb3516c92b15c18f42891  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Application Support__com.steipete.codexbar__openai-dashboard.json
+62bbcc58c82e64725a07d7d4a0297f2f4efc40154dcbf8d7b41e99643c49c343  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Application Support__com.steipete.codexbar__openai-dashboard.json
 21f71d822ed566170d30e06dcab05ceb46eac8a94684d766ca91f4defa204bd2  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Group Containers__Y5PE65HELJ.com.steipete.codexbar__widget-snapshot.json
 891d35ed140fb7d93b0af23b640fed0ec4cef387617de5e03600509778a73434  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/Library__Preferences__com.steipete.codexbar.plist
 2a39c325a85d749e5c61478d8688de3cea878fd9be188451ec276db177febb99  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/.lifecycle-baseline/manifest.json
 bb1f64d5a15d1aa86d6e4ff58adb5234442a8445e83c16485398e6f9f16e5dc4  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/codexbar-lifecycle-state.json
 0c109e7ff39215356e32f75a6be45ffd6d318735da9d848903f530e2d91c5da7  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/history/codex.json
-d7512b618192011fbf8cf39a9ae151b3346904df1b6c3e4c766ad6a07a28146d  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/openai-dashboard.json
+8e23ab0541dbf1a7c183ec2c90ee97530fc301e3e9beccf24980ebf5bec68be5  ./vendor/codexbar-support/Application Support/com.steipete.codexbar/openai-dashboard.json
 48a0ac9ce71646084832945de4407413156ea2c951dbbb20b4ea87b911a52e88  ./vendor/codexbar-support/Group Containers/Y5PE65HELJ.com.steipete.codexbar/.com.apple.containermanagerd.metadata.plist
 a357a45615d47f78807ca0b84fbe685951ffb1e414d286330bf0f96c0550de1a  ./vendor/codexbar-support/Group Containers/Y5PE65HELJ.com.steipete.codexbar/widget-snapshot.json
 2efb10a666eb1d3302688316062072afd292bfb9f4183b131750ac1ca2c42290  ./vendor/codexbar-support/Preferences/com.steipete.codexbar.plist

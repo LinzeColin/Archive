@@ -84,7 +84,7 @@
   "tests_run": [
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/codex_adp_two_day_focus PYTHONPATH=arxiv-daily-push/src python3 -m unittest arxiv-daily-push/tests/test_simulation.py -q",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/codex_adp_two_day_cli PYTHONPATH=arxiv-daily-push/src python3 -m arxiv_daily_push run-two-day-simulation --path . --generated-at 2026-06-22T06:30:00+10:00 --start-date 2026-06-22 --json",
-    "python3 -m json.tool /Users/linzezhang/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/outputs/arxiv_daily_push_two_day_simulation_20260622.json",
+    "python3 -m json.tool ~/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/outputs/arxiv_daily_push_two_day_simulation_20260622.json",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/codex_adp_two_day_arxiv1 PYTHONPATH=arxiv-daily-push/src python3 -m unittest discover -s arxiv-daily-push/tests -q",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/codex_adp_two_day_semantic2 python3 scripts/validate_semantic_extractors.py arxiv-daily-push",
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/codex_adp_two_day_project3 python3 scripts/validate_project_governance.py --project arxiv-daily-push",
@@ -105,7 +105,7 @@
     "changed-only enforce-sync semantic: errors 0 warnings 0; all registered projects errors 0 warnings 0",
     "git diff --check: pass"
   ],
-  "simulation_report": "/Users/linzezhang/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/outputs/arxiv_daily_push_two_day_simulation_20260622.json",
+  "simulation_report": "~/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/outputs/arxiv_daily_push_two_day_simulation_20260622.json",
   "result": "pass",
   "evidence_refs": [
     "governance/run_manifests/ADP-PHASE11-TWO-DAY-SIMULATION-20260622.json",
