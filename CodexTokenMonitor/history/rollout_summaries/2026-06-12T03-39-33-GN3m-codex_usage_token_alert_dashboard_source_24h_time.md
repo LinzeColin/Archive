@@ -1,10 +1,10 @@
 thread_id: 019eb9e9-e167-7983-8450-1fdd5ed8cbf4
 updated_at: 2026-06-12T06:30:30+00:00
-rollout_path: /Users/linzezhang/.codex/archived_sessions/rollout-2026-06-12T13-39-33-019eb9e9-e167-7983-8450-1fdd5ed8cbf4.jsonl
-cwd: /Users/linzezhang/.codex/automations/codex-usage-token-alert
+rollout_path: ~/.codex/archived_sessions/rollout-2026-06-12T13-39-33-019eb9e9-e167-7983-8450-1fdd5ed8cbf4.jsonl
+cwd: ~/.codex/automations/codex-usage-token-alert
 
 # User corrected the automation to use dashboard truth and 24-hour timestamps
-Rollout context: The user was working in `/Users/linzezhang/.codex/automations/codex-usage-token-alert` on a Codex usage monitoring automation that reads weekly quota and sends Gmail alerts. They explicitly wanted local script-only execution with no model calls or extra LLM tokens. Midway through, they corrected the agent that the readout did not match their real data, then asked for future runs to use dashboard-based data and 24-hour time formatting.
+Rollout context: The user was working in `~/.codex/automations/codex-usage-token-alert` on a Codex usage monitoring automation that reads weekly quota and sends Gmail alerts. They explicitly wanted local script-only execution with no model calls or extra LLM tokens. Midway through, they corrected the agent that the readout did not match their real data, then asked for future runs to use dashboard-based data and 24-hour time formatting.
 
 ## Task 1: Run the usage alert automation locally and inspect quota/alert behavior
 Outcome: success
@@ -29,7 +29,7 @@ Reusable knowledge:
 - `--help` shows only `--dry-run` and `--once` flags; data-source behavior is controlled by environment/config, not CLI switches.
 
 References:
-- [1] `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- [1] `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - [2] Latest log line: `{"event": "check", "remaining_percent": 45.0, "remaining_days": 1, "ratio_per_day_percent": 45.0, "threshold_days": 4, "alert_ratio_percent": 10.0, "resets_at": "2026-06-12T08:32:27+00:00", "source": "sqlite:token_events", "send_enabled": true, "dry_run": true, "trigger": false, "recorded_at": "2026-06-12T06:27:34Z"}`
 - [3] `state/state.json` after rerun: `last_check_at: 2026-06-12T06:27:33.751486+00:00`
 

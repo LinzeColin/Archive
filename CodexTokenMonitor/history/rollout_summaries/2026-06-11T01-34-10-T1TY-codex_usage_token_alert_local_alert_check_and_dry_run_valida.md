@@ -1,11 +1,11 @@
 thread_id: 019eb450-bc84-74f2-8dd2-22e193dd724a
 updated_at: 2026-06-11T01:36:04+00:00
-rollout_path: /Users/linzezhang/.codex/archived_sessions/rollout-2026-06-11T11-34-10-019eb450-bc84-74f2-8dd2-22e193dd724a.jsonl
-cwd: /Users/linzezhang/.codex/automations/codex-usage-token-alert
+rollout_path: ~/.codex/archived_sessions/rollout-2026-06-11T11-34-10-019eb450-bc84-74f2-8dd2-22e193dd724a.jsonl
+cwd: ~/.codex/automations/codex-usage-token-alert
 
 # Local execution of the Codex usage alert automation, with one normal run blocked by interval guard and one dry-run validation of the alert path.
 
-Rollout context: The user asked to run the automation locally by command only, read the Codex weekly window quota, and send a Gmail notification only when the alert condition is met, without calling a model or generating extra LLM tokens. The working directory was `/Users/linzezhang/.codex/automations/codex-usage-token-alert`.
+Rollout context: The user asked to run the automation locally by command only, read the Codex weekly window quota, and send a Gmail notification only when the alert condition is met, without calling a model or generating extra LLM tokens. The working directory was `~/.codex/automations/codex-usage-token-alert`.
 
 ## Task 1: Inspect automation config and run the alert script locally
 Outcome: partial
@@ -17,7 +17,7 @@ Preference signals:
 Key steps:
 - Read `memory.md`, `automation.toml`, and the main script to confirm the entrypoint and alert behavior.
 - Confirmed the documented command entrypoint: `python3 check_token_usage_alert.py --once` (the file also showed a fuller absolute-path command used in practice).
-- Ran the script with the documented absolute-path command: `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`.
+- Ran the script with the documented absolute-path command: `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`.
 - Checked `logs/runner.log` and `state/state.json` to determine actual behavior.
 - Appended run notes into `memory.md` after the execution.
 
@@ -28,12 +28,12 @@ Failures and how to do differently:
 
 Reusable knowledge:
 - The script records behavior in `logs/runner.log` as JSONL events such as `check`, `check_skipped`, `alert_skipped`, and `alert_sent`.
-- The current config defaults observed in `automation.toml` were: interval 4h, cooldown 20h, Gmail backend, and recipient `linzezhang35@gmail.com`.
+- The current config defaults observed in `automation.toml` were: interval 4h, cooldown 20h, Gmail backend, and recipient `LinzeColin@users.noreply.github.com`.
 - The quota source selection logic in `check_token_usage_alert.py` tries `openai-dashboard.json`, SQLite, and history JSONL depending on `USAGE_ALERT_PREFERRED_SOURCE`/`auto`.
 - The main alert condition is based on remaining quota per remaining day being below `USAGE_ALERT_MIN_RATIO_PERCENT`, with a threshold-days guard and cooldown guard before sending.
 
 References:
-- [1] Entrypoint from `automation.toml`: `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- [1] Entrypoint from `automation.toml`: `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - [2] Last state snapshot after the normal run: `{"last_check_at":"2026-06-11T01:35:16.890357+00:00","last_alert_at":"2026-06-10T01:30:09.621020+00:00","last_alert_days_left":1,"last_alert_ratio_per_day":0.0,"last_alert_source":"openai-dashboard.json"}`
 - [3] Log evidence of the normal run being blocked: `{"event":"check_skipped","reason":"interval_guard","last_check_at":"2026-06-11T01:35:16.890357+00:00","interval_hours":4}`
 - [4] Source code behavior: the script returns early on interval guard before reading usage if the previous check is too recent.
@@ -46,7 +46,7 @@ Preference signals:
 - The user did not explicitly ask for a dry-run, but the rollout showed this as a practical validation step after the normal run was blocked.
 
 Key steps:
-- Ran a forced validation command with interval disabled and a higher threshold to guarantee a trigger on the current data source: `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`.
+- Ran a forced validation command with interval disabled and a higher threshold to guarantee a trigger on the current data source: `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`.
 - Confirmed terminal output: `dry-run success`.
 - Confirmed log entries: `check` with `trigger=true` followed by `alert_sent` with `mode=dry-run`.
 
@@ -60,7 +60,7 @@ Failures and how to do differently:
 - For future troubleshooting, if the normal run is skipped, validate with a dry-run override rather than assuming the alert code is broken.
 
 References:
-- [1] Dry-run command: `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- [1] Dry-run command: `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - [2] Terminal result: `dry-run success`
-- [3] Log evidence: `{"event":"check","remaining_percent":45.0,"remaining_days":2,"ratio_per_day_percent":22.5,"threshold_days":4,"alert_ratio_percent":30.0,"resets_at":"2026-06-12T08:32:27+00:00","source":"sqlite:token_events","send_enabled":true,"dry_run":true,"trigger":true}` and `{"event":"alert_sent","to":"linzezhang35@gmail.com","mode":"dry-run"}`
-- [4] Updated memory notes were appended to `/Users/linzezhang/.codex/automations/codex-usage-token-alert/memory.md` describing both the interval-guard skip and the dry-run validation.
+- [3] Log evidence: `{"event":"check","remaining_percent":45.0,"remaining_days":2,"ratio_per_day_percent":22.5,"threshold_days":4,"alert_ratio_percent":30.0,"resets_at":"2026-06-12T08:32:27+00:00","source":"sqlite:token_events","send_enabled":true,"dry_run":true,"trigger":true}` and `{"event":"alert_sent","to":"LinzeColin@users.noreply.github.com","mode":"dry-run"}`
+- [4] Updated memory notes were appended to `~/.codex/automations/codex-usage-token-alert/memory.md` describing both the interval-guard skip and the dry-run validation.

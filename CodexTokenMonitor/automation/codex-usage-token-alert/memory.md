@@ -1,7 +1,7 @@
 # codex-usage-token-alert automation memory
 
 ## 2026-06-13T12:03:53+1000
-- 按约定本地一次性命令执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 按约定本地一次性命令执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 执行结果摘要：
   - 本次脚本退出码：`0`（无 stdout 输出，按既有脚本行为）
   - 新增 `runner.log` 条目：`remaining_percent=51.0`、`remaining_days=5`、`ratio_per_day_percent=10.2`、`threshold_days=4`、`alert_ratio_percent=10.0`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-13T02:03:23+00:00`、`trigger=false`
@@ -12,7 +12,7 @@
 - 结论：本次脚本式执行按预期完成，读取路径为 CodexBar，未进入邮件发送分支，未留下由脚本启动的 CodexBar 残留
 
 ## 2026-06-13T04:12:52+1000
-- 本轮是 `/Users/linzezhang/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
+- 本轮是 `~/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
 - 已更新 `MEMORY.md` / `memory_summary.md`：
   - 删除仅由已删除 rollout 支撑的 stale 记忆（`weread_cleanup_notes_quant_eval_cross_system_deepening`、`automation_readiness_scheduler_freshness`）。
   - 新增 `QBVS` 只读随机压力测试 campaign 记忆。
@@ -22,7 +22,7 @@
 
 ## 2026-06-13T14:02:08+10:00
 - 按约定命令执行本地一次：
-  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 采样源：`CodexBar/usage-history.jsonl`
 - 采样时间：
   - `sampled_at=2026-06-12T18:01:23+00:00`
@@ -46,7 +46,7 @@
 
 ## 2026-06-13T00:02:07+10:00
 - 按约定命令执行本地本次 run：
-  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 本次无模型调用、无外部推断，仅执行脚本。
 - 结果：`runner.log` 新增两条 `event=check`，`remaining_percent=83.0`，`remaining_days=6`，`trigger=false`，`source=CodexBar/usage-history.jsonl`，`sampled_at=2026-06-12T14:00:49+00:00`，两次检查时间 `2026-06-12T14:01:44Z` 与 `2026-06-12T14:01:52Z`。
 - `state.json` 更新：`last_check_at=2026-06-12T14:01:52.691538+00:00`。
@@ -67,17 +67,17 @@
 
 ## 2026-06-11T01:35:36Z
 - 按要求执行本地命令：
-  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 本次执行结果：无终端输出；最新日志追加 `check_skipped`（原因：`interval_guard`），未发生额度读取与告警判定。原因是上次成功 check 发生于 `2026-06-11T01:35:16.890357+00:00`，当前检查间隔默认 4 小时未到。
 - 告警发送状态：未发送。
 
 ## 2026-06-11T01:35:49Z
-- 验证演练：`USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 验证演练：`USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_MIN_RATIO_PERCENT=30 USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 本次强制检查到达触发条件：`trigger=true`，日志记录 `event=check` 与 `event=alert_sent(mode=dry-run)`。
 - 结论：告警链路可触发；当前正式运行仍受间隔与冷却策略控制。
 
 ## 2026-06-12T20:11:57+1000
-- 本轮 Phase 2 memory consolidation 已完成：把 `codex-usage-token-alert` 的本地执行约束、`$CODEX_HOME` 绝对路径 fallback、以及“未看到最终 Gmail 发送结果时保持 uncertain”写入 `/Users/linzezhang/.codex/memories/MEMORY.md` 与 `memory_summary.md`。
+- 本轮 Phase 2 memory consolidation 已完成：把 `codex-usage-token-alert` 的本地执行约束、`$CODEX_HOME` 绝对路径 fallback、以及“未看到最终 Gmail 发送结果时保持 uncertain”写入 `~/.codex/memories/MEMORY.md` 与 `memory_summary.md`。
 - 同时清理了已删除 rollout 的 stale 引用，并补充了 2026-06-12 的 Chronicle FIFA/Notion 工作流、AI-Research hard-gate 失败、cross-session handoff / recap-first resume、Mac↔Lenovo interop、Codex Dev Orchestrator 安装、daily-stock-analysis 架构复盘等新记忆。
 - 当前自动化本身未执行；这次是 memory writeback / consolidation run，不新增发送验证结果。
 
@@ -92,30 +92,30 @@
   - 邮件正文新增 `读数来源` 与 `读数采样时间`。
 - 已同步 `automation.toml` notes 中的数据源和发送后端默认说明。
 - 真实发送命令：
-  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
-- 执行结果：stdout=`alert sent`；日志记录 `event=alert_sent`, `mode=live`, `to=linzezhang35@gmail.com`。
+  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 执行结果：stdout=`alert sent`；日志记录 `event=alert_sent`, `mode=live`, `to=LinzeColin@users.noreply.github.com`。
 - 本次 live 读数：source=`CodexBar/usage-history.jsonl`，remaining_percent=`100.0`，remaining_days=`6`，ratio_per_day=`16.666666666666668`，resets_at=`2026-06-18T00:40:00+00:00`。
-- 生产默认命令复核：`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once` 成功写入 `event=check`；默认阈值下 `trigger=false`，source=`CodexBar/usage-history.jsonl`，sampled_at=`2026-06-11T00:38:03+00:00`。
+- 生产默认命令复核：`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once` 成功写入 `event=check`；默认阈值下 `trigger=false`，source=`CodexBar/usage-history.jsonl`，sampled_at=`2026-06-11T00:38:03+00:00`。
 
 ## 2026-06-12T10:22:47Z
 - 用户指出读数仍不准，原因确认：CodexBar 历史样本时间戳不是当前时间时不能直接信任。
 - 已修复 `check_token_usage_alert.py`：
   - 默认 `USAGE_ALERT_SEND_BACKEND=gmail`，不再自动回退 macOS Mail。
   - 默认 `USAGE_ALERT_SMTP_USER=USAGE_ALERT_TO`。
-  - 支持从 macOS Keychain 读取 Gmail app password：service 默认 `codex-usage-token-alert-gmail-smtp`，account 默认 `linzezhang35@gmail.com`。
+  - 支持从 macOS Keychain 读取 Gmail app password：service 默认 `codex-usage-token-alert-gmail-smtp`，account 默认 `LinzeColin@users.noreply.github.com`。
   - 新增 `USAGE_ALERT_FRESH_SAMPLE_MINUTES=10`。
   - CodexBar 样本不新鲜时，脚本检查 CodexBar 是否运行；未运行则通过 `/Applications/CodexBar.app` 唤醒，最多等待 120 秒刷新读数，读完后关闭由脚本启动的 CodexBar。
 - 验证：运行生产默认命令后，CodexBar 从未运行状态被唤醒，最新日志写入 `remaining_percent=91.0`、`sampled_at=2026-06-12T10:22:13+00:00`、`trigger=false`，运行后未检测到 CodexBar 进程残留。
 - 强制触发 SMTP 验证：`USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 ... --once`，结果为 `alert_failed: Gmail SMTP disabled: missing USAGE_ALERT_SMTP_USER or USAGE_ALERT_SMTP_PASSWORD`。这是预期生产阻断，因为当前环境和 Keychain 均未配置 Gmail app password。
 - 设置 Gmail SMTP Keychain 密码命令：
-  - `security add-generic-password -U -s codex-usage-token-alert-gmail-smtp -a linzezhang35@gmail.com -w '<gmail-app-password>'`
+  - `security add-generic-password -U -s codex-usage-token-alert-gmail-smtp -a LinzeColin@users.noreply.github.com -w '<gmail-app-password>'`
 
 ## 2026-06-12T10:50:50Z
-- 用户已写入 Gmail SMTP Keychain 密码；已确认 Keychain 条目存在：service=`codex-usage-token-alert-gmail-smtp`，account=`linzezhang35@gmail.com`。
+- 用户已写入 Gmail SMTP Keychain 密码；已确认 Keychain 条目存在：service=`codex-usage-token-alert-gmail-smtp`，account=`LinzeColin@users.noreply.github.com`。
 - 首次 live SMTP 验证失败于 TLS CA：`CERTIFICATE_VERIFY_FAILED`。已修复 `check_token_usage_alert.py`，SMTP SSL context 优先使用 Python 3.13 环境中的 `certifi.where()`。
 - 已新增 SMTP 密码规范化：发送前移除 app password 中的空白字符，避免 Gmail 展示格式带空格导致认证失败。
 - 重新执行强制触发 live SMTP：
-  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 当前阻断：Gmail 返回 `535 5.7.8 Username and Password not accepted`。这说明脚本已读到密码并成功连上 Gmail SMTP，但 Gmail 拒绝当前 app password / 账号组合。
 - 当前最新读数仍可用：source=`CodexBar/usage-history.jsonl`，remaining_percent=`90.0`，sampled_at=`2026-06-12T10:49:48+00:00`。
 
@@ -125,19 +125,19 @@
 - 已同步 `automation.toml` notes：当前默认发送后端为 macOS Mail。
 - 语法检查通过：`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 -m py_compile check_token_usage_alert.py`。
 - 真实发送验证命令：
-  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
-- 执行结果：stdout=`alert sent`；日志记录 `event=alert_sent`, `mode=live`, `to=linzezhang35@gmail.com`。
+  - `USAGE_ALERT_THRESHOLD_DAYS=7 USAGE_ALERT_MIN_RATIO_PERCENT=20 USAGE_ALERT_COOLDOWN_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 执行结果：stdout=`alert sent`；日志记录 `event=alert_sent`, `mode=live`, `to=LinzeColin@users.noreply.github.com`。
 - 本次发送读数：source=`CodexBar/usage-history.jsonl`，remaining_percent=`90.0`，remaining_days=`6`，ratio_per_day=`15.0`，sampled_at=`2026-06-12T10:49:48+00:00`。
 
 ## 2026-06-12T10:56:02Z
 - 用户要求更新 Automation、同步并确保正常运行。
-- 未发现可用的 `automation_update` 管理工具；本次以本地持久配置 `/Users/linzezhang/.codex/automations/codex-usage-token-alert/automation.toml` 为真相源同步。
+- 未发现可用的 `automation_update` 管理工具；本次以本地持久配置 `~/.codex/automations/codex-usage-token-alert/automation.toml` 为真相源同步。
 - 已更新 `automation.toml`：
   - `updated_at=1781261738000`
   - 将说明中的“Gmail 发送后端”修正为“邮件发送后端”
   - 保持 `status=ACTIVE`
   - 保持 `rrule=RRULE:FREQ=HOURLY;INTERVAL=4;BYMINUTE=0`
-  - 保持命令为 `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - 保持命令为 `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 验证：
   - `py_compile` 通过。
   - 正常调度命令执行成功，退出码 0。
@@ -152,39 +152,39 @@
 - 当前一致性状态：
   - `status=ACTIVE`
   - `rrule=RRULE:FREQ=HOURLY;INTERVAL=4;BYMINUTE=0`
-  - `command=/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `command=/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
   - 脚本默认 `USAGE_ALERT_SEND_BACKEND=macos-mail`
   - 脚本默认 `USAGE_ALERT_PREFERRED_SOURCE=auto`
   - 脚本默认 `USAGE_ALERT_FRESH_SAMPLE_MINUTES=10`
   - 脚本默认 `USAGE_ALERT_CODEXBAR_APP_PATH=/Applications/CodexBar.app`
   - 脚本默认 `USAGE_ALERT_CODEXBAR_REFRESH_TIMEOUT_SECONDS=120`
-  - 收件人默认 `linzezhang35@gmail.com`
+  - 收件人默认 `LinzeColin@users.noreply.github.com`
 - `py_compile` 通过。
 
 ## 2026-06-12T10:52:34Z
 - 用户询问“现在呢”；已重新验证。
-- Keychain 条目存在且 `mdat=20260612105211Z`，说明密码项已更新：service=`codex-usage-token-alert-gmail-smtp`，account=`linzezhang35@gmail.com`。
+- Keychain 条目存在且 `mdat=20260612105211Z`，说明密码项已更新：service=`codex-usage-token-alert-gmail-smtp`，account=`LinzeColin@users.noreply.github.com`。
 - `py_compile` 通过。
 - 重新执行强制触发 live SMTP 后仍失败：`535 5.7.8 Username and Password not accepted`。
 - 结论：脚本、Keychain 读取、TLS、CodexBar 读数链路均已通过；当前唯一阻断仍是 Gmail 拒绝当前 app password / 账号组合。
 
 ## 2026-06-12T22:02:06+00:00
-- 本地执行命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 本地执行命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 执行结果：脚本返回码`0`
 - 本次读数记录新增至 `logs/runner.log`：`remaining_percent=64.0`，`remaining_days=6`，`ratio_per_day_percent=10.666666666666666`，`threshold_days=4`，`alert_ratio_percent=10.0`，`sampled_at=2026-06-12T22:01:23+00:00`，`trigger=false`。
 - `state/state.json` 更新：`last_check_at=2026-06-12T22:02:06.587133+00:00`，`last_alert_*` 未变化（无告警事件）。
 - 当前检查样本为新鲜（与 `USAGE_ALERT_FRESH_SAMPLE_MINUTES=10` 对比未触发 CodexBar 重刷/关闭动作）。
 
 ## 2026-06-13T20:03:53+10:00
-- 本地按约定命令执行（无模型）：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`。
-- 首次执行返回：`alert sent`，`runner.log` 新增 `check`（`remaining_percent=22.0` `remaining_days=5` `ratio_per_day_percent=4.4` `trigger=true`）与 `alert_sent(mode=live)`（`to=linzezhang35@gmail.com`，`recorded_at=2026-06-13T10:03:24Z`），`state/state.json` `last_check_at=2026-06-13T10:01:54.481771+00:00`。
+- 本地按约定命令执行（无模型）：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`。
+- 首次执行返回：`alert sent`，`runner.log` 新增 `check`（`remaining_percent=22.0` `remaining_days=5` `ratio_per_day_percent=4.4` `trigger=true`）与 `alert_sent(mode=live)`（`to=LinzeColin@users.noreply.github.com`，`recorded_at=2026-06-13T10:03:24Z`），`state/state.json` `last_check_at=2026-06-13T10:01:54.481771+00:00`。
 - 复测（触发 stale 路径+不发实际邮件）：`USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_COOLDOWN_HOURS=0 USAGE_ALERT_FRESH_SAMPLE_MINUTES=0 USAGE_ALERT_DRY_RUN=1 ... --once`，返回 `dry-run success`，`runner.log` 追加 `check` + `alert_sent(mode=dry-run)`，`state/state.json` `last_check_at=2026-06-13T10:03:53.370422+00:00`。
 - 验证残留进程：在首次执行后发现 `CodexBar` 进程残留（PID 28047），已手动终止；第二次复测后无 `CodexBar` 残留。
 - 结论：按命令执行链路可用，告警链路与 stale/dry-run 路径都可触发。
 
 ## ${ts}
-- 按请求执行本地一次性命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
-- 补测强制新鲜度：`USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_FRESH_SAMPLE_MINUTES=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 按请求执行本地一次性命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 补测强制新鲜度：`USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_FRESH_SAMPLE_MINUTES=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 两次执行均返回码 `0`，均无标准输出（脚本预期静默行为）。
 - `state/state.json` 最新 `last_check_at` 更新为 `2026-06-14T14:07:04.226557+00:00`（本地状态文件已刷新）。
 - 本次 `runner.log` 最新事件链：`event=check`（`remaining_percent=95.0`、`remaining_days=7`、`ratio_per_day_percent=13.571428571428571`、`trigger=false`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-14T13:47:17+00:00`、`recorded_at=2026-06-14T14:07:04Z`）。
@@ -193,7 +193,7 @@
 - 结论：本次按命令执行成功，未触发邮件发送分支；流程保持本地静默运行。
 
 ## 2026-06-15T04:04:02+00:00
-- 按要求执行本地一次性命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 按要求执行本地一次性命令：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 脚本返回码：`0`
 - 结果事件：`runner.log` 追加 `event=check`（`remaining_percent=95.0`、`remaining_days=7`、`ratio_per_day_percent=13.571428571428571`、`trigger=false`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-14T17:49:16+00:00`、`recorded_at=2026-06-14T18:03:58Z`）
 - 未触发告警：无新增 `event=alert_sent`
@@ -202,8 +202,8 @@
 - 结论：本次本地执行成功完成；读取走 CodexBar，样本按新鲜度判定未触发告警；未进行 macOS Mail 实际发送分支
 
 ## 2026-06-15T04:12:56+1000
-- 本轮是 `/Users/linzezhang/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
-- 已更新 `/Users/linzezhang/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
+- 本轮是 `~/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
+- 已更新 `~/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
   - 新增 `Study Project orchestrator / GitHub+Notion sync / balanced rolling archive / blocked_unavailable reviewer` 高信号记忆。
   - 新增 `Serenity` launcher bootstrap 入口修复记忆。
   - 补强 `codex-usage-token-alert`：ratio-only trigger、live+dry-run、本地残留 `CodexBar` 检查、`automation.toml` 同步。
@@ -214,14 +214,14 @@
 
 ## 2026-06-15T08:02:32+10:00
 - 按本地约定命令执行本地一次性检查（强制间隔）：
-  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
   - 为复核刷新路径追加一次：
-    - `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_PREFERRED_SOURCE=CodexBar USAGE_ALERT_FRESH_SAMPLE_MINUTES=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+    - `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_PREFERRED_SOURCE=CodexBar USAGE_ALERT_FRESH_SAMPLE_MINUTES=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 两次执行均退出码 `0`，无标准输出（脚本静默行为符合预期）。
 
 ## 2026-06-17T00:08:49+1000
-- 本轮是 `/Users/linzezhang/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
-- 已更新 `/Users/linzezhang/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
+- 本轮是 `~/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
+- 已更新 `~/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
   - 将 `study_project_orchestrator` 旧 summary 引用切到 `2026-06-13T08-38-26-FDoB-study_project_orchestrator_arxiv_rolling_program_and_notion.md`，并补强 intake-first / backup-first / user-return-triggered sync 记忆。
   - 补入 `codex_usage_token_alert` 2026-06-15 最新本地 non-trigger 证据：`remaining_percent=77.0`、`ratio_per_day_percent=12.833333333333334`、`sidebar_archive_failed` 与脚本成功分离。
   - 补入 `AI-Research-System` 2026-06-16 `ai-4k` hard-gate 失败族证据，强化 `automation_prompt_sync + alipay_update + policy_bridge + week folder/PDF` 的上游阻断结论。
@@ -232,8 +232,8 @@
   - 已确认旧 study-project summary 名称与已删除 Chronicle 资源文件名不再残留在主记忆文件中
 
 ## 2026-06-16T16:16:36+1000
-- 本轮是 `/Users/linzezhang/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
-- 已更新 `/Users/linzezhang/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
+- 本轮是 `~/.codex/memories` 的 Phase 2 consolidation，不是 automation 执行。
+- 已更新 `~/.codex/memories/MEMORY.md` 与 `memory_summary.md`：
   - 用现存 rollout 替换了 stale 的 `QBVS random_stress` / `FIFA automation_scorecard` / `Serenity launcher-only` 记忆，改为当前真实存在的 handoff、backup/slimming、audit-semantics 版本。
   - 补入 2026-06-15 新 evidence：`codex_usage_token_alert_local_run_sidebar_archive_failed`、`mac_daily_8am_aggressive_deep_cleanup_userland_cleanup_and_s`、`ai_1_pre_open_automation_failed_prompt_sync_and_data_gates`。
   - 删除仅由已删除 Chronicle 资源支撑的 `taste-skill` synthetic block 与 summary topic。
@@ -253,10 +253,10 @@
 - 结论：本次本地执行流程打通；未出现脚本副作用。当前为非告警周期（`remaining/天数=13.57% > 10%`，未触发）。
 
 ## 2026-06-15T16:04:58+10:00
-- 按生产入口执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 按生产入口执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 结果：本次 `runner.log` 新增 `event=check`（`remaining_percent=91.0`、`remaining_days=7`、`ratio_per_day_percent=13.0`、`trigger=false`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-15T05:41:07+00:00`、`recorded_at=2026-06-15T06:04:58Z`）
 - 复核运行（验证新鲜度刷新）命令：
-  `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_FRESH_SAMPLE_MINUTES=1 USAGE_ALERT_PREFERRED_SOURCE=CodexBar USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  `USAGE_ALERT_INTERVAL_HOURS=0 USAGE_ALERT_FRESH_SAMPLE_MINUTES=1 USAGE_ALERT_PREFERRED_SOURCE=CodexBar USAGE_ALERT_DRY_RUN=1 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 复核结果：`runner.log` 新增 `event=check`（`remaining_percent=91.0`、`remaining_days=7`、`ratio_per_day_percent=13.0`、`trigger=false`、`dry_run=true`、`sampled_at=2026-06-15T05:41:07+00:00`、`recorded_at=2026-06-15T06:04:58Z`）
 - `state/state.json` 更新：`last_check_at=2026-06-15T06:02:57.103461+00:00`（本地）
 - 告警与邮件发送：本轮不触发告警（`trigger=false`），无 `alert_sent`；未执行实际邮件发送。
@@ -264,7 +264,7 @@
 
 ## 2026-06-15T20:24:26+10:00
 - 按本地指令执行（本轮强制检查，不影响生产节流）：
-  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 执行结果：返回码 `0`，无 stdout（脚本静默）
 - 运行新增 `runner.log` 事件：
   - `event=check`
@@ -285,7 +285,7 @@
 
 ## 2026-06-16T00:11:28+10:00
 - 按约定本地执行命令（无模型调用）：
-  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 读数与告警结果：
   - `event=check` 新增（`recorded_at=2026-06-15T14:11:05Z`）
   - `remaining_percent=85.0`
@@ -300,7 +300,7 @@
 - 发送状态：未发生邮件发送（`alert_sent` 未新增）。
 - 返回码：`0`。
 ## 2026-06-16T08:03:07+10:00
-- 按本地命令执行（无模型调用）：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 按本地命令执行（无模型调用）：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 执行结果：退出码 `0`，无 stdout（脚本静默预期）
 - 新增 `logs/runner.log` `event=check`：`remaining_percent=77.0`、`remaining_days=6`、`ratio_per_day_percent=12.833333333333334`、`alert_ratio_percent=10.0`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-15T22:02:01+00:00`、`trigger=false`、`recorded_at=2026-06-15T22:03:07Z`、`send_enabled=true`、`dry_run=false`
 - `state/state.json`：`last_check_at=2026-06-15T22:03:07.508182+00:00`
@@ -309,7 +309,7 @@
 - Sidebar 清理尝试：`tool_search` 未发现 `list_threads`/`set_thread_archived` 工具，归档无法执行，标记 `sidebar_archive_failed`
 
 ## 2026-06-16T16:04:28+1000
-- 本地一次性执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 本地一次性执行：`USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 本次脚本退出码：`0`，无标准输出。
 - `runner.log` 新增 `event=check`：`remaining_percent=73.0`、`remaining_days=6`、`ratio_per_day_percent=12.166666666666666`、`alert_ratio_percent=10.0`、`source=CodexBar/usage-history.jsonl`、`sampled_at=2026-06-16T06:02:37+00:00`、`trigger=false`、`send_enabled=true`、`dry_run=false`、`recorded_at=2026-06-16T06:02:51Z`。
 - `state/state.json` 最新：`last_check_at=2026-06-16T06:02:24.138373+00:00`。
@@ -319,7 +319,7 @@
 
 ## 2026-06-16T20:01:54+1000
 - 按约定命令执行本地一次性检查（无模型）：
-  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+  - `USAGE_ALERT_INTERVAL_HOURS=0 /Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 本轮脚本返回码：`0`，无 stdout（静默行为符合预期）。
 - `runner.log` 本次记录：
   - `event=check`

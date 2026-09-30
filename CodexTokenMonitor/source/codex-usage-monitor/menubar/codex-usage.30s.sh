@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # xbar/SwiftBar compatible plugin. Copy or symlink this file into your xbar plugin folder.
 
-PROJECT_DIR="/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
+PROJECT_DIR="$HOME/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
 LOCAL_PORT="${CODEX_USAGE_PORT:-8766}"
 LAN_PORT="${CODEX_USAGE_LAN_PORT:-8767}"
 DASHBOARD_URL="${CODEX_USAGE_DASHBOARD_URL:-http://127.0.0.1:${LOCAL_PORT}/}"

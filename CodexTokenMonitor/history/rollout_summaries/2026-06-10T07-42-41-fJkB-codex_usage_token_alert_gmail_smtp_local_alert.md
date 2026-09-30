@@ -1,11 +1,11 @@
 thread_id: 019eb07b-c54e-7e62-b9b1-ab14611acc19
 updated_at: 2026-06-10T07:44:24+00:00
-rollout_path: /Users/linzezhang/.codex/archived_sessions/rollout-2026-06-10T17-42-41-019eb07b-c54e-7e62-b9b1-ab14611acc19.jsonl
-cwd: /Users/linzezhang/.codex/automations/codex-usage-token-alert
+rollout_path: ~/.codex/archived_sessions/rollout-2026-06-10T17-42-41-019eb07b-c54e-7e62-b9b1-ab14611acc19.jsonl
+cwd: ~/.codex/automations/codex-usage-token-alert
 
 # 本地脚本化的 Codex 周窗口额度告警自动化，已改为默认走 Gmail SMTP 发送并补充 automation 说明
 
-Rollout context: 用户要在 `/Users/linzezhang/.codex/automations/codex-usage-token-alert` 里按命令本地执行，定时读取 Codex 周窗口额度；当剩余额度触发告警条件时发送 Gmail 通知，并明确要求“仅执行脚本，不调用模型，不产生额外LLM token”。
+Rollout context: 用户要在 `~/.codex/automations/codex-usage-token-alert` 里按命令本地执行，定时读取 Codex 周窗口额度；当剩余额度触发告警条件时发送 Gmail 通知，并明确要求“仅执行脚本，不调用模型，不产生额外LLM token”。
 
 ## Task 1: 读取现有自动化并确认实现方向
 
@@ -23,8 +23,8 @@ Failures and how to do differently:
 - 先前存在一个 `memory.md` 路径不存在的问题；后来改用绝对路径写入成功。未来如果要写 `$CODEX_HOME/...` 下文件，先确认环境变量在当前 shell 里是否生效，或直接使用绝对路径。
 
 Reusable knowledge:
-- 该 automation 的主目录是 `/Users/linzezhang/.codex/automations/codex-usage-token-alert`。
-- `automation.toml` 中的 `command` 已固定为 `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`。
+- 该 automation 的主目录是 `~/.codex/automations/codex-usage-token-alert`。
+- `automation.toml` 中的 `command` 已固定为 `/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`。
 - 原脚本已经支持从 `openai-dashboard.json`、SQLite `token_events`、以及 `usage-history.jsonl` 三类来源读取周窗口剩余额度。
 
 References:
@@ -59,9 +59,9 @@ Reusable knowledge:
 
 References:
 - 文件变更：
-  - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py`
-  - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/automation.toml`
-  - `/Users/linzezhang/.codex/automations/codex-usage-token-alert/memory.md`
+  - `~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py`
+  - `~/.codex/automations/codex-usage-token-alert/automation.toml`
+  - `~/.codex/automations/codex-usage-token-alert/memory.md`
 - 新增函数：`_send_via_gmail_smtp(...)`
-- 现有执行入口：`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 /Users/linzezhang/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
+- 现有执行入口：`/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 ~/.codex/automations/codex-usage-token-alert/check_token_usage_alert.py --once`
 - 用户可直接设置的关键环境变量示例：`USAGE_ALERT_SMTP_USER`、`USAGE_ALERT_SMTP_PASSWORD`、`USAGE_ALERT_TO`、`USAGE_ALERT_SEND_BACKEND=gmail`

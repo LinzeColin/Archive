@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT_DIR="/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
+PROJECT_DIR="~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
 LOG_DIR="${PROJECT_DIR}/runtime/logs"
 LOG_FILE="${LOG_DIR}/app-launcher.log"
 PORT="${CODEX_USAGE_PORT:-8766}"

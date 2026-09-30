@@ -13,7 +13,7 @@ Runtime token cost: the monitor does not call Codex, OpenAI, or any model API. S
 ## Quick Start
 
 ```bash
-cd "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
+cd "~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor"
 chmod +x codex-usage menubar/codex-usage.30s.sh
 ./codex-usage now
 ```
@@ -43,7 +43,7 @@ Current snapshot:
 The monitor uses a derived SQLite cache by default:
 
 ```text
-/Users/linzezhang/.codex_usage_monitor/usage.sqlite
+~/.codex_usage_monitor/usage.sqlite
 ```
 
 This cache stores normalized usage metrics only, not prompt or answer text. To bypass the cache for diagnostics:
@@ -130,7 +130,7 @@ Verified xbar/SwiftBar plugin:
 The menu bar script is compatible with xbar or SwiftBar:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/menubar/codex-usage.30s.sh
+~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/menubar/codex-usage.30s.sh
 ```
 
 Install xbar or SwiftBar, then install the menu plugin:
@@ -178,7 +178,7 @@ Optional native Swift menu bar app:
 
 ```bash
 ./build-menubar-app.sh
-open "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/CodexUsageMenuBar.app"
+open "~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/macos/CodexUsageMenuBar.app"
 ```
 
 This requires the local Swift toolchain to compile AppKit apps. On this machine, Swift compilation did not complete during verification, so xbar/SwiftBar is the currently verified menu-bar path.
@@ -188,7 +188,7 @@ Manual symlink option:
 ```bash
 mkdir -p "$HOME/Library/Application Support/xbar/plugins"
 rm -f "$HOME/Library/Application Support/xbar/plugins/codex-usage.5s.sh"
-ln -sf "/Users/linzezhang/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/menubar/codex-usage.30s.sh" "$HOME/Library/Application Support/xbar/plugins/codex-usage.30s.sh"
+ln -sf "~/Documents/Codex/2026-06-02/new-chat/outputs/codex-usage-monitor/menubar/codex-usage.30s.sh" "$HOME/Library/Application Support/xbar/plugins/codex-usage.30s.sh"
 ```
 
 The menu title shows the remaining 5-hour Codex window allowance, not the used percentage.
@@ -222,8 +222,8 @@ Dashboard metric definitions:
 
 Default paths:
 
-- `/Users/linzezhang/.codex/sessions/**/*.jsonl`
-- `/Users/linzezhang/.codex/archived_sessions/*.jsonl`
+- `~/.codex/sessions/**/*.jsonl`
+- `~/.codex/archived_sessions/*.jsonl`
 
 Useful fields:
 
