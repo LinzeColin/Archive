@@ -7,7 +7,7 @@
 Run the full test suite.
 
 ```bash
-cd /Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
+cd ~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
 PYTHONPATH=src .venv/bin/pytest -q
 ```
 
@@ -16,7 +16,7 @@ PYTHONPATH=src .venv/bin/pytest -q
 Run final product acceptance.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh
 ```
 
 运行单标的示例回测。
@@ -98,7 +98,7 @@ PYTHONPATH=src .venv/bin/python -m quantlab.examples.fetch_real_data --provider 
 Check the Moomoo quote-only environment.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh
 ```
 
 严格模式会在 Moomoo 未就绪时返回非零退出码，适合验收环境使用。
@@ -106,7 +106,7 @@ Check the Moomoo quote-only environment.
 Strict mode returns a non-zero exit code when Moomoo is not ready, which is useful for acceptance environments.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh --strict
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh --strict
 ```
 
 检查报告命名规则。

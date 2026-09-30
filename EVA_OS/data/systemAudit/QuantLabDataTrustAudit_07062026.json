@@ -2194,7 +2194,7 @@
     {
       "record_id": "c0717d062378355b9f77a679",
       "source_group": "Report Catalog",
-      "source_path": "/Users/linzezhang/Downloads/量化回测分析",
+      "source_path": "~/Downloads/量化回测分析",
       "source_type": "directory",
       "trust_status": "RECONCILED",
       "evidence_classification": "FACT",

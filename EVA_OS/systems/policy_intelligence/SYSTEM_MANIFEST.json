@@ -4,7 +4,7 @@
   "status": "source_migrated",
   "migration_phase": "source_tests_docs_migrated",
   "legacy_local_roots": [
-    "/Users/linzezhang/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry"
+    "~/Documents/Codex/2026-06-03/sop-skill-pursuing-goal-diff-step/outputs/source-authority-registry"
   ],
   "current_workspace_root": "systems/policy_intelligence",
   "source_root": "systems/policy_intelligence/source",

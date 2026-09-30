@@ -23,7 +23,7 @@ Reports and results produced by the system may support your real trading decisio
 日常使用先读：
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/docs/QuickStart.md
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/docs/QuickStart.md
 ```
 
 Agent 接手优先读：
@@ -47,7 +47,7 @@ UPLOAD_MANIFEST.md
 
 | 项目 | 路径 |
 | --- | --- |
-| 工作台工程 | `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance` |
+| 工作台工程 | `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance` |
 | 快速使用说明 | `docs/QuickStart.md` |
 | 文档索引 | `docs/Index.md` |
 | EVA_OS 架构 | `docs/EVA_OS.md` |
@@ -60,33 +60,33 @@ UPLOAD_MANIFEST.md
 | 消费守卫 | `docs/ConsumptionGuard.md` |
 | 报告证据索引 | `docs/ReportDecisionSupport.md` |
 | Token ROI 台账 | `docs/TokenROI.md` |
-| 报告目录 | `/Users/linzezhang/Downloads/量化回测分析` |
+| 报告目录 | `~/Downloads/量化回测分析` |
 | 共享研究总线 | `data/researchBus/ResearchBus.sqlite` |
 | 正式持仓簿 | `data/holdings/HoldingsBook.json` |
 
 故障优先处理：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/statusQuantLab.sh
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/stopQuantLab.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/statusQuantLab.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/stopQuantLab.sh
 ```
 
 总控报告：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/commandCenter.sh --output-dir data/commandCenter
 ```
 
 行情事件日志：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/marketEventLayer.sh --output-dir data/marketEvents
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/marketEventLayer.sh --output-dir data/marketEvents
 ```
 
 数据湖 Manifest：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dataLakeManifest.sh --output-dir data/dataLake
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dataLakeManifest.sh --output-dir data/dataLake
 ```
 
 事件回放：
@@ -98,43 +98,43 @@ scripts/eventReplay.sh --output-dir data/replay
 公司现金流快照：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/cashFlowCommand.sh --output-dir data/cashflow
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/cashFlowCommand.sh --output-dir data/cashflow
 ```
 
 政策雷达快照：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/policyRadar.sh --output-dir data/policy
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/policyRadar.sh --output-dir data/policy
 ```
 
 消费守卫快照：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/consumptionGuard.sh --output-dir data/consumption
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/consumptionGuard.sh --output-dir data/consumption
 ```
 
 报告证据索引：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportDecisionSupport.sh --output-dir data/reportDecision
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportDecisionSupport.sh --output-dir data/reportDecision
 ```
 
 把证据不足报告转成验证任务：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --output-dir data/reportDecision
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/reportGapTasks.sh --output-dir data/reportDecision
 ```
 
 生成验证任务优先级计划：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validationPriorityPlan.sh --output-dir data/validationQueue
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validationPriorityPlan.sh --output-dir data/validationQueue
 ```
 
 执行最高优先级验证任务：
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runValidationTask.sh --output-dir data/validationQueue
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runValidationTask.sh --output-dir data/validationQueue
 ```
 
 ## Integrated Research Role
@@ -218,7 +218,7 @@ The report evidence layer writes data quality, cross-source validation, entity s
 最终集成审计入口：
 
 ```bash
-bash /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/auditQuantLabIntegration.sh --no-write
+bash ~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/auditQuantLabIntegration.sh --no-write
 ```
 
 它只读检查 Data Trust、Entity Registry、Workflow Inputs、Report Evidence、ResearchBus 互通和禁止实盘边界。输出状态为 `Pass`、`Review` 或 `Fail`；`Review` 表示证据缺口或环境权限限制，需要补齐后再作为日常稳定验收。
@@ -235,17 +235,17 @@ The generic chat dropbox is `data/researchBus/chatInbox`. `.txt`, `.md`, and `.j
 
 The local HTTP/Webhook entry is `scripts/researchBusWebhook.sh`; it binds to `127.0.0.1` only.
 
-功能导航和 `使用指导` 已统一放到左侧侧栏，方便边看步骤、检查点和术语说明边操作。侧栏会显示当前功能区的用途、适用场景、最短操作路径、优先检查点、产出、风险和常用术语悬停解释。功能区包含 `情绪分析`、`热点分析`、`盘感训练`、`持仓`、`行研报告` 和 `个人画像`。行研报告默认读取 `/Users/linzezhang/Downloads/行研报告`，个人画像会优先读取 QuantLab 持仓簿，再综合回测元数据、复盘记录和验证任务生成行为习惯、风险画像和优化方向。
+功能导航和 `使用指导` 已统一放到左侧侧栏，方便边看步骤、检查点和术语说明边操作。侧栏会显示当前功能区的用途、适用场景、最短操作路径、优先检查点、产出、风险和常用术语悬停解释。功能区包含 `情绪分析`、`热点分析`、`盘感训练`、`持仓`、`行研报告` 和 `个人画像`。行研报告默认读取 `~/Downloads/行研报告`，个人画像会优先读取 QuantLab 持仓簿，再综合回测元数据、复盘记录和验证任务生成行为习惯、风险画像和优化方向。
 
-Navigation and `使用指导` now live in the sidebar so you can read steps, checkpoints, and term help while operating the page. Workspace areas include `情绪分析`, `热点分析`, `盘感训练`, `持仓`, `行研报告`, and `个人画像`. Industry reports default to `/Users/linzezhang/Downloads/行研报告`; the personal profile first reads the QuantLab holdings book, then combines run metadata, review records, and validation tasks into behavior habits, risk profile, and improvement actions.
+Navigation and `使用指导` now live in the sidebar so you can read steps, checkpoints, and term help while operating the page. Workspace areas include `情绪分析`, `热点分析`, `盘感训练`, `持仓`, `行研报告`, and `个人画像`. Industry reports default to `~/Downloads/行研报告`; the personal profile first reads the QuantLab holdings book, then combines run metadata, review records, and validation tasks into behavior habits, risk profile, and improvement actions.
 
 持仓文件支持 CSV、XLSX 和 JSON。建议字段：`symbol/代码`、`name/名称`、`market/市场`、`quantity/持仓数量`、`position_value/市值`、`weight/权重`。
 
 Holding files support CSV, XLSX, and JSON. Recommended fields: `symbol/代码`, `name/名称`, `market/市场`, `quantity/持仓数量`, `position_value/市值`, and `weight/权重`.
 
-持仓页面会同步支付宝持仓账本、行研报告上传目录、消费行为分析系统目录和 QuantLab 本地导入目录。正式持仓永久保存到 `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/data/holdings/HoldingsBook.json`，同步历史保存到 `HoldingsImportHistory.json`，待确认订单单独显示，不计入正式持仓。
+持仓页面会同步支付宝持仓账本、行研报告上传目录、消费行为分析系统目录和 QuantLab 本地导入目录。正式持仓永久保存到 `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/data/holdings/HoldingsBook.json`，同步历史保存到 `HoldingsImportHistory.json`，待确认订单单独显示，不计入正式持仓。
 
-The holdings page syncs the Alipay ledger, industry-report upload directories, consumer-analysis directories, and QuantLab local import directories. Confirmed holdings are permanently saved to `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/data/holdings/HoldingsBook.json`; sync history is saved to `HoldingsImportHistory.json`; pending orders are shown separately and are not counted as confirmed holdings.
+The holdings page syncs the Alipay ledger, industry-report upload directories, consumer-analysis directories, and QuantLab local import directories. Confirmed holdings are permanently saved to `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/data/holdings/HoldingsBook.json`; sync history is saved to `HoldingsImportHistory.json`; pending orders are shown separately and are not counted as confirmed holdings.
 
 外部支付宝账本和跨系统私有目录必须通过 `.env` 显式配置 `QUANTLAB_ALIPAY_LEDGER_DIR`。默认只扫描项目内 `data/private/alipay`，且正式持仓文件、导入目录和私有目录已加入 `.gitignore`。
 
@@ -288,8 +288,8 @@ The market-feel training page explains technical structure with MA20/MA60, suppo
 Fastest start: double-click `EVA_OS.app` in Desktop, Downloads, or Applications.
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 
@@ -298,7 +298,7 @@ Fastest start: double-click `EVA_OS.app` in Desktop, Downloads, or Applications.
 Daily quick check without opening a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh
 ```
 
 生成日常就绪检查正式产物。
@@ -306,7 +306,7 @@ Daily quick check without opening a browser.
 Generate formal Daily Readiness artifacts.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --output-dir data/systemAudit
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --output-dir data/systemAudit
 ```
 
 输出文件包括 `QuantLabDailyReadiness_DDMMYYYY.json`、`QuantLabDailyReadiness_DDMMYYYY.md` 和 `QuantLabDailyReadiness_DDMMYYYY.pdf`。
@@ -318,7 +318,7 @@ The outputs include `QuantLabDailyReadiness_DDMMYYYY.json`, `QuantLabDailyReadin
 Daily check with network validation.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --network
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/dailyCheck.sh --network
 ```
 
 生成 Token ROI 台账。
@@ -326,7 +326,7 @@ Daily check with network validation.
 Generate the Token ROI Ledger.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/tokenRoiLedger.sh --output-dir data/value
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/tokenRoiLedger.sh --output-dir data/value
 ```
 
 Token ROI 工作台支持人工录入真实价值证据，保存到 `data/value/TokenROIManualEntries.json`。只有 `Reviewed` 且有真实金额字段的记录会进入已量化汇总；`PendingReview` 只保留为待复核证据。
@@ -340,7 +340,7 @@ The network daily check shows individual provider failures but continues the rem
 Sync QuantLab, AI research, holdings, and independent validation state without opening a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchBus.sh --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchBus.sh --json
 ```
 
 独立验证十亿行 dry-run 分片测试。
@@ -348,7 +348,7 @@ Sync QuantLab, AI research, holdings, and independent validation state without o
 Independent validation billion-row dry-run sharding test.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --json
 ```
 
 独立验证 checksum 实际分片校验。实际文件建议先用 `create-manifest` 生成 manifest；合成规模测试不会逐行展开。
@@ -356,7 +356,7 @@ Independent validation billion-row dry-run sharding test.
 Independent validation checksum execution. For real files, create a manifest first; synthetic scale tests do not expand rows one by one.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --mode checksum --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/runIndependentValidation.sh run --synthetic-rows 1000000000 --rows-per-shard 100000000 --mode checksum --json
 ```
 
 通过对话输入写入研究总线。
@@ -364,7 +364,7 @@ Independent validation checksum execution. For real files, create a manifest fir
 Submit chat input into the research bus.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh submit-chat --text "请验证 600000 的 RSI 均线策略是否有效" --source-system ExternalChat --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh submit-chat --text "请验证 600000 的 RSI 均线策略是否有效" --source-system ExternalChat --json
 ```
 
 通过任意对话输入触发千万级 checksum 独立验证。
@@ -372,8 +372,8 @@ Submit chat input into the research bus.
 Trigger ten-million-row checksum independent validation through chat input.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh submit-chat --text "请运行千万行独立验证 checksum 校验，每片100万行" --source-system ExternalChat --json
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh process --system-name ResearchBus --limit 100 --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh submit-chat --text "请运行千万行独立验证 checksum 校验，每片100万行" --source-system ExternalChat --json
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusApi.sh process --system-name ResearchBus --limit 100 --json
 ```
 
 行研系统聊天入口也会写入同一张共享请求表。
@@ -381,7 +381,7 @@ Trigger ten-million-row checksum independent validation through chat input.
 The AI-Research-System chat entry writes into the same shared request table.
 
 ```bash
-cd /Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System
+cd ~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System
 python3 -m src.cli research-bus-submit --text "run hundred million rows independent validation, rows_per_shard 10 million" --json
 ```
 
@@ -390,7 +390,7 @@ python3 -m src.cli research-bus-submit --text "run hundred million rows independ
 Submit through the local webhook.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusWebhook.sh --port 8765
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/researchBusWebhook.sh --port 8765
 curl -X POST http://127.0.0.1:8765/chat -H 'Content-Type: application/json' --data '{"text":"请验证 AAPL 的 RSI 策略"}'
 ```
 
@@ -399,7 +399,7 @@ curl -X POST http://127.0.0.1:8765/chat -H 'Content-Type: application/json' --da
 Near-real-time research bus processing.
 
 ```bash
-RESEARCH_BUS_WATCH_INTERVAL_SECONDS=30 /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/watchResearchBus.sh
+RESEARCH_BUS_WATCH_INTERVAL_SECONDS=30 ~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/watchResearchBus.sh
 ```
 
 串行同步 QuantLab、行研系统、消费行为和投递箱，一次运行后退出。
@@ -407,7 +407,7 @@ RESEARCH_BUS_WATCH_INTERVAL_SECONDS=30 /Users/linzezhang/Documents/Codex/2026-06
 Run one serial sync across QuantLab, AI research, consumer state, and the chat dropbox.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchSystemsOnce.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/syncResearchSystemsOnce.sh
 ```
 
 安装 macOS LaunchAgent 后台同步配置。
@@ -415,7 +415,7 @@ Run one serial sync across QuantLab, AI research, consumer state, and the chat d
 Install the macOS LaunchAgent background sync configuration.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh install
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh install
 ```
 
 如果要尝试后台托管：
@@ -423,7 +423,7 @@ Install the macOS LaunchAgent background sync configuration.
 To try background hosting:
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh load
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh load
 ```
 
 当前工程位于 macOS `Documents` 目录；如果 LaunchAgent 日志出现 `Operation not permitted`，需要在系统设置中给后台执行环境授予访问权限，或把工程迁移到不受 TCC 限制的位置。为避免反复失败，可执行：
@@ -433,7 +433,7 @@ runner 已内置单步超时保护，避免后台任务卡死。当前机器验�
 The project is under macOS `Documents`; if LaunchAgent logs show `Operation not permitted`, grant the background process access or keep using the one-shot script.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh unload
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installResearchBusLaunchAgent.sh unload
 ```
 
 macOS 应用入口会自动打开浏览器。`/Applications/EVA_OS.app` 可以放入 Dock，也会出现在 Launchpad。
@@ -461,7 +461,7 @@ The `.app` launcher does not open a Terminal window. Launch logs are saved to `d
 To rebuild the three `.app` launchers or update the icon, edit `assets/QuantLabAppIconConfig.json` first, then run the installer script.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installMacAppLaunchers.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/installMacAppLaunchers.sh
 ```
 
 如果 `8501` 端口已经被占用，脚本会自动选择下一个可用端口。
@@ -473,7 +473,7 @@ If port `8501` is already in use, the launcher automatically chooses the next av
 Or run one command in Terminal. This script does not open a browser automatically.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/startQuantLab.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/startQuantLab.sh
 ```
 
 停止 QuantLab：双击这个文件。
@@ -481,7 +481,7 @@ Or run one command in Terminal. This script does not open a browser automaticall
 Stop QuantLab: double-click this file.
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/StopQuantLab.command
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/StopQuantLab.command
 ```
 
 检查 QuantLab 是否运行，不会打开浏览器。
@@ -489,7 +489,7 @@ Stop QuantLab: double-click this file.
 Check whether QuantLab is running without opening a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/statusQuantLab.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/statusQuantLab.sh
 ```
 
 完整验收 QuantLab，不会打开浏览器。
@@ -497,7 +497,7 @@ Check whether QuantLab is running without opening a browser.
 Run full QuantLab verification without opening a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/verifyQuantLab.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/verifyQuantLab.sh
 ```
 
 最终成品验收会同时检查双击入口、报告目录、核心文档、关键功能源码、完整测试和日常检查，不会联网，也不会打开浏览器。
@@ -505,7 +505,7 @@ Run full QuantLab verification without opening a browser.
 Final product acceptance checks launchers, report directory, core docs, key feature source files, full tests, and daily checks. It does not use network access or open a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/finalAcceptanceCheck.sh
 ```
 
 快速生成一份样例 Word 研究报告，不会打开浏览器。
@@ -513,7 +513,7 @@ Final product acceptance checks launchers, report directory, core docs, key feat
 Quickly generate one sample Word research report without opening a browser.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/createSampleReport.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/createSampleReport.sh
 ```
 
 该样例报告会同时生成 RunMetadata，并写入 `QuantLabReportEvidenceV1` 报告证据层；如果缺少真实多源交叉校验，报告会诚实降级为 `NeedsMoreEvidence`。
@@ -523,7 +523,7 @@ Quickly generate one sample Word research report without opening a browser.
 For first-time real-data key setup, create a local `.env` template first. The script does not overwrite an existing `.env`.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/setupEnv.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/setupEnv.sh
 ```
 
 联网验证不需要 key 的真实数据源。
@@ -531,7 +531,7 @@ For first-time real-data key setup, create a local `.env` template first. The sc
 Validate real data providers that do not require keys.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validateRealData.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validateRealData.sh
 ```
 
 检查 Moomoo 只读行情环境，不会调用交易接口。
@@ -539,7 +539,7 @@ Validate real data providers that do not require keys.
 Check the Moomoo quote-only environment without using trading APIs.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/checkMoomoo.sh
 ```
 
 配置足够 key 后，运行多源交叉校验。
@@ -547,7 +547,7 @@ Check the Moomoo quote-only environment without using trading APIs.
 After enough keys are configured, run cross-source validation.
 
 ```bash
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validateCrossSource.sh
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance/scripts/validateCrossSource.sh
 ```
 
 如果浏览器没有自动打开，请复制启动窗口显示的地址。
@@ -777,7 +777,7 @@ Safe cleanup only removes `.DS_Store` and legacy HTML files. It does not delete 
 Enter the project directory.
 
 ```bash
-cd /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+cd ~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 手动创建并安装本地环境。
@@ -785,7 +785,7 @@ cd /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/
 Manually create and install the local environment.
 
 ```bash
-/Users/linzezhang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m venv .venv
+~/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/pip install -e ".[app,test,data]"
 ```
@@ -845,7 +845,7 @@ scripts/openReports.sh
 Code is stored in the following directory.
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 报告默认按日期保存到以下目录。
@@ -853,7 +853,7 @@ Code is stored in the following directory.
 Reports are saved by date in the following directory.
 
 ```text
-/Users/linzezhang/Downloads/量化回测分析/YYYY-MM-DD/
+~/Downloads/量化回测分析/YYYY-MM-DD/
 ```
 
 ## Documentation

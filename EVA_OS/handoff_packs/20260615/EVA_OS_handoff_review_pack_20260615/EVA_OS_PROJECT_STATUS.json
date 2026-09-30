@@ -3,7 +3,7 @@
   "project_name": "EVA_OS",
   "repository": "https://github.com/LinzeColin/EVA_OS",
   "verified_remote_head": "b9a2c0351efaed332bd6f15b677b32c5835576da",
-  "local_source": "/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance",
+  "local_source": "~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance",
   "safety_boundary": {
     "research_only": true,
     "live_trading": false,
@@ -30,8 +30,8 @@
     "full_suite_passed": false
   },
   "app_entries": [
-    "/Users/linzezhang/Desktop/EVA_OS.app",
-    "/Users/linzezhang/Downloads/EVA_OS.app",
+    "~/Desktop/EVA_OS.app",
+    "~/Downloads/EVA_OS.app",
     "/Applications/EVA_OS.app"
   ],
   "subsystems": [

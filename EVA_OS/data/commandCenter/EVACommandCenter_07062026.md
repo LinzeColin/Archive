@@ -13,7 +13,7 @@
 | Integration Audit | Pass | Pass | summary={'pass': 6, 'review': 0, 'fail': 0, 'item_count': 6} |
 | Risk Gates | 8/8 Pass | Pass | DataTrust=Pass, IntegrationAudit=Pass, NoLiveTradingBoundary=Pass, ReportEvidence=Pass, LatestWordReport=Pass, EntityRegistry=Pass, WorkflowInputs=Pass, ResearchBusInterop=Pass |
 | Token ROI Ledger | 180 | Pass | quantified=0; unquantified=180 |
-| Latest Report | SampleBacktestReport_07062026.docx | Pass | /Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx |
+| Latest Report | SampleBacktestReport_07062026.docx | Pass | ~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx |
 
 ## Risk Gates
 | gate | status | evidence | next_action |
@@ -22,7 +22,7 @@
 | IntegrationAudit | Pass | summary={'pass': 6, 'review': 0, 'fail': 0, 'item_count': 6} | Run scripts/auditQuantLabIntegration.sh --no-write if not Pass. |
 | NoLiveTradingBoundary | Pass | No live order path must remain enforced. | Remove or fail closed any real-order code path. |
 | ReportEvidence | Pass | run_metadata=31; report_evidence_layer=Pass | Generate a report with RunMetadata before using results. |
-| LatestWordReport | Pass | /Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Generate at least one Word report for the current research session. |
+| LatestWordReport | Pass | ~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Generate at least one Word report for the current research session. |
 | EntityRegistry | Pass | Entity Registry schema=QuantLabEntityRegistryV1; records=28. | 确认 ProxyMapped 和 MissingSymbol 的报告口径。 |
 | WorkflowInputs | Pass | Workflow inputs are queryable; rows=3. | 新报告应引用 workflow_input_id 或明确标注 ManualOrLocalOnly。 |
 | ResearchBusInterop | Pass | ResearchBus interoperability status=Pass. | 继续保持跨系统同步审计。 |
@@ -38,11 +38,11 @@
 ## Evidence Sources
 | source | status | path | schema |
 | --- | --- | --- | --- |
-| Daily Readiness | Present | /Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabDailyReadiness_07062026.json | QuantLabDailyReadinessV1 |
-| Integration Audit | Present | /Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabIntegrationAudit_07062026.json | QuantLabIntegrationAuditV1 |
-| Data Trust Audit | Present | /Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabDataTrustAudit_07062026.json | QuantLabDataTrustAuditV1 |
+| Daily Readiness | Present | ~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabDailyReadiness_07062026.json | QuantLabDailyReadinessV1 |
+| Integration Audit | Present | ~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabIntegrationAudit_07062026.json | QuantLabIntegrationAuditV1 |
+| Data Trust Audit | Present | ~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/systemAudit/QuantLabDataTrustAudit_07062026.json | QuantLabDataTrustAuditV1 |
 | Token ROI Ledger | Present | data/value/EVATokenROILedger_latest.json | EVATokenROILedgerV1 |
-| Latest Report | Present | /Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Backtest Word Report |
+| Latest Report | Present | ~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx | Backtest Word Report |
 
 ## Token ROI Summary
 | record_count | quantified_records | unquantified_records | roi_status |

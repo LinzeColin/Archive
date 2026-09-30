@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from dataclasses import dataclass
 from datetime import datetime
 
@@ -406,7 +408,7 @@ def _port_label(value) -> str:
 
 
 def _public_text(value: str) -> str:
-    return value.replace("/Users/linzezhang/", "~/")
+    return re.sub(r"/Users/[^/\s]+/", "~/", value)
 
 
 def _vectorized_row(row: dict) -> dict:

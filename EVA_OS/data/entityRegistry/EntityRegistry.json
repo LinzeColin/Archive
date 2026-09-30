@@ -466,8 +466,8 @@
     }
   ],
   "outputs": {
-    "json": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.json",
-    "csv": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.csv",
-    "markdown": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.md"
+    "json": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.json",
+    "csv": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.csv",
+    "markdown": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/entityRegistry/EntityRegistry.md"
   }
 }

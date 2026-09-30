@@ -22,7 +22,7 @@ EVA_OS 当前是一个本地优先、证据驱动、研究与回测导向的个�
 | Item | Current Status |
 | --- | --- |
 | Product name | `EVA_OS` |
-| Local source | `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance` |
+| Local source | `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance` |
 | GitHub repository | `https://github.com/LinzeColin/EVA_OS` |
 | Verified GitHub HEAD | `b9a2c0351efaed332bd6f15b677b32c5835576da` |
 | Local app entries | Desktop, Downloads, Applications: `EVA_OS.app` |
@@ -38,7 +38,7 @@ EVA_OS 当前是一个本地优先、证据驱动、研究与回测导向的个�
 | Milestone | Status | Evidence |
 | --- | --- | --- |
 | EVA_OS naming and app identity | Complete | `README.md`, `docs/EVA_OS.md`, `macos/EVA_OS.app`, `assets/EVA_OSAppIcon.*` |
-| macOS app entry | Complete | `/Users/linzezhang/Desktop/EVA_OS.app`, `/Users/linzezhang/Downloads/EVA_OS.app`, `/Applications/EVA_OS.app` |
+| macOS app entry | Complete | `~/Desktop/EVA_OS.app`, `~/Downloads/EVA_OS.app`, `/Applications/EVA_OS.app` |
 | Legacy visible app cleanup | Complete | Old visible app bundles were removed in the last verified run |
 | QuantLab daily research loop | Usable | Streamlit app, reports, scripts, docs |
 | Daily readiness / audit artifacts | Implemented | `data/systemAudit`, `docs/DailyReadiness.md`, `docs/DataTrust.md` |
@@ -196,7 +196,7 @@ docs/Index.md
 ## Local Project
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 GitHub:
@@ -213,7 +213,7 @@ The old `.venv` was removed during slimming. Some scripts now fall back to `QUAN
 Recommended setup:
 
 ```bash
-cd /Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+cd ~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 python3 -m venv .venv
 .venv/bin/python -m pip install -e '.[test,app,data]'
 ```
@@ -412,8 +412,8 @@ EVA_OS 是个人研究与决策支持中台。它帮助整理市场数据、策�
 ## App Entry Points
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 

@@ -15,13 +15,13 @@ This repository is the handoff surface for continuing EVA_OS / EVA_OS developmen
 The latest prepared workspace at the time of upload was:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 The workspace was copied from the historical implementation path:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
+~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
 ```
 
 The upload intentionally excludes virtual environments, caches, private holdings/imports, raw video frames, local logs, SQLite runtime state, and secrets. See `UPLOAD_MANIFEST.md`.
@@ -31,8 +31,8 @@ The upload intentionally excludes virtual environments, caches, private holdings
 Installed local launchers:
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 

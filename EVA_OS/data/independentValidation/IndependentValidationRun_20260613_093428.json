@@ -7,7 +7,7 @@
   "shard_count": 100,
   "started_at": "2026-06-13T09:34:28",
   "completed_at": "2026-06-13T09:34:28",
-  "output_path": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/independentValidation/IndependentValidationRun_20260613_093428.json",
+  "output_path": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/independentValidation/IndependentValidationRun_20260613_093428.json",
   "execution_tier": "planning_manifest",
   "worker_count": 1,
   "assumptions": [

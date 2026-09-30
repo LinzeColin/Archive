@@ -13,9 +13,9 @@ application entry, or development target.
 ## Source
 
 - Historical source snapshot:
-  `/Users/linzezhang/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/work/CodexProject/EVA_OS`
+  `~/Documents/Codex/2026-06-21/readme-first-md-01-execution-contract/work/CodexProject/EVA_OS`
 - Handoff review pack:
-  `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/EVA_OS_handoff_review_pack_20260615`
+  `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/EVA_OS_handoff_review_pack_20260615`
 
 ## Exclusions
 

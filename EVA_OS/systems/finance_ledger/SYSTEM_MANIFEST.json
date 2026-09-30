@@ -4,7 +4,7 @@
   "status": "source_migrated",
   "migration_phase": "source_tests_docs_migrated",
   "legacy_local_roots": [
-    "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604"
+    "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-20250604"
   ],
   "current_workspace_root": "systems/finance_ledger",
   "source_root": "systems/finance_ledger/source",

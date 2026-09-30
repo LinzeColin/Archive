@@ -4,8 +4,8 @@
   "subsystem": "Validation Task Priority Planner",
   "as_of": "2026-06-07",
   "generated_at": "2026-06-07T13:28:38",
-  "project_root": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
-  "queue_path": "/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json",
+  "project_root": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance",
+  "queue_path": "~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance/data/validationQueue/ValidationTasks.json",
   "queue_record_count": 7058,
   "candidate_record_count": 7058,
   "prioritized_task_count": 200,
@@ -89,7 +89,7 @@
       "risk_if_skipped": "Single-source errors may be mistaken for real strategy evidence.",
       "blockers": "",
       "task_id": "reportGapTask_e075e54ff090b224301e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "554bda3a926a58faf09410967981e4781752b8142848bbcdf2610930a6ae30dc"
     },
@@ -108,7 +108,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_ecd9e79c97b8f0af187b",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "60c3898ed49cac0e1fe85b90f9be3decf61eb99b197e86f5f267860e64de1230"
     },
@@ -127,7 +127,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_0fa3947a87fc5dd01b6e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "564e7bab4a129dfc7473a97c6eb8c0fdfd91387ae6f4caceb39bb15df45c5e26"
     },
@@ -146,7 +146,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_2dbfd5496aa0400a46b6",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "8d474b45889ff2ffc2c4462f6e9718518c76f19dff884fed02c6914b6572b9f2"
     },
@@ -165,7 +165,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_6027ca6d96941d644c12",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "14cdb16bf9387de00713964925f131d2cdd7ef4507479bc0d8becc776e4e8861"
     },
@@ -184,7 +184,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_267d1f807207d197bf6e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "943a5fcd0425bdad503a79a4ba957767288941953116d3a2e5d8cd1bf8d06faa"
     },
@@ -203,7 +203,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_0619f2dbc5a32d72f7a4",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "7db11d86474f5365733b928e05244c70d66d5b108566b630a3a809a48f47b7a7"
     },
@@ -222,7 +222,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_3cd8ab854f673764fdc7",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "458ca809a2c297472d218a7cccbda7ec8e4c90ca1c216394582bb7bc57f3b193"
     },
@@ -241,7 +241,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_d8b90851743f681ea520",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "f52ebaab3abeeccd3f7baffd764684f79e9c589d3e1fbd45b34126713d0a04e3"
     },
@@ -260,7 +260,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_c748cc1b705bdecc8f8f",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "080ab6275f35df31435b7a6119c5aefea6ffbce0183ea6edb136c61a627c598b"
     },
@@ -279,7 +279,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_237cd29b5b22e6eed252",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "b1950284c09f76000c8fa6faebd956a7de2da6c91335d3a98b09150b097fc8ce"
     },
@@ -298,7 +298,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_7f9ba339fb12527227c5",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "a4e990b280adc15c2d8995bb04039cbd2831a7d518339b61e08e210228a85b76"
     },
@@ -317,7 +317,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_654fad4cc52bed473754",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "09e24ae8095d2407190b49e637b3efe8ee4808a3d571ee714f366e9b5e22c159"
     },
@@ -336,7 +336,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_0f9dd136fc4c4bbc2c86",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "17e4264bddad7611297b6874fef0cc19585b070228bf0de04015fdde9f2d9136"
     },
@@ -355,7 +355,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_aece318bd5609bdbf268",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "7c2a884487bf978db1ba047277b06d8b19c1420e2c27b55072d07905ebd74446"
     },
@@ -374,7 +374,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_bf9bfa83deb65175b103",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "3f3bdf5fc35dddd3228a048fab54de107f31158c410728252b215b86f75b9998"
     },
@@ -393,7 +393,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_c0cad6a96f2a53ab0443",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "6785ff8e4f758cb5b0e9a83a780294a17e8fa0f39d11ed5363bcfcbcb004c52d"
     },
@@ -412,7 +412,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_9560fac6f7b3c7807c08",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "02245220bbcf9703d0a61e33a0f36f0623de6345da1170a10d4660d3dc4a2fff"
     },
@@ -431,7 +431,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_186573b0f1329e452cd3",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "eb5bf476657c9079c191d328cb8840254b8b2fc027aaecc7495bdc3abc528067"
     },
@@ -450,7 +450,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_a6523e16ccfa91ae0e46",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "7e0db1d04c96f614d770c32006260cfccd5cd0b9bab6ed926729065ce2c9ccd9"
     },
@@ -469,7 +469,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_2eb5bea47b4fceace46f",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "4f5fb77343bdc10027a574d44f75868519088268e1f4a7a2f48ed2b6697cbb65"
     },
@@ -488,7 +488,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_89eda18bcd481f67323e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "1d13332031ed60be024a01e44076e082f92e1cbd66576d8df61414ff701efae1"
     },
@@ -507,7 +507,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_849266791b18649d1524",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "73b1d58c8427b9934aebdb236c44db9a6973a6e4feb43273d7e2b3752ab249c6"
     },
@@ -526,7 +526,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_e7bc1bbcb50a5a7a377d",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "88b8b1ff729cd86d0b2e538c2f8f6dfbb6428582267f34892da7594eb25cb06c"
     },
@@ -545,7 +545,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_137c8cd1a39c53832d96",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "d248f80cba548662af48bb84d617240f3329a473a4342b74484519d5507ada9b"
     },
@@ -564,7 +564,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_98f31098ffb86dbede79",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "2108599fec7d10c872b0c506e29ae9417e572ef39bbae5085ace5857d38dff0f"
     },
@@ -583,7 +583,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_ae4188ec1d1a1ed53dee",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "0ca61255ee5131c9a1fc31a05b6172d63aed516d879927b8eaad260f5ef28b7d"
     },
@@ -602,7 +602,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_c1be2f7ae821edeb646c",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "5e79ac8c67dbcde573c4ec686fd4cdc73230d2144b3e012e09c130018493fdab"
     },
@@ -621,7 +621,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_ed6e1cfdde70e689140f",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "2f313b40fe2dea17b599256faa55e40383bf6e3b064e71679246fa2c01025d21"
     },
@@ -640,7 +640,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_24cabe0e62520fd1ef52",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "de30569ca3e28a965d7848ad0b9a27977c3ae0c0ae29ef3d2fa34e58173f041e"
     },
@@ -659,7 +659,7 @@
       "risk_if_skipped": "The report cannot be traced back to data, entity, workflow, and risk gates.",
       "blockers": "",
       "task_id": "reportGapTask_bb108dd8e607357c3437",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "730e38feba00ac8664293fc4b7d7bcc4efb12bfcbe145257a06dc0fd569e3adb"
     },
@@ -678,7 +678,7 @@
       "risk_if_skipped": "The result may be time-window overfit.",
       "blockers": "",
       "task_id": "reportGapTask_a5d66fdd1799fae49691",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "2abbae557856b9bd08161af406b961019a0e7eb25f4b9190d9c32145fc9865f5"
     },
@@ -697,7 +697,7 @@
       "risk_if_skipped": "The result may only work in the fitting sample.",
       "blockers": "",
       "task_id": "reportGapTask_0c691618d33ec8d0db0a",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "5ca0308fe4f2c29cbee8266b802cdab95fbbf2c8c61bec9bc995eb4b8a5f07f6"
     },
@@ -716,7 +716,7 @@
       "risk_if_skipped": "The result may depend on one fragile parameter.",
       "blockers": "",
       "task_id": "reportGapTask_4fd24767b189af18a488",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "5f54e07c13f9778bdad13b5b787c759edd6ef384d8da15862cf70b4d0846a962"
     },
@@ -735,7 +735,7 @@
       "risk_if_skipped": "The research conclusion may omit thesis, risks, or disconfirming evidence.",
       "blockers": "",
       "task_id": "reportGapTask_ea31ffc51bd85726422d",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-07/SampleBacktestReport_07062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "02cf5877df01a10946d06f7979433e6576cf7285f1104e2adc411928fe67137e"
     },
@@ -754,7 +754,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_87c69d1fe70d54366d65",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-04/BacktestReport7_04062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "9f109449bfe89a79322b5b67cefb3aa98c856ba0ed5ad623eca5b7bf64a707c2"
     },
@@ -773,7 +773,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_41489eda40de630a3e0c",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "9dab3b11eea5209fa8f063fe119e052aa9193974d9a53347e96b7a500a26e31f"
     },
@@ -792,7 +792,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_29e3f2396a203d88c2e1",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "5a154fcad7cc15433e2f46675fdfc513702ed735a43103117f5aa0896dfbecb4"
     },
@@ -811,7 +811,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_3e8dbcfcfa454bf79d54",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "f4d5f5fb31c1dd73bb1795f7b8fadff2f31b0df942629a415ff53e2069ad552d"
     },
@@ -830,7 +830,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_ae5c2190a77e9783ca89",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "76a37775a3c94b57f909ee85c517da6e4ac99fccd0dd54b5aaff5913a3ff26b2"
     },
@@ -849,7 +849,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_4416444444d27a6ec957",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "4e231a52305b101555cf76c44cb50b200b4bef27c52030db3960f0cc027ce36f"
     },
@@ -868,7 +868,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_b989ee57852d50eeb089",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "454c8f6fb1cd879f7db262a4203f3af9cffd35127982006870b2ef4abc245708"
     },
@@ -887,7 +887,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_0eb7ded71e1b5a09bb23",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "0cb102a20d61c489c6b607a4e923d61b0860cbfc26f19cd96e51b121ac5f4ffb"
     },
@@ -906,7 +906,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_cc21969e2c9745c12389",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "f82f7a30b26bbebd44c678080906ab86d8e1437e43192316d8c6f0cea82292d8"
     },
@@ -925,7 +925,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_498687f76c9b7e4fcfa7",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "a04eed1b4159cce25c5a3c6fa12cdf8bfd3326507362606c26f097839a91b063"
     },
@@ -944,7 +944,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_1349213155facadf7250",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "70f671cc6caff1b7ab41bd6613bd64384a132b86163ed821d176ec38f5681264"
     },
@@ -963,7 +963,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_5ffdf7e7561460e55fc8",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "e32fd98c8b6c1e47a73b22282e53e0cb7b7b98b0edc4e183fd11a983d2dc13a6"
     },
@@ -982,7 +982,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_8d91cfb4c88ebb5e45d0",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "8ae239d4c6f38d1f832285107f1447369b99392799e04a7a23499b799603d425"
     },
@@ -1001,7 +1001,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_d1c766a496b389fe122f",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "19079dd6fc443fa89d7979158ceb46f669f9fba670fe36e5e8de1efae79f7ed3"
     },
@@ -1020,7 +1020,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_b0c509076756ec3e9c67",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "aad60c2cd6fcb3180bccd2cdba6e8bfce821dfdd4207f6545c4e95b53b1ea5c3"
     },
@@ -1039,7 +1039,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_0deb2e2f37503841428e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "40becca2e1c0f56614b2c4b86710472a780b35bd1f31e7c4c1f4d6db6674cdd2"
     },
@@ -1058,7 +1058,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_23f77c7f6b6b8156557e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "afff2e4d6a5e0e017032d2d314adb390b306069712bbfa61e6c788d03cc648bc"
     },
@@ -1077,7 +1077,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_50ca87e5442e6fdfcf16",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "a5245705161f542bdb8b594726e621f2db3eb0bd5e0837f0c74213a3cde0fb30"
     },
@@ -1096,7 +1096,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_3a6da31948f7fe387251",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "4b7d349d86765cb1783e48a72a7525f86587c84705a370983f16494e4c7c1877"
     },
@@ -1115,7 +1115,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_b12e590751ed3a6afde6",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "ad54e5654b2cdbf0510ce49f5ace9638bde5014c587c9028db64d2ac08b44c1f"
     },
@@ -1134,7 +1134,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_a597154c68c0155fe89e",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "1aca2e56cdb2dd6491118d5bdd395fc63826d9b5b78bf36111fa941c1fefbbb9"
     },
@@ -1153,7 +1153,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_ac22a12350f072d56d0c",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "d7325fefc1b15fd10a91b28c7b29d74a2a17bc9da78b1635991ee89bd4e9d764"
     },
@@ -1172,7 +1172,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_b2f09c9c5cf5c21466c5",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "431872fcbb4041bc804448f5ffce9038fb90cd12f66eec4031a28b4d002ddc4b"
     },
@@ -1191,7 +1191,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_ab161fc450a3797a45be",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "34462786ac09ef7ce7369c82ae784dad9de42d43e8ad219759bb383fa2e144c4"
     },
@@ -1210,7 +1210,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_fc8f5c6b94a8ce71ae12",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "1c7e1663956e4643247c3647685d03e325059503c94629254fbcb5d3e2e941c2"
     },
@@ -1229,7 +1229,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "reportGapTask_aa183e902e6da9270ae9",
-      "source_report": "/Users/linzezhang/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
+      "source_report": "~/Downloads/量化回测分析/2026-06-03/BacktestReport18_03062026.docx",
       "created_at": "2026-06-07T12:42:06",
       "dedupe_key": "bc7a14cb7ae53b54696c3114b9f3e4f4fd9d3c69bdf24db6b7b82304513f60b2"
     },
@@ -1248,7 +1248,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_bc65c8ad9d93694bb76f",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:58",
       "dedupe_key": ""
     },
@@ -1267,7 +1267,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_24c66410f05f4b3f6621",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:58",
       "dedupe_key": ""
     },
@@ -1286,7 +1286,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_4df86555eb420d81c201",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:58",
       "dedupe_key": ""
     },
@@ -1305,7 +1305,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e6e85688905c2b326c61",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:58",
       "dedupe_key": ""
     },
@@ -1324,7 +1324,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_fd8bb4d22b3121b9346f",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1343,7 +1343,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_53c620ea1b9f0c120da7",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1362,7 +1362,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_52a294b3cf7459b288cb",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1381,7 +1381,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_02ebdf919d65cb2c8c8a",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1400,7 +1400,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a5a6d1c51c3531daa2fb",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1419,7 +1419,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_997a7c2a4736d38ab984",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1438,7 +1438,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e989855f4a84f431969f",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1457,7 +1457,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_2c3762f5d1ece2e9bed1",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1476,7 +1476,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5792bdfaa95e9694e67a",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:07:59",
       "dedupe_key": ""
     },
@@ -1495,7 +1495,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_13fc94a8b1d7bb27b1e4",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1514,7 +1514,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_be692ac120525a86c00a",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1533,7 +1533,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c5ca1f159785f8ddd02c",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1552,7 +1552,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6230517d29629270ebf7",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1571,7 +1571,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_9162e7efe0191035915e",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1590,7 +1590,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_1caa898bb5ce70f58b61",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1609,7 +1609,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_d8399eebc76201d0a495",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1628,7 +1628,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_9d334490a4405bb99c33",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1647,7 +1647,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a3183ecbc6b3978e14aa",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1666,7 +1666,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a9ef1d8a485f9439ce54",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1685,7 +1685,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_9822f4cced22424d407b",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1704,7 +1704,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a7f8fbc8fb6cb286d385",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1723,7 +1723,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a262d4b52506eed41587",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1742,7 +1742,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c2c442c258d676671fef",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1761,7 +1761,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ec31aa54a06fedf1f469",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1780,7 +1780,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_8fb76b87f810ab20ee7b",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1799,7 +1799,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_3119983720b0c5ebfde0",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1818,7 +1818,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_46612ebe0fb74c4ab026",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1837,7 +1837,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_4f6a696b7be9ccbe383d",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1856,7 +1856,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_2e77afad464afeca1102",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1875,7 +1875,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a2b9e9d0ffdbb4b8c969",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1894,7 +1894,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_161550421f941e3b08b2",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1913,7 +1913,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_56c820eb7da8ca4d758b",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1932,7 +1932,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7009a47d437d2784feff",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1951,7 +1951,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6c7e40c034ec2f3e42a0",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1970,7 +1970,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_937cbb1a5441ee3c8acc",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -1989,7 +1989,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_962d0f272a9247ab6dea",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -2008,7 +2008,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_dcd052d1153d632692b9",
-      "source_report": "/Users/linzezhang/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
+      "source_report": "~/Downloads/行研报告/6月第1周 0106-0706/1. 盘前报告_03062026.pdf",
       "created_at": "2026-06-04T23:08:00",
       "dedupe_key": ""
     },
@@ -2027,7 +2027,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c8e5715eaee536576dc2",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:09",
       "dedupe_key": ""
     },
@@ -2046,7 +2046,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_15d8996c744f4e6775b2",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:09",
       "dedupe_key": ""
     },
@@ -2065,7 +2065,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7dcc06d27d67fc8b31ff",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:09",
       "dedupe_key": ""
     },
@@ -2084,7 +2084,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a70920a0f93b41fc262e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:09",
       "dedupe_key": ""
     },
@@ -2103,7 +2103,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a8d994ea795ec515d7f5",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:11",
       "dedupe_key": ""
     },
@@ -2122,7 +2122,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0dfa0d20f8d8c0eb4b59",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:11",
       "dedupe_key": ""
     },
@@ -2141,7 +2141,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_d956a545aed4f02efbc4",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:11",
       "dedupe_key": ""
     },
@@ -2160,7 +2160,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_36a8e6aef89850c8d02a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 04062026_盘后报告.md",
       "created_at": "2026-06-04T23:08:11",
       "dedupe_key": ""
     },
@@ -2179,7 +2179,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e28c82f1480fcacfe3f2",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
       "created_at": "2026-06-04T23:08:15",
       "dedupe_key": ""
     },
@@ -2198,7 +2198,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_bbaa478d343b9eed0ee1",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
       "created_at": "2026-06-04T23:08:15",
       "dedupe_key": ""
     },
@@ -2217,7 +2217,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_058a23af695f3c06a5c9",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
       "created_at": "2026-06-04T23:08:15",
       "dedupe_key": ""
     },
@@ -2236,7 +2236,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_22a94d34ca1e4e814b9b",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/2. 04062026_盘中报告.md",
       "created_at": "2026-06-04T23:08:15",
       "dedupe_key": ""
     },
@@ -2255,7 +2255,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5f4b2ddc2b64961db880",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
       "created_at": "2026-06-04T23:08:29",
       "dedupe_key": ""
     },
@@ -2274,7 +2274,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_2cd8365643a5ba71bb4e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
       "created_at": "2026-06-04T23:08:29",
       "dedupe_key": ""
     },
@@ -2293,7 +2293,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e378d688232cabfdf183",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
       "created_at": "2026-06-04T23:08:29",
       "dedupe_key": ""
     },
@@ -2312,7 +2312,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_66549ddd3310a24ad4e7",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/1. 04062026_盘前报告.md",
       "created_at": "2026-06-04T23:08:29",
       "dedupe_key": ""
     },
@@ -2331,7 +2331,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7f60a8e79f32fc1e3b6f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
       "created_at": "2026-06-04T23:08:36",
       "dedupe_key": ""
     },
@@ -2350,7 +2350,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_67a6fce7f842ae3ada33",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
       "created_at": "2026-06-04T23:08:36",
       "dedupe_key": ""
     },
@@ -2369,7 +2369,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_631668d402db8dbf0f6c",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. 04062026_K线分析报告.md",
       "created_at": "2026-06-04T23:08:37",
       "dedupe_key": ""
     },
@@ -2388,7 +2388,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c7016444246fc65b4b30",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:08:40",
       "dedupe_key": ""
     },
@@ -2407,7 +2407,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a29672e8fb75769fe0a9",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:08:40",
       "dedupe_key": ""
     },
@@ -2426,7 +2426,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6ecebaeb7eaca407101d",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:08:40",
       "dedupe_key": ""
     },
@@ -2445,7 +2445,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ec6f2215065c831f1a42",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:08:40",
       "dedupe_key": ""
     },
@@ -2464,7 +2464,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ec853d23269c1d4da799",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:01",
       "dedupe_key": ""
     },
@@ -2483,7 +2483,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_4e93eebf5e562c119e01",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:07",
       "dedupe_key": ""
     },
@@ -2502,7 +2502,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6c33b9e4eda7d5406330",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:07",
       "dedupe_key": ""
     },
@@ -2521,7 +2521,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5c0668a1d867a0a85a01",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:08",
       "dedupe_key": ""
     },
@@ -2540,7 +2540,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_37461e554b70c53d7b6f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:08",
       "dedupe_key": ""
     },
@@ -2559,7 +2559,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ce3d40ca16f47b7366ee",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:10",
       "dedupe_key": ""
     },
@@ -2578,7 +2578,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_2c5d959d38b2e523409f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:10",
       "dedupe_key": ""
     },
@@ -2597,7 +2597,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_62bf3dde2aa5ffdb1937",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:11",
       "dedupe_key": ""
     },
@@ -2616,7 +2616,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a0f3972c4374a58dacad",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:12",
       "dedupe_key": ""
     },
@@ -2635,7 +2635,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_daec3c68f93512518477",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:14",
       "dedupe_key": ""
     },
@@ -2654,7 +2654,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_faf439cd250fd8710c8a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:14",
       "dedupe_key": ""
     },
@@ -2673,7 +2673,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e4de5abd0c2c6576b512",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:14",
       "dedupe_key": ""
     },
@@ -2692,7 +2692,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_8c153e033a64b331fff8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:15",
       "dedupe_key": ""
     },
@@ -2711,7 +2711,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a8beedc365f0dce1beb3",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:17",
       "dedupe_key": ""
     },
@@ -2730,7 +2730,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5df03443f19c7caeb10a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:17",
       "dedupe_key": ""
     },
@@ -2749,7 +2749,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0e754a2b224f64bef168",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:17",
       "dedupe_key": ""
     },
@@ -2768,7 +2768,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_89982b70ad8d3c9ac170",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:21",
       "dedupe_key": ""
     },
@@ -2787,7 +2787,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_54f5958a01eeff2232a1",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:31",
       "dedupe_key": ""
     },
@@ -2806,7 +2806,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_cf82a39ac5ba92b38fc2",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:32",
       "dedupe_key": ""
     },
@@ -2825,7 +2825,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_acaf8ae1ab9eb24e6d3f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:32",
       "dedupe_key": ""
     },
@@ -2844,7 +2844,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5163eb087ae3b9934486",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:33",
       "dedupe_key": ""
     },
@@ -2863,7 +2863,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_05f2597fcdea5d6bc3d8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:36",
       "dedupe_key": ""
     },
@@ -2882,7 +2882,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_b23158809ef4ef5cca5a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:36",
       "dedupe_key": ""
     },
@@ -2901,7 +2901,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ba7744fc63cd69eb04d5",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:38",
       "dedupe_key": ""
     },
@@ -2920,7 +2920,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_215111c3760b2561b4eb",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:38",
       "dedupe_key": ""
     },
@@ -2939,7 +2939,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_abfffaed45e031be1804",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:40",
       "dedupe_key": ""
     },
@@ -2958,7 +2958,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_2b592b0f5defc4ce9173",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:41",
       "dedupe_key": ""
     },
@@ -2977,7 +2977,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_aa3ec5a3b2622f8b5af8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:41",
       "dedupe_key": ""
     },
@@ -2996,7 +2996,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7ffdf6303c7d2a300eb8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:43",
       "dedupe_key": ""
     },
@@ -3015,7 +3015,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6b45dae0ca96948be32a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:46",
       "dedupe_key": ""
     },
@@ -3034,7 +3034,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ce4d1b3023c0ef1a838e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:46",
       "dedupe_key": ""
     },
@@ -3053,7 +3053,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a411b22b5fbdfef16357",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:46",
       "dedupe_key": ""
     },
@@ -3072,7 +3072,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0723ea46b979af54dd8b",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:46",
       "dedupe_key": ""
     },
@@ -3091,7 +3091,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a680a5575975f40f9328",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:48",
       "dedupe_key": ""
     },
@@ -3110,7 +3110,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c6958c0a6e3eb958a95c",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:49",
       "dedupe_key": ""
     },
@@ -3129,7 +3129,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_15c519ccd6c34115d446",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:50",
       "dedupe_key": ""
     },
@@ -3148,7 +3148,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_194146dac816a008566e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/4. K线分析报告_03062026.md",
       "created_at": "2026-06-04T23:09:51",
       "dedupe_key": ""
     },
@@ -3167,7 +3167,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e55fc5ea0886c9cc2925",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:19",
       "dedupe_key": ""
     },
@@ -3186,7 +3186,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_85133ee4c27c33b1395d",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:19",
       "dedupe_key": ""
     },
@@ -3205,7 +3205,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7486355094e847c5b11a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:24",
       "dedupe_key": ""
     },
@@ -3224,7 +3224,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_dcb68ded911a39552844",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:26",
       "dedupe_key": ""
     },
@@ -3243,7 +3243,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_7012a6f4e19d6f27359f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:52",
       "dedupe_key": ""
     },
@@ -3262,7 +3262,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_19d82b2528b9deb12e2c",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:52",
       "dedupe_key": ""
     },
@@ -3281,7 +3281,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_f28172fa126fe13d1192",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:53",
       "dedupe_key": ""
     },
@@ -3300,7 +3300,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_79b29a71d363c44f96a2",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:53",
       "dedupe_key": ""
     },
@@ -3319,7 +3319,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e33b6c94f4a8b9b1b883",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:53",
       "dedupe_key": ""
     },
@@ -3338,7 +3338,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0ccd3ee09e834b9e0221",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:54",
       "dedupe_key": ""
     },
@@ -3357,7 +3357,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_bb55f547d01ed8373d27",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:54",
       "dedupe_key": ""
     },
@@ -3376,7 +3376,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a492c00fd24273afdae9",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:54",
       "dedupe_key": ""
     },
@@ -3395,7 +3395,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_03f74c6a18950d0aced5",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:54",
       "dedupe_key": ""
     },
@@ -3414,7 +3414,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_c544dacb7ecade94170e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:55",
       "dedupe_key": ""
     },
@@ -3433,7 +3433,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_bf89c088c97c45dd6f7e",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:55",
       "dedupe_key": ""
     },
@@ -3452,7 +3452,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_b99e649118991c489b75",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:55",
       "dedupe_key": ""
     },
@@ -3471,7 +3471,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_680b4be41882af625eed",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:55",
       "dedupe_key": ""
     },
@@ -3490,7 +3490,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_593e69563e4fb6105414",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3509,7 +3509,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_87745ad9fe845cb781a1",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3528,7 +3528,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_ba1db887c77cc9285655",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3547,7 +3547,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_406fee9787ecec64c353",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3566,7 +3566,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0b865843fdccf5966061",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3585,7 +3585,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_3ae80ac1cfc1c4ab4d58",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:56",
       "dedupe_key": ""
     },
@@ -3604,7 +3604,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_d653eddb687b42cc831a",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3623,7 +3623,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_fd03a58de94b083eedb3",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3642,7 +3642,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_3e092048b5da216a5da6",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3661,7 +3661,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_eb8b6bc8123e6502d209",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3680,7 +3680,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_0066ca0e56af4699b919",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3699,7 +3699,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a62a0f322f37dfe82765",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:57",
       "dedupe_key": ""
     },
@@ -3718,7 +3718,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_9e7df1d1a7c3fbbbf4d8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:58",
       "dedupe_key": ""
     },
@@ -3737,7 +3737,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_03721f99dc07206a698f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:58",
       "dedupe_key": ""
     },
@@ -3756,7 +3756,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_5ed09eae89785cb8e76b",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:58",
       "dedupe_key": ""
     },
@@ -3775,7 +3775,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6c7b6a8310809eb2b944",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:58",
       "dedupe_key": ""
     },
@@ -3794,7 +3794,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_a4f976b396f4081c801f",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:59",
       "dedupe_key": ""
     },
@@ -3813,7 +3813,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_e82d31f7b237cc6652a8",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:59",
       "dedupe_key": ""
     },
@@ -3832,7 +3832,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_682f5b30a63732f953ef",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:10:59",
       "dedupe_key": ""
     },
@@ -3851,7 +3851,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_03cc232aaf26947c1b4c",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:11:00",
       "dedupe_key": ""
     },
@@ -3870,7 +3870,7 @@
       "risk_if_skipped": "A strategy can look profitable while hiding unacceptable drawdown or cost risk.",
       "blockers": "",
       "task_id": "validationTask_6c1780147161c479f685",
-      "source_report": "/Users/linzezhang/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
+      "source_report": "~/Documents/Codex/2026-06-03/files-mentioned-by-the-user-codex/outputs/AI-Research-System/data/report_artifacts/6月第1周 0106-0706/_markdown/3. 盘后报告_03062026.md",
       "created_at": "2026-06-04T23:11:01",
       "dedupe_key": ""
     }

@@ -27,13 +27,13 @@ https://github.com/LinzeColin/EVA_OS
 Current local working copy:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
+~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance
 ```
 
 Historical duplicate source path before slimming:
 
 ```text
-/Users/linzezhang/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
+~/Documents/Codex/2026-06-04/files-mentioned-by-the-user-quantlab/outputs/CodexFinance
 ```
 
 The historical path was a subset of the current working copy at this handoff and can be removed after GitHub push verification.
@@ -113,8 +113,8 @@ PYTHONPATH=src .venv/bin/python -m pytest tests/test_event_replay.py tests/test_
 Installed local entry apps:
 
 ```text
-/Users/linzezhang/Desktop/EVA_OS.app
-/Users/linzezhang/Downloads/EVA_OS.app
+~/Desktop/EVA_OS.app
+~/Downloads/EVA_OS.app
 /Applications/EVA_OS.app
 ```
 

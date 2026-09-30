@@ -16,7 +16,7 @@ Purpose: provide a compact, reviewable package for ChatGPT, new developers, and 
 
 ## Current Source of Truth
 
-- Local project: `/Users/linzezhang/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance`
+- Local project: `~/Documents/Codex/2026-06-13/files-mentioned-by-the-user-eva/outputs/CodexFinance`
 - GitHub: `https://github.com/LinzeColin/EVA_OS`
 - Verified remote HEAD: `b9a2c0351efaed332bd6f15b677b32c5835576da`
 - Product name: `EVA_OS`
