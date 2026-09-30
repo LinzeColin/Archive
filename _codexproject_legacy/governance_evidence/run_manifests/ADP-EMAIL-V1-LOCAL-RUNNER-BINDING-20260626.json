@@ -29,9 +29,9 @@
   "evidence_refs": [
     "https://github.com/LinzeColin/CodexProject/pull/239",
     "governance/run_manifests/ADP-EMAIL-V1-LOCAL-RUNNER-ATTESTATION-20260626.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/health/latest-preflight.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/watchdog/latest-readiness.json",
-    "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260626/adp-smtp-delivery-report.json"
+    "~/.adp/arxiv-daily-push/health/latest-preflight.json",
+    "~/.adp/arxiv-daily-push/watchdog/latest-readiness.json",
+    "~/.adp/arxiv-daily-push/runs/20260626/adp-smtp-delivery-report.json"
   ],
   "test_results": [
     "PR #239 Project Governance run 28221547506 success",

@@ -83,14 +83,14 @@
       "root_cause": "first foreground command used repository root instead of arxiv-daily-push project root, so user-center files were not found",
       "new_smtp_sent": false,
       "output_ref": "/tmp/adp_authorized_controlled_real_run_recheck_20260701T071122Z.json",
-      "backup_before_attempt": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260701_before_authorized_controlled_recheck_20260701T071122Z"
+      "backup_before_attempt": "~/.adp/arxiv-daily-push/runs/20260701_before_authorized_controlled_recheck_20260701T071122Z"
     }
   ],
   "evidence_refs": {
     "foreground_output": "/tmp/adp_authorized_controlled_real_run_recheck_adp_root_20260701T071207Z.json",
-    "runtime_report": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260701/adp-local-runner-report.json",
+    "runtime_report": "~/.adp/arxiv-daily-push/runs/20260701/adp-local-runner-report.json",
     "runtime_report_sha256": "123d516e640aa6549b32ff50ce927a71adc7a765175f8a16ea6a6f6be50f401e",
-    "backup_before_run": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260701_before_authorized_controlled_recheck_adp_root_20260701T071207Z",
+    "backup_before_run": "~/.adp/arxiv-daily-push/runs/20260701_before_authorized_controlled_recheck_adp_root_20260701T071207Z",
     "smtp_report_sha256_by_product": {
       "M1": "32004848bb172eb31141339fc45a19c9f3700ab5e041ab8221d2078f330ffa1b",
       "M2": "0e15acdd2d492db16b16a43fb9d2b75c8ec1e56a0038a346f3006ba1e0744c04",

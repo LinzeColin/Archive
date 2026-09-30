@@ -16,7 +16,7 @@
   "status": "blocked",
   "result": "blocked_s2plt02_runtime_launchagents_loaded_but_disabled_no_scheduler_proof_no_production",
   "summary": "S2PLT02 real-proof capture readiness now distinguishes launchd disabled state from runtime loaded state. The three ADP LaunchAgents are loaded, not running, and have calendar triggers, but all remain disabled, so this is not terminal scheduler proof and S2PLT02 proof capture remains blocked.",
-  "cli_command": "adp audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir /Users/linzezhang/.adp/arxiv-daily-push --service-date 2026-06-29 --json",
+  "cli_command": "adp audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir ~/.adp/arxiv-daily-push --service-date 2026-06-29 --json",
   "cli_exit_code": 2,
   "readiness_state_hash": "79ac4987239ecad8d4eee82de0157901b59259100e6d738bd1b15d17a37dc76e",
   "supersedes_readiness_state_hash": "819b1c3911892ce861fd5ba5bdde0dc381e303076beea684f35eb94c75975463",
@@ -106,7 +106,7 @@
   ],
   "tests_run": [
     "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_s2plt02_runtime_green PYTHONPATH=arxiv-daily-push/src python3 -m pytest -q arxiv-daily-push/tests/test_stage2_final_gate.py::Stage2FinalGateTests::test_s2plt02_real_proof_capture_readiness_reports_loaded_disabled_launchagents",
-    "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_s2plt02_runtime_cli2 PYTHONPATH=arxiv-daily-push/src python3 -m arxiv_daily_push.cli audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir /Users/linzezhang/.adp/arxiv-daily-push --service-date 2026-06-29 --json"
+    "PYTHONDONTWRITEBYTECODE=1 PYTHONPYCACHEPREFIX=/tmp/adp_s2plt02_runtime_cli2 PYTHONPATH=arxiv-daily-push/src python3 -m arxiv_daily_push.cli audit-s2plt02-real-proof-capture-readiness --repo-root . --state-dir ~/.adp/arxiv-daily-push --service-date 2026-06-29 --json"
   ],
   "risks": [
     "Loaded LaunchAgents with calendar triggers can be misread as terminal scheduler proof even though launchctl disabled state is true.",

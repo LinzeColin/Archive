@@ -1,6 +1,6 @@
 {
   "current_pointer_changed": false,
-  "daily_input_report_path": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-daily-input-report.json",
+  "daily_input_report_path": "~/.adp/arxiv-daily-push/runs/20260628/adp-daily-input-report.json",
   "daily_input_source": "existing_report",
   "daily_operation_enabled": false,
   "db_migration_executed": false,

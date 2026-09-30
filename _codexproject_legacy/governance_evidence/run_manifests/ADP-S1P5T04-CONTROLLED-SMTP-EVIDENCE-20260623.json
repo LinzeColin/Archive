@@ -120,7 +120,7 @@
     {
       "command": "scheduled execution artifact inspection",
       "exit_code": 0,
-      "summary": "status succeeded, production_evidence_ready true, notification_status sent, recipient linzezhang35@gmail.com, Chinese lesson true, candidate queue summary true, video link false"
+      "summary": "status succeeded, production_evidence_ready true, notification_status sent, recipient LinzeColin@users.noreply.github.com, Chinese lesson true, candidate queue summary true, video link false"
     },
     {
       "command": "manifest/jsonl/yaml/csv parse checks",

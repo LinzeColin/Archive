@@ -162,11 +162,11 @@
         "dry_run_mail_products": [],
         "dry_run_report_products": [],
         "evidence_refs": [
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json"
+          "~/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
+          "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
+          "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
+          "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
+          "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json"
         ],
         "integrated_production_accepted": false,
         "model_id": "adp-s2plt02-dry-run-second-day-audit-v1",
@@ -181,10 +181,10 @@
           "M4"
         ],
         "product_report_refs": {
-          "M1": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
-          "M2": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
-          "M3": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
-          "M4": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json"
+          "M1": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M1.json",
+          "M2": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M2.json",
+          "M3": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M3.json",
+          "M4": "~/.adp/arxiv-daily-push/runs/20260628/adp-smtp-delivery-report-M4.json"
         },
         "product_report_status": {
           "M1": "sent",
@@ -205,8 +205,8 @@
           "M3",
           "M4"
         ],
-        "run_dir": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628",
-        "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
+        "run_dir": "~/.adp/arxiv-daily-push/runs/20260628",
+        "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260628/adp-local-runner-report.json",
         "s2plt02_accepted": false,
         "scheduler_install_enabled": false,
         "schema_version": 1,
@@ -219,7 +219,7 @@
         ],
         "service_date": "2026-06-28",
         "stage2_integrated_production_accepted": false,
-        "state_dir": "/Users/linzezhang/.adp/arxiv-daily-push",
+        "state_dir": "~/.adp/arxiv-daily-push",
         "state_hash": "8482bfdff6428bbdf6201e97cf116251a70fc2a2b106a46f62329baf5cf47962",
         "status": "blocked",
         "task_id": "S2PLT02-DRY-RUN-SECOND-DAY-AUDIT",
@@ -266,11 +266,11 @@
           "M4"
         ],
         "evidence_refs": [
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
+          "~/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
+          "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
+          "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
+          "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
+          "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
         ],
         "integrated_production_accepted": false,
         "model_id": "adp-s2plt02-dry-run-second-day-audit-v1",
@@ -285,10 +285,10 @@
           "M4"
         ],
         "product_report_refs": {
-          "M1": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
-          "M2": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
-          "M3": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
-          "M4": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
+          "M1": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M1.json",
+          "M2": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M2.json",
+          "M3": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M3.json",
+          "M4": "~/.adp/arxiv-daily-push/runs/20260629/adp-smtp-delivery-report-M4.json"
         },
         "product_report_status": {
           "M1": "dry_run",
@@ -309,8 +309,8 @@
           "M3",
           "M4"
         ],
-        "run_dir": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629",
-        "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
+        "run_dir": "~/.adp/arxiv-daily-push/runs/20260629",
+        "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260629/adp-local-runner-report.json",
         "s2plt02_accepted": false,
         "scheduler_install_enabled": false,
         "schema_version": 1,
@@ -318,7 +318,7 @@
         "sent_mail_products": [],
         "service_date": "2026-06-29",
         "stage2_integrated_production_accepted": false,
-        "state_dir": "/Users/linzezhang/.adp/arxiv-daily-push",
+        "state_dir": "~/.adp/arxiv-daily-push",
         "state_hash": "9fbd118380da579c2cd47a92e6fe3e54fc89ffd9b76dddb8d3a7199e5821e965",
         "status": "blocked",
         "task_id": "S2PLT02-DRY-RUN-SECOND-DAY-AUDIT",
@@ -353,11 +353,11 @@
           "M4"
         ],
         "evidence_refs": [
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
-          "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
+          "~/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
+          "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
+          "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
+          "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
+          "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
         ],
         "integrated_production_accepted": false,
         "model_id": "adp-s2plt02-dry-run-second-day-audit-v1",
@@ -372,10 +372,10 @@
           "M4"
         ],
         "product_report_refs": {
-          "M1": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
-          "M2": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
-          "M3": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
-          "M4": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
+          "M1": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M1.json",
+          "M2": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M2.json",
+          "M3": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M3.json",
+          "M4": "~/.adp/arxiv-daily-push/runs/20260630/adp-smtp-delivery-report-M4.json"
         },
         "product_report_status": {
           "M1": "dry_run",
@@ -396,8 +396,8 @@
           "M3",
           "M4"
         ],
-        "run_dir": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630",
-        "runner_report_ref": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
+        "run_dir": "~/.adp/arxiv-daily-push/runs/20260630",
+        "runner_report_ref": "~/.adp/arxiv-daily-push/runs/20260630/adp-local-runner-report.json",
         "s2plt02_accepted": false,
         "scheduler_install_enabled": false,
         "schema_version": 1,
@@ -405,7 +405,7 @@
         "sent_mail_products": [],
         "service_date": "2026-06-30",
         "stage2_integrated_production_accepted": false,
-        "state_dir": "/Users/linzezhang/.adp/arxiv-daily-push",
+        "state_dir": "~/.adp/arxiv-daily-push",
         "state_hash": "be9dddcd5443b5c015923b58ad5467820f2327586b2bc5432bf576146807ea2b",
         "status": "blocked",
         "task_id": "S2PLT02-DRY-RUN-SECOND-DAY-AUDIT",
@@ -540,7 +540,7 @@
     "2026-06-29",
     "2026-06-30"
   ],
-  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-terminal-capture-window --repo-root . --state-dir /Users/linzezhang/.adp/arxiv-daily-push --candidate-service-dates 2026-06-28,2026-06-29,2026-06-30 --json",
+  "cli_command": "python3 -m arxiv_daily_push.cli audit-s2plt02-terminal-capture-window --repo-root . --state-dir ~/.adp/arxiv-daily-push --candidate-service-dates 2026-06-28,2026-06-29,2026-06-30 --json",
   "cli_exit_code": 2,
   "counts_toward_s2plt02_terminal_proof": false,
   "current_pointer_changed": false,

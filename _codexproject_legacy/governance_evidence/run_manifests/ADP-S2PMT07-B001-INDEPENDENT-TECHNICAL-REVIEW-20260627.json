@@ -55,7 +55,7 @@
     "arxiv-daily-push/tests/test_stage2_final_gate.py",
     "arxiv-daily-push/用户中心/自动唤醒安装生命周期扫描.md"
   ],
-  "local_raw_proof_ref": "/Users/linzezhang/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/",
+  "local_raw_proof_ref": "~/.adp/arxiv-daily-push/isolated_proofs/b001-launchd-20260627135653/",
   "must_not_claim": [
     "P0/P1 closure",
     "S2PMT07 final pass",

@@ -74,7 +74,7 @@
       "M4"
     ],
     "service_date": "2026-07-01",
-    "state_backup_before_run": "/Users/linzezhang/.adp/arxiv-daily-push/runs/20260701_before_controlled_real_send_20260701T034650Z",
+    "state_backup_before_run": "~/.adp/arxiv-daily-push/runs/20260701_before_controlled_real_send_20260701T034650Z",
     "status": "pass",
     "status_by_product": {
       "M1": "sent",

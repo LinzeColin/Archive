@@ -9,8 +9,8 @@
   "current_pointer_changed": false,
   "daily_operation_enabled": false,
   "db_migration_executed": false,
-  "expected_project_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
-  "expected_repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
+  "expected_project_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
+  "expected_repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject",
   "generated_at": "2026-07-01T11:24:30+10:00",
   "integrated_production_accepted": false,
   "launchagent_calendar_triggers_present": {
@@ -20,16 +20,16 @@
   },
   "launchagent_command_paths": {
     "com.linze.adp.local.daily": {
-      "project_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "project_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     },
     "com.linze.adp.local.health": {
-      "project_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "project_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     },
     "com.linze.adp.local.watchdog": {
-      "project_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "project_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject/arxiv-daily-push",
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     }
   },
   "launchagent_disabled_states": {
@@ -48,21 +48,21 @@
       "head": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
       "head_matches_origin_main": true,
       "origin_main": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     },
     "com.linze.adp.local.health": {
       "error": "",
       "head": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
       "head_matches_origin_main": true,
       "origin_main": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     },
     "com.linze.adp.local.watchdog": {
       "error": "",
       "head": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
       "head_matches_origin_main": true,
       "origin_main": "dfdf16c98656c4272fa105027dcbf46ba15d37dd",
-      "repo_root": "/Users/linzezhang/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
+      "repo_root": "~/Documents/Codex/2026-06-19/current-phase-phase-0-goal-scope/work/CodexProject"
     }
   },
   "launchagent_repo_head_matches_origin_main": {

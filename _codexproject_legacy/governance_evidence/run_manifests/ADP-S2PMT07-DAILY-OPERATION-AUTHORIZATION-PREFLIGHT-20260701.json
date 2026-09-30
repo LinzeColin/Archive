@@ -221,7 +221,7 @@
     "preflight_id": "production-preflight:arxiv-daily-push",
     "production_run_allowed": false,
     "project_id": "arxiv-daily-push",
-    "recipient": "linzezhang35@gmail.com",
+    "recipient": "LinzeColin@users.noreply.github.com",
     "resource_evidence": {
       "resource_pressure_ok": false,
       "resource_pressure_ok_ref": ""
